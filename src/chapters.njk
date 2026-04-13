@@ -1,0 +1,20 @@
+---
+pagination:
+  data: categories
+  size: 1
+  alias: cat
+permalink: "recepten/{{ cat.slug }}/index.html"
+layout: base.njk
+eleventyComputed:
+  title: "{{ cat.title }}"
+---
+<div class="page chapter">
+  <div class="chapter-number">Hoofdstuk {{ cat.roman }}</div>
+  <h1>{{ cat.title }}</h1>
+  <p class="chapter-desc">{{ cat.description }}</p>
+  <ul class="chapter-recipes">
+    {% for recipe in collections.recepten | byCategory(cat.slug) %}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

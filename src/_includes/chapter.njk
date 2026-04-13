@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+<div class="page chapter">
+  <div class="chapter-number">Hoofdstuk {{ chapterRoman }}</div>
+  <h1>{{ chapterTitle }}</h1>
+  <p class="chapter-desc">{{ chapterDesc }}</p>
+  <ul class="chapter-recipes">
+    {% for recipe in collections.recepten | byCategory(chapterSlug) %}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

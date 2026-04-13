@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: joepwillemsen/kookboek
+  branch: main
+  auth_type: pkce
+
+media_folder: "fotos"
+public_folder: "/fotos"
+
+collections:
+  - name: "recepten"
+    label: "Recepten"
+    folder: "src/recepten"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Ondertitel", name: "subtitle", widget: "text" }
+      - label: "Categorie"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Vlees", value: "vlees" }
+          - { label: "Groentes", value: "groentes" }
+          - { label: "Fermenteren", value: "fermenteren" }
+      - { label: "Foto", name: "foto", widget: "image", required: false, media_folder: "/fotos" }
+      - { label: "Pagina nummer", name: "pageNumber", widget: "number", value_type: "int" }
+      - label: "Meta"
+        name: "meta"
+        widget: "list"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Waarde", name: "value", widget: "string" }
+      - label: "Ingrediënten"
+        name: "ingredienten"
+        widget: "list"
+        fields:
+          - { label: "Groep", name: "groep", widget: "string", required: false, default: "" }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            field: { label: "Ingrediënt", name: "item", widget: "string" }
+      - label: "Stappen"
+        name: "stappen"
+        widget: "list"
+        field: { label: "Stap", name: "stap", widget: "text" }
+      - label: "Tips"
+        name: "tips"
+        widget: "list"
+        required: false
+        field: { label: "Tip", name: "tip", widget: "text" }
+      - label: "Variaties"
+        name: "variaties"
+        widget: "list"
+        required: false
+        field: { label: "Variatie", name: "variatie", widget: "text" }
+      - { label: "Bron", name: "bron", widget: "string", required: false }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: { label: "Tag", name: "tag", widget: "string" }

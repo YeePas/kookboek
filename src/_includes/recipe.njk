@@ -1,0 +1,91 @@
+---
+layout: base.njk
+---
+{% set prev = page | prevRecipe %}
+{% set next = page | nextRecipe %}
+<div class="page recipe">
+  {% if foto %}
+  <img class="recipe-hero" src="/fotos/{{ foto }}" alt="{{ title }}">
+  {% else %}
+  <div class="recipe-hero-placeholder">Foto volgt</div>
+  {% endif %}
+  <div class="recipe-nav">
+    {% if prev %}
+    <a href="{{ prev.url }}"><span class="arrow">&lsaquo;</span><span>Vorig</span></a>
+    {% else %}
+    <span class="spacer"></span>
+    {% endif %}
+    {% if next %}
+    <a href="{{ next.url }}"><span>Volgend</span><span class="arrow">&rsaquo;</span></a>
+    {% else %}
+    <span class="spacer"></span>
+    {% endif %}
+  </div>
+  <div class="recipe-content">
+    <div class="recipe-badge">{{ category | categoryTitle }} / {{ pageNumber | pad(3) }}</div>
+    <h1>{{ title }}</h1>
+    <p class="subtitle">{{ subtitle }}</p>
+    <div class="recipe-meta">
+      {% for cell in meta %}
+      <div class="cell"><div class="label">{{ cell.label | upper }}</div><div class="value">{{ cell.value }}</div></div>
+      {% endfor %}
+    </div>
+    <div class="recipe-body">
+      <div>
+        <div class="section-label">Ingrediënten</div>
+        <ul class="ingredients">
+          {% for groep in ingredienten %}
+            {% if groep.groep %}
+            <li class="ingredient-group">{{ groep.groep }}</li>
+            {% endif %}
+            {% for item in groep.items %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <div class="section-label">Bereiding</div>
+        <div class="steps">
+          {% for stap in stappen %}
+          <div class="step"><span class="num">{{ (loop.index) | pad(2) }}</span><span>{{ stap | mdInline | safe }}</span></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% if tips or variaties or bron %}
+    <div class="extras">
+      {% if tips %}
+      <div class="block">
+        <div class="section-label">Tips</div>
+        <ul>
+          {% for tip in tips %}
+          <li>{{ tip }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if variaties %}
+      <div class="block">
+        <div class="section-label">Variaties</div>
+        <ul>
+          {% for variatie in variaties %}
+          <li>{{ variatie }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if bron %}
+      <div class="block">
+        <div class="section-label">Bron</div>
+        <p>{{ bron }}</p>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    <div class="recipe-footer">
+      <div>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+      <div>pagina {{ pageNumber }}</div>
+    </div>
+  </div>
+</div>

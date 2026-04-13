@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Register
+permalink: register/index.html
+---
+<div class="page index">
+  <h1>Register</h1>
+  <div class="index-columns">
+    {% for group in collections.recepten | buildKeywordIndex %}
+    <div class="index-letter">{{ group.letter }}</div>
+    {% for entry in group.entries %}
+    <div class="index-entry">{{ entry.term }}{% for recipe in entry.recipes %}<a href="{{ recipe.url }}">{{ recipe.data.pageNumber }}</a>{% endfor %}</div>
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>

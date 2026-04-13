@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "vlees",
+    "title": "Vlees",
+    "order": 1,
+    "roman": "I",
+    "description": "Stoofschotels, braises en andere vleesgerechten — langzaam bereid voor diep, rijk aroma."
+  },
+  {
+    "slug": "groentes",
+    "title": "Groentes",
+    "order": 2,
+    "roman": "II",
+    "description": "Groenten als hoofdrol — van gebraisseerd tot geroosterd, met verrassende smaakcombinaties."
+  },
+  {
+    "slug": "fermenteren",
+    "title": "Fermenteren",
+    "order": 3,
+    "roman": "III",
+    "description": "Geduld beloond — gefermenteerde recepten die beter worden naarmate ze langer staan."
+  }
+]

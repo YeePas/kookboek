@@ -1,230 +1,216 @@
 /* ==========================================================
-   Mijn Kookboek - Strak & Modern
-   Één centrale stijl voor alle pagina's (web + print)
+   Mijn Kookboek — Editorial Magazine Style
+   Geïnspireerd door The Gourmand
    ========================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
 :root {
-  --ink: #1A1A1A;
-  --muted: #666666;
-  --line: #E0E0E0;
-  --soft: #F7F7F5;
-  --accent: #1A1A1A;
+  --ink: #111111;
+  --muted: #777777;
+  --line: #D0D0D0;
+  --soft: #F2F1EE;
   --paper: #FFFFFF;
+  --serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--sans);
   color: var(--ink);
   background: var(--soft);
   line-height: 1.6;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* ---------- Site-navigatie (alleen web) ---------- */
+/* ---------- Site-navigatie ---------- */
 .site-nav {
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
-  padding: 1rem 2rem;
+  background: var(--ink);
+  padding: 0 2rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
 }
 .site-nav-inner {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 56px;
 }
 .site-nav a {
-  color: var(--ink);
+  color: rgba(255,255,255,0.6);
   text-decoration: none;
-  margin-left: 1.5rem;
-  font-size: 13px;
-  letter-spacing: 1px;
+  margin-left: 2rem;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+.site-nav a:hover { color: #fff; }
+.site-nav .brand {
+  font-family: var(--serif);
+  font-size: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  margin-left: 0;
+}
+.site-nav .brand:hover { color: #fff; }
+
+/* ---------- Pagina container ---------- */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: 4rem;
+}
+
+/* ---------- OMSLAG ---------- */
+.cover {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--ink);
+  color: #fff;
+  max-width: none;
+}
+.cover .kicker {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.cover h1 {
+  font-family: var(--serif);
+  font-size: clamp(48px, 10vw, 96px);
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: #fff;
+}
+.cover .divider {
+  width: 80px;
+  height: 1px;
+  background: rgba(255,255,255,0.3);
+  margin: 3rem 0;
+}
+.cover .sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
-.site-nav a:hover { text-decoration: underline; }
-.site-nav .brand {
-  font-size: 14px;
-  letter-spacing: 3px;
-  font-weight: 500;
+
+/* ---------- INHOUDSOPGAVE (magazine grid) ---------- */
+.toc {
+  max-width: none;
+  padding: 0;
+  background: var(--soft);
+}
+.toc-header {
+  padding: 5rem 2rem 3rem;
+  text-align: center;
+}
+.toc h1 {
+  font-family: var(--serif);
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 400;
+  letter-spacing: -1px;
   margin: 0;
 }
-
-/* ---------- Pagina (algemeen) ---------- */
-.page {
-  max-width: 760px;
-  margin: 2rem auto;
-  background: var(--paper);
-  padding: 3rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-/* ---------- Recept-pagina ---------- */
-.recipe-badge {
-  display: inline-block;
-  background: var(--ink);
-  color: white;
-  font-size: 10px;
-  letter-spacing: 3px;
-  padding: 4px 10px;
+.toc .toc-subtitle {
+  font-size: 12px;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  margin-bottom: 20px;
-}
-.recipe h1 {
-  font-size: 32px;
-  font-weight: 500;
-  color: var(--ink);
-  margin: 0 0 6px;
-  letter-spacing: -0.5px;
-  line-height: 1.15;
-}
-.recipe .subtitle {
   color: var(--muted);
-  margin: 0 0 28px;
-  font-size: 15px;
-  font-style: italic;
+  margin-top: 1rem;
 }
-
-.recipe-photo {
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+  gap: 2px;
+}
+.toc-card {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--paper);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.toc-card:hover {
+  transform: translateY(-4px);
+}
+.toc-card img {
   width: 100%;
-  margin: 0 0 28px;
-  border-radius: 2px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
 }
-.recipe-photo-placeholder {
+.toc-card .card-placeholder {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   background: var(--soft);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AAA;
-  font-size: 12px;
+  color: #bbb;
+  font-size: 11px;
   letter-spacing: 2px;
-  margin: 0 0 28px;
+  text-transform: uppercase;
 }
-
-.recipe-meta {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  margin-bottom: 28px;
+.toc-card .card-body {
+  padding: 1.5rem;
 }
-.recipe-meta .cell {
-  padding: 12px;
-  border-right: 1px solid var(--line);
-}
-.recipe-meta .cell:last-child { border-right: none; }
-.recipe-meta .label {
+.toc-card .card-category {
   font-size: 10px;
-  letter-spacing: 2px;
-  color: #999;
+  letter-spacing: 3px;
   text-transform: uppercase;
-}
-.recipe-meta .value {
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--ink);
-  margin-top: 2px;
-}
-
-.recipe-body {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
-  gap: 36px;
-  margin-bottom: 28px;
-}
-.section-label {
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--ink);
-  margin-bottom: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.ingredients {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-  color: var(--ink);
-}
-.ingredients li {
-  padding: 7px 0;
-  border-bottom: 0.5px solid var(--line);
-}
-.ingredients li:last-child { border-bottom: none; }
-
-.steps {
-  font-size: 14px;
-  color: var(--ink);
-  line-height: 1.8;
-}
-.step {
-  display: flex;
-  gap: 14px;
-  margin-bottom: 12px;
-  align-items: baseline;
-}
-.step .num {
-  font-weight: 500;
-  color: #999;
-  min-width: 22px;
-  font-variant-numeric: tabular-nums;
-}
-
-.extras {
-  border-top: 1px solid var(--line);
-  padding-top: 20px;
-  margin-top: 12px;
-}
-.extras .block {
-  margin-bottom: 18px;
-}
-.extras .block:last-child { margin-bottom: 0; }
-.extras p, .extras li {
-  font-size: 14px;
-  color: var(--ink);
-}
-
-.recipe-footer {
-  margin-top: 32px;
-  padding-top: 16px;
-  border-top: 0.5px solid var(--line);
-  display: flex;
-  justify-content: space-between;
-  font-size: 11px;
   color: var(--muted);
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
-.tag {
-  display: inline-block;
-  background: var(--soft);
+.toc-card .card-category a {
   color: var(--muted);
-  font-size: 11px;
-  padding: 3px 10px;
-  margin: 2px 4px 2px 0;
-  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+.toc-card .card-category a:hover { text-decoration: underline; }
+.toc-card .card-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+.toc-card .card-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* ---------- Inhoudsopgave ---------- */
-.toc h1 {
-  font-size: 28px;
-  font-weight: 500;
-  margin: 0 0 2rem;
-  letter-spacing: -0.5px;
-}
-.toc-category {
-  margin-bottom: 2rem;
-}
+/* Legacy toc styles (fallback) */
+.toc-category { margin-bottom: 2rem; }
 .toc-category h2 {
   font-size: 11px;
   letter-spacing: 3px;
@@ -249,25 +235,245 @@ html, body {
   font-variant-numeric: tabular-nums;
 }
 
-/* ---------- Trefwoordenindex ---------- */
-.index h1 {
-  font-size: 28px;
-  font-weight: 500;
+/* ---------- RECEPT ---------- */
+.recipe {
+  padding: 0;
+  max-width: none;
+  background: var(--paper);
+}
+
+/* Hero image */
+.recipe-hero {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  display: block;
+}
+.recipe-hero-placeholder {
+  width: 100%;
+  height: 40vh;
+  background: var(--soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Recipe content area */
+.recipe-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+}
+
+/* Badge */
+.recipe-badge {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 3px;
+  padding: 6px 14px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  background: var(--ink);
+  color: #fff;
+}
+
+/* Title */
+.recipe h1 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+.recipe .subtitle {
+  color: var(--muted);
   margin: 0 0 2rem;
+  font-size: 16px;
+  font-style: italic;
+  font-family: var(--serif);
+  line-height: 1.6;
+}
+
+/* Old-style inline photo (backward compat) */
+.recipe-photo {
+  width: 100%;
+  margin: 0 0 28px;
+  display: block;
+}
+.recipe-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 28px;
+}
+
+/* Meta grid */
+.recipe-meta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 3rem;
+}
+.recipe-meta .cell {
+  padding: 16px 16px 16px 0;
+}
+.recipe-meta .cell + .cell {
+  border-left: 1px solid var(--line);
+  padding-left: 16px;
+}
+.recipe-meta .label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.recipe-meta .value {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+/* Body: ingredients + steps */
+.recipe-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.section-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--ink);
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.ingredients {
+  list-style: none;
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.7;
+}
+.ingredients li {
+  padding: 6px 0;
+  border-bottom: 0.5px solid var(--line);
+}
+.ingredients li:last-child { border-bottom: none; }
+
+/* Steps */
+.steps {
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.8;
+}
+.step {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: baseline;
+}
+.step .num {
+  font-family: var(--serif);
+  font-size: 28px;
+  color: var(--line);
+  min-width: 32px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* Extras */
+.extras {
+  border-top: 2px solid var(--ink);
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+.extras .block {
+  margin-bottom: 1.5rem;
+}
+.extras .block:last-child { margin-bottom: 0; }
+.extras p, .extras li {
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.7;
+}
+.extras ul {
+  padding-left: 1.2rem;
+}
+
+/* Footer & tags */
+.recipe-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tag {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 0;
+  margin-right: 1rem;
+}
+
+/* ---------- REGISTER (trefwoorden) ---------- */
+.index {
+  padding: 4rem;
+}
+.index h1 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 400;
+  margin: 0 0 3rem;
   letter-spacing: -0.5px;
 }
-.index-letter {
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--ink);
-  border-bottom: 1px solid var(--ink);
-  padding-bottom: 4px;
-  margin: 1.5rem 0 0.5rem;
+.index-columns {
+  column-count: 2;
+  column-gap: 4rem;
 }
+.index-letter {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--ink);
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 4px;
+  margin: 2rem 0 0.5rem;
+  break-after: avoid;
+}
+.index-letter:first-child { margin-top: 0; }
 .index-entry {
   font-size: 13px;
   padding: 3px 0;
   color: var(--ink);
+  break-inside: avoid;
 }
 .index-entry a {
   color: var(--muted);
@@ -275,42 +481,6 @@ html, body {
   margin-left: 6px;
 }
 .index-entry a:hover { color: var(--ink); text-decoration: underline; }
-
-/* ---------- Omslag / titelpagina ---------- */
-.cover {
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 4rem 2rem;
-}
-.cover .kicker {
-  font-size: 11px;
-  letter-spacing: 4px;
-  color: var(--muted);
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-}
-.cover h1 {
-  font-size: 48px;
-  font-weight: 500;
-  margin: 0 0 1rem;
-  letter-spacing: -1px;
-}
-.cover .divider {
-  width: 60px;
-  height: 1px;
-  background: var(--ink);
-  margin: 1.5rem 0;
-}
-.cover .sub {
-  font-size: 14px;
-  color: var(--muted);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
 /* ---------- Print / PDF ---------- */
 @page {
@@ -340,15 +510,184 @@ html, body {
     page-break-after: always;
   }
   .page:last-child { page-break-after: auto; }
+  .recipe-hero { max-height: 10cm; object-fit: cover; }
   .recipe-photo { max-height: 10cm; object-fit: cover; }
   a { color: var(--ink); text-decoration: none; }
+  .cover { background: var(--ink) !important; color: #fff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* ---------- Prev/Next navigatie ---------- */
+.recipe-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -4rem;
+  padding: 0 2rem 2rem;
+  z-index: 2;
+  pointer-events: none;
+}
+.recipe-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  pointer-events: auto;
+  transition: color 0.2s;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+.recipe-nav a:hover { color: #fff; }
+.recipe-nav .arrow {
+  font-family: var(--serif);
+  font-size: 24px;
+  line-height: 1;
+}
+.recipe-nav .spacer { flex: 1; }
+
+/* ---------- Hoofdstukpagina ---------- */
+.chapter {
+  max-width: none;
+  background: var(--ink);
+  color: #fff;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.chapter .chapter-number {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.chapter h1 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 8vw, 72px);
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 1.5rem;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.chapter .chapter-desc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  max-width: 480px;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+.chapter .chapter-recipes {
+  list-style: none;
+  text-align: center;
+}
+.chapter .chapter-recipes li {
+  margin-bottom: 0.5rem;
+}
+.chapter .chapter-recipes a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+.chapter .chapter-recipes a:hover { color: #fff; }
+
+/* ---------- TOC lijst (klassiek) ---------- */
+.toc-list {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+  border-top: 2px solid var(--ink);
+}
+.toc-list h2 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 2rem;
+}
+.toc-list-category {
+  margin-bottom: 1.5rem;
+}
+.toc-list-category h3 {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+.toc-list-category h3 a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.toc-list-category h3 a:hover { color: var(--ink); }
+.toc-list-entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--ink);
+  border-bottom: 0.5px dotted var(--line);
+}
+.toc-list-entry:hover { background: var(--soft); }
+.toc-list-entry .pagenum {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- Mobiel ---------- */
-@media (max-width: 640px) {
-  .page { margin: 0; padding: 1.5rem; }
-  .recipe h1 { font-size: 26px; }
-  .recipe-meta { grid-template-columns: repeat(2, 1fr); }
-  .recipe-meta .cell:nth-child(2) { border-right: none; }
-  .recipe-body { grid-template-columns: 1fr; gap: 24px; }
+@media (max-width: 768px) {
+  .page { padding: 2rem 1.5rem; }
+
+  .site-nav { padding: 0 1rem; }
+  .site-nav a { margin-left: 1rem; font-size: 10px; }
+  .site-nav .brand { font-size: 17px; }
+
+  .cover { padding: 3rem 1.5rem; }
+
+  .toc-header { padding: 3rem 1.5rem 2rem; }
+  .toc-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem 3rem;
+    gap: 2px;
+  }
+
+  .recipe-content { padding: 2rem 1.5rem 3rem; }
+  .recipe h1 { font-size: 28px; }
+  .recipe-meta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .recipe-meta .cell {
+    padding: 12px 0;
+  }
+  .recipe-meta .cell + .cell {
+    border-left: none;
+    padding-left: 0;
+  }
+  .recipe-meta .cell:nth-child(even) {
+    border-left: 1px solid var(--line);
+    padding-left: 12px;
+  }
+  .recipe-meta .cell:nth-child(n+3) {
+    border-top: 1px solid var(--line);
+  }
+  .recipe-body { grid-template-columns: 1fr; gap: 2rem; }
+
+  .recipe-nav { margin-top: -3rem; padding: 0 1rem 1.5rem; }
+
+  .chapter { min-height: 50vh; padding: 3rem 1.5rem; }
+
+  .index { padding: 2rem 1.5rem; }
+  .index-columns { column-count: 1; }
 }

@@ -12,25 +12,11 @@ description: >
 
 ## Project Overview
 
-"Foodnotes" is a personal cookbook website styled as an editorial magazine, inspired by **The Gourmand**. Built with **Eleventy (11ty)** static site generator and **Decap CMS** for visual editing. Hosted on GitHub Pages.
+"Foodnotes" is a personal cookbook website styled as an editorial magazine, inspired by **The Gourmand**. Built with **Eleventy (11ty)** static site generator and **Decap CMS** for visual editing.
 
-### Tech Stack
-- **Eleventy 3.x** — static site generator
-- **Nunjucks** — template engine
-- **Decap CMS** — visual content editor at `/admin`
-- **GitHub Pages** — hosting via GitHub Actions
-- **YAML frontmatter in Markdown** — recipe data format
-
-### Design System
-
-- **Typography**: `Instrument Serif` (Google Fonts) for headings; system sans-serif for body
-- **Colors**: Black (`#111`) on white (`#FFF`) with muted grey (`#777`), soft bg (`#F2F1EE`), borders (`#D0D0D0`)
-- **Navigation**: Dark top bar with serif "Foodnotes" brand link, Inhoud/Register links
-- **Cover** (`/`): Full-viewport dark background, large serif title, auto recipe count
-- **TOC** (`/inhoud/`): Magazine grid of recipe cards + classic list grouped by category
-- **Recipes** (`/recepten/{category}/{slug}/`): Full-width hero image, 720px centered content
-- **Register** (`/register/`): Auto-generated alphabetical keyword index from tags
-- **Chapters** (`/recepten/{category}/`): Auto-generated from `categories.json`
+- **Site:** GitHub Pages via GitHub Actions
+- **CMS:** Decap CMS op Netlify (alleen auth, geen build)
+- **Domein:** foodnotes.nl
 
 ### Project Structure
 
@@ -38,198 +24,180 @@ description: >
 kookboek/
 ├── eleventy.config.js          — 11ty config (filters, collections, passthrough)
 ├── package.json                — npm project with 11ty dependency
+├── netlify.toml                — Netlify config (alleen admin kopiëren, geen build)
 ├── fotos/                      — Recipe photos (.webp), served at /fotos/
-├── src/                        — 11ty input directory
-│   ├── index.njk               — Cover page (auto recipe count)
-│   ├── inhoud.njk              — TOC (auto grid + list from collection)
-│   ├── register.njk            — Keyword index (auto from tags)
-│   ├── chapters.njk            — Paginated chapter pages from categories.json
+├── src/
+│   ├── index.njk               — Cover page (auto recipe count, klikbaar)
+│   ├── inhoud.njk              — TOC (magazine grid + klassieke lijst)
+│   ├── register.njk            — Auto keyword index vanuit tags
+│   ├── chapters.njk            — Auto chapter pages vanuit categories.json
 │   ├── style.css               — Shared stylesheet
-│   ├── admin/
-│   │   ├── index.html          — Decap CMS entry point
-│   │   └── config.yml          — CMS collection/field definitions
-│   ├── _data/
-│   │   └── categories.json     — Category metadata (title, order, roman, description)
+│   ├── admin/                  — Decap CMS (passthrough, niet verwerkt door 11ty)
+│   ├── _data/categories.json   — Categorieën (slug, title, order, roman, description)
 │   ├── _includes/
-│   │   ├── base.njk            — HTML shell (head, nav, content)
-│   │   ├── recipe.njk          — Recipe page template
-│   │   ├── chapter.njk         — Chapter page template
-│   │   └── partials/
-│   │       └── nav.njk         — Navigation bar partial
+│   │   ├── base.njk            — HTML shell + carousel JS + Netlify Identity
+│   │   ├── recipe.njk          — Recept template
+│   │   └── partials/nav.njk    — Navigatiebalk
 │   └── recepten/
-│       ├── recepten.json        — Directory data (layout: recipe.njk, permalink pattern)
-│       ├── kimchi.md
-│       ├── ossobuco-alla-milanese.md
-│       └── spitskool-sichuan.md
-└── _site/                      — Generated output (gitignored)
+│       ├── recepten.json       — Directory data (layout + permalink)
+│       └── *.md                — Recepten als Markdown met YAML frontmatter
+└── _site/                      — Build output (gitignored)
 ```
 
 ---
 
-## Recipe Markdown Format
+## Recept toevoegen — Instructie
 
-Each recipe is a `.md` file in `src/recepten/` with YAML frontmatter. The body is empty (all data in frontmatter).
+> Dit is de enige stap die nodig is. Al het andere (inhoud, register, navigatie, recepttelling, hoofdstukken) wordt automatisch gegenereerd.
+
+### 1. Bepaal het volgnummer
+
+Kijk welk hoogste `pageNumber` bestaat in `src/recepten/*.md` en gebruik het volgende getal.
+
+### 2. Maak het bestand aan
+
+Maak `src/recepten/{slug}.md` aan. Slug = lowercase, woorden gescheiden door `-`, geen accenten of spaties.
+
+### 3. Vul het YAML frontmatter in
 
 ```yaml
 ---
-title: "Recipe Name"
-subtitle: "Short evocative description of the dish."
-category: "vlees"              # Must match a slug in categories.json
-foto: "recipe-name.webp"       # Filename in fotos/ dir, or "" if no photo
-pageNumber: 6                  # Unique, determines sort order
+title: "Naam van het gerecht"
+subtitle: "Korte, sfeervolle beschrijving van het gerecht."
+category: "vlees"
+foto: ""
+pageNumber: 7
 
-meta:                          # Flexible metadata cells (usually 4)
+meta:
   - label: "Personen"
     value: "4"
   - label: "Voorber."
-    value: "15 min"
+    value: "20 min"
   - label: "Bereiding"
-    value: "30 min"
+    value: "45 min"
   - label: "Niveau"
-    value: "makkelijk"
+    value: "gemiddeld"
 
-ingredienten:                  # Groups with items
-  - groep: "Group Name"       # Optional, use "" for ungrouped
+ingredienten:
+  - groep: "Hoofdgerecht"
     items:
-      - "200 g ingredient"
-      - "1 el olijfolie"
+      - "400 g ingredient"
+      - "2 el olijfolie"
+  - groep: "Saus"
+    items:
+      - "200 ml room"
 
-stappen:                       # Use **bold** for step labels
-  - "**Stap label:** Description of the step."
-  - "Another step without a bold label."
+stappen:
+  - "**Voorbereiding:** Snijd de groenten in blokjes."
+  - "Verhit olie in een pan op middelhoog vuur."
+  - "**Afwerking:** Garneer met verse kruiden."
 
-tips:                          # Optional
-  - "A helpful tip."
+tips:
+  - "Kan een dag van tevoren bereid worden."
 
-variaties:                     # Optional
-  - "A variation suggestion."
+variaties:
+  - "Vervang de room door kokosmelk voor een vegan variant."
 
-bron: "Source attribution."    # Optional
+bron: "Ottolenghi, Simple"
 
-tags:                          # Used for register/keyword index
-  - "categorie-tag"
-  - "keuken"
-  - "seizoen"
+extrafotos:
+  - foto: "gerecht-stap1.webp"
+    bijschrift: "De groenten na het snijden"
+  - foto: "gerecht-resultaat.webp"
+    bijschrift: "Het eindresultaat"
+
+tags:
+  - "stoofpot"
+  - "winter"
+  - "italiaans"
 ---
 ```
 
-### Important Notes
-- **`meta`** uses flexible label/value pairs. Common labels: Personen, Voorber., Bereiding, Niveau, Opbrengst, Ferment.
-- **`ingredienten`** groups display as small uppercase headers. Use `groep: ""` for recipes without sub-groups.
-- **`stappen`** support inline markdown (`**bold**` → `<strong>`).
-- **`pageNumber`** must be unique across all recipes — it determines global sort order and prev/next navigation.
-- **`tags`** feed the auto-generated register. The recipe title is also auto-added as a keyword.
+### 4. Foto toevoegen (optioneel)
+
+- **Hero foto:** Kopieer naar `fotos/{slug}.webp` en zet `foto: "{slug}.webp"`
+- **Extra foto's:** Kopieer naar `fotos/` en voeg toe aan `extrafotos` array
+
+### Klaar!
+
+Commit naar main → GitHub Actions bouwt automatisch → site is live.
 
 ---
 
-## Workflow: Adding a New Recipe
+## Veldverklaring
 
-With 11ty, adding a recipe is simple — just create one Markdown file.
+| Veld | Verplicht | Beschrijving |
+|------|-----------|--------------|
+| `title` | ✅ | Naam van het gerecht |
+| `subtitle` | ✅ | Korte beschrijving (cursief onder titel) |
+| `category` | ✅ | Slug uit categories.json: `vlees`, `groentes`, `fermenteren` |
+| `foto` | ❌ | Bestandsnaam in `fotos/` voor hero image, `""` voor placeholder |
+| `pageNumber` | ✅ | Uniek volgnummer, bepaalt sortering en prev/next |
+| `meta` | ✅ | Array van `{label, value}` paren (meestal 4) |
+| `ingredienten` | ✅ | Array van groepen met `groep` (naam of `""`) en `items` array |
+| `stappen` | ✅ | Array van strings, `**vet**` wordt `<strong>` |
+| `tips` | ❌ | Array van strings |
+| `variaties` | ❌ | Array van strings |
+| `bron` | ❌ | Bronvermelding als string |
+| `extrafotos` | ❌ | Array van `{foto, bijschrift}` — wordt carousel bij 2+ foto's |
+| `tags` | ✅ | Array van lowercase keywords voor het register |
 
-### Step 1: Create the Markdown file
+### Meta labels
 
-Create `src/recepten/{recipe-slug}.md` with the YAML frontmatter schema above.
+Gebruik consistente labels. Veelgebruikt:
 
-**Naming conventions:**
-- Lowercase, hyphen-separated: `ossobuco-alla-milanese.md`
-- No spaces, accents, or special characters
+| Label | Wanneer |
+|-------|---------|
+| `Personen` | Standaard voor de meeste gerechten |
+| `Opbrengst` | Voor fermentatie, sauzen, confituren (bijv. "±2 kg") |
+| `Voorber.` | Voorbereidingstijd |
+| `Bereiding` | Actieve kooktijd |
+| `Ferment.` | Fermentatietijd (bijv. "3-5 dagen") |
+| `Niveau` | makkelijk / gemiddeld / gevorderd |
 
-### Step 2: Determine pageNumber
+### Categorieën
 
-Check existing recipes for the highest `pageNumber` and use the next integer. This number must be unique — it controls sort order and prev/next navigation.
+Huidige categorieën in `src/_data/categories.json`:
 
-### Step 3: Add photo (optional)
+| Slug | Titel | Romeins |
+|------|-------|---------|
+| `vlees` | Vlees | I |
+| `groentes` | Groentes | II |
+| `fermenteren` | Fermenteren | III |
 
-If a photo is available:
-1. Copy/move the photo to `fotos/{recipe-slug}.webp`
-2. Set `foto: "{recipe-slug}.webp"` in the frontmatter
-
-If no photo: set `foto: ""` and a placeholder will be shown.
-
-### That's it!
-
-Everything else is **automatic**:
-- Recipe page generated at `/recepten/{category}/{slug}/`
-- Prev/next navigation based on `pageNumber` sort order
-- Recipe badge (`Category / 003`) auto-generated
-- Cover page recipe count updates automatically
-- TOC grid card + list entry added automatically
-- Register/keyword index entries from tags generated automatically
-- Chapter page updated with new recipe automatically
-
----
-
-## Workflow: Adding a New Category
-
-### Step 1: Add to categories.json
-
-Edit `src/_data/categories.json` and add a new entry to the array:
-
-```json
-{
-  "slug": "vis",
-  "title": "Vis & Zeevruchten",
-  "order": 4,
-  "roman": "IV",
-  "description": "Verse vis en schaaldieren — van eenvoudig gebakken tot verfijnd bereid."
-}
-```
-
-### Step 2: Add to Decap CMS config
-
-Add the new category option to `src/admin/config.yml` in the category select widget.
-
-### That's it!
-
-A chapter page is automatically generated at `/recepten/{slug}/`.
+Nieuwe categorie toevoegen: voeg toe aan `categories.json` + `src/admin/config.yml` select widget.
 
 ---
 
-## Workflow: Adding a Photo to a Recipe
+## Naamconventies
 
-1. Copy the photo to `fotos/{recipe-slug}.webp`
-2. Update the recipe's `foto` field in frontmatter: `foto: "{recipe-slug}.webp"`
-
-Both the hero image and the TOC card image update automatically.
-
----
-
-## Auto-Generated Features (via 11ty)
-
-| Feature | How It Works |
-|---------|--------------|
-| **Recipe count** | `collections.recepten.length` on cover |
-| **TOC grid** | Loops over `collections.recepten` |
-| **TOC list** | `groupByCategory` filter groups + sorts by category order |
-| **Register** | `buildKeywordIndex` filter builds from title + tags |
-| **Prev/Next nav** | `prevRecipe`/`nextRecipe` filters based on pageNumber sort |
-| **Chapter pages** | Pagination over `categories.json` array |
-| **Recipe badge** | `categoryTitle` + `pad(3)` filters |
+- **Bestandsnaam:** lowercase, `-` gescheiden: `ossobuco-alla-milanese.md`
+- **Foto's:** `fotos/{slug}.webp` (of `.jpg`)
+- **Geen** spaties, accenten of speciale tekens in bestandsnamen
+- **Tags:** lowercase, Nederlands of Engelstalig
 
 ---
 
-## Development
+## Wat is automatisch?
 
-```bash
-# Install dependencies
-npm install
-
-# Dev server with hot reload
-npm run dev     # → npx @11ty/eleventy --serve
-
-# Production build
-npm run build   # → npx @11ty/eleventy
-
-# CMS: visit /admin/ in browser (requires GitHub OAuth app)
-```
+| Feature | Automatisch |
+|---------|-------------|
+| Receptpagina op `/recepten/{category}/{slug}/` | ✅ |
+| Prev/next navigatie | ✅ (op basis van pageNumber) |
+| Badge (Categorie / 003) | ✅ |
+| Recepttelling op cover | ✅ |
+| Inhoudsopgave (grid + lijst) | ✅ |
+| Trefwoordenregister | ✅ (uit title + tags) |
+| Hoofdstukpagina per categorie | ✅ |
+| Foto carousel bij 2+ extrafotos | ✅ |
 
 ---
 
-## Important Reminders
+## Belangrijk
 
-- **Work directly on main branch** for recipes — no branches or PRs needed.
-- All styling is in `src/style.css` — never duplicate CSS.
-- Recipe files need NO body content — everything is in YAML frontmatter.
-- The `pageNumber` field is the single source of truth for ordering.
-- Photos go in the root `fotos/` directory (not `src/fotos/`), served via passthrough copy.
-- Build output goes to `_site/` (gitignored).
+- **Werk direct op main branch** — geen branches of PR's nodig voor recepten.
+- **pageNumber** moet uniek zijn — check bestaande recepten.
+- **Foto's** gaan in root `fotos/` map (niet `src/fotos/`).
+- **Body van .md is leeg** — alle data zit in YAML frontmatter.
+- **Build output** (`_site/`) staat in `.gitignore`.
+- **pathPrefix** is conditioneel: `/kookboek/` voor GitHub Pages, `/` voor Netlify. Gebruik altijd `| url` filter in templates voor paden.

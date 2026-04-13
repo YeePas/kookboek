@@ -59,11 +59,14 @@ collections:
         field: { label: "Variatie", name: "variatie", widget: "text" }
       - label: "Extra foto's"
         name: "extrafotos"
-        widget: "list"
+        widget: "image"
         required: false
-        fields:
-          - { label: "Foto", name: "foto", widget: "image", media_folder: "/fotos" }
-          - { label: "Bijschrift", name: "bijschrift", widget: "string", required: false }
+        allow_multiple: true
+        media_folder: "/fotos"
+        media_library:
+          config:
+            multiple: true
+        hint: "Upload of selecteer meerdere foto's tegelijk; ze verschijnen automatisch in het artikel."
       - { label: "Bron", name: "bron", widget: "string", required: false }
       - label: "Tags"
         name: "tags"

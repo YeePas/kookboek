@@ -60,9 +60,11 @@ layout: base.njk
         <div class="section-label">Foto's</div>
         <div class="photo-carousel{% if extrafotos.length == 1 %} single{% endif %}">
           {% for img in extrafotos %}
+          {% set fotoPad = img.foto or img %}
+          {% set bijschrift = img.bijschrift %}
           <div class="carousel-item">
-            <img src="{{ ('/fotos/' + (img.foto | cmsImagePath)) | url }}" alt="{{ img.bijschrift | default(title) }}">
-            {% if img.bijschrift %}<p class="carousel-caption">{{ img.bijschrift }}</p>{% endif %}
+            <img src="{{ ('/fotos/' + (fotoPad | cmsImagePath)) | url }}" alt="{{ bijschrift | default(title) }}">
+            {% if bijschrift %}<p class="carousel-caption">{{ bijschrift }}</p>{% endif %}
           </div>
           {% endfor %}
           {% if extrafotos.length > 1 %}

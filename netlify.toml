@@ -1,0 +1,3 @@
+[build]
+  command = "mkdir -p _site/admin && cp src/admin/index.html _site/admin/ && cp src/admin/config.yml _site/admin/"
+  publish = "_site"

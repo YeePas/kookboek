@@ -1,8 +1,10 @@
 backend:
   name: github
-  repo: joepwillemsen/kookboek
+  repo: YeePas/kookboek
   branch: main
   auth_type: pkce
+  # Vul hier je GitHub OAuth App Client ID in:
+  # app_id: JOUW_CLIENT_ID_HIER
 
 media_folder: "fotos"
 public_folder: "/fotos"

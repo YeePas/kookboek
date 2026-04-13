@@ -19,10 +19,10 @@ Deze worker is namelijk geen statische site, maar een klein stukje servercode vo
 
 - huidige site op Cloudflare Pages: `https://kookboek.joep-willemsen.workers.dev`
 - huidige GitHub repo: `https://github.com/yeepas/kookboek`
-- tijdelijke auth worker URL: `https://cms-auth.joep-willemsen.workers.dev`
+- tijdelijke auth worker URL: `https://cms.joep-willemsen.workers.dev`
 - latere gewenste domeinen:
   - site: `https://foodnotes.nl`
-  - auth worker: `https://cms-auth.foodnotes.nl`
+  - auth worker: `https://cms.foodnotes.nl`
 
 ## Wat staat al klaar in de repo
 
@@ -33,7 +33,7 @@ backend:
   name: github
   repo: yeepas/kookboek
   branch: main
-  base_url: https://cms-auth.joep-willemsen.workers.dev
+  base_url: https://cms.joep-willemsen.workers.dev
   auth_endpoint: /auth
 ```
 
@@ -42,7 +42,7 @@ backend:
 1. Ga naar `Workers & Pages`.
 2. Kies `Create`.
 3. Kies `Worker`.
-4. Geef hem de naam `cms-auth`.
+4. Geef hem de naam `cms`.
 5. Open de editor.
 6. Vervang de standaardcode door de inhoud van `src/index.js`.
 7. Deploy de worker.
@@ -66,12 +66,12 @@ Voor deze publieke repo is de standaard meestal goed:
 
 Maak in GitHub een OAuth App met:
 
-- Homepage URL: `https://cms-auth.joep-willemsen.workers.dev`
-- Authorization callback URL: `https://cms-auth.joep-willemsen.workers.dev/callback`
+- Homepage URL: `https://cms.joep-willemsen.workers.dev`
+- Authorization callback URL: `https://cms.joep-willemsen.workers.dev/callback`
 
 ## Test
 
-1. Open `https://cms-auth.joep-willemsen.workers.dev`
+1. Open `https://cms.joep-willemsen.workers.dev`
 2. Als je tekst ziet als `Hello from the Foodnotes CMS auth worker.`, dan draait hij.
 3. Open daarna je CMS op `/admin`.
 4. Log in met GitHub.
@@ -80,10 +80,10 @@ Maak in GitHub een OAuth App met:
 
 Als `foodnotes.nl` op Cloudflare staat, maak dan een custom domain voor de worker:
 
-- `cms-auth.foodnotes.nl`
+- `cms.foodnotes.nl`
 
 Daarna wijzig je in `src/admin/config.yml` alleen:
 
 ```yml
-base_url: https://cms-auth.foodnotes.nl
+base_url: https://cms.foodnotes.nl
 ```

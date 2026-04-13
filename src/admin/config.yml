@@ -2,7 +2,7 @@ backend:
   name: github
   repo: yeepas/kookboek
   branch: main
-  base_url: https://cms-auth.joep-willemsen.workers.dev
+  base_url: https://cms.joep-willemsen.workers.dev
   auth_endpoint: /auth
 
 media_folder: "fotos"

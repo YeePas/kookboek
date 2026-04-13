@@ -26,13 +26,13 @@ backend:
   name: github
   repo: YOUR_GITHUB_USERNAME/kookboek
   branch: main
-  base_url: https://cms-auth.example.com
+  base_url: https://cms.example.com
 ```
 
 Vervang:
 
 - `YOUR_GITHUB_USERNAME/kookboek` door je echte repo, bijvoorbeeld `joepwillemsen/kookboek`
-- `https://cms-auth.example.com` door de URL van je Cloudflare Worker, bijvoorbeeld `https://cms-auth.jouwdomein.nl`
+- `https://cms.example.com` door de URL van je Cloudflare Worker, bijvoorbeeld `https://cms.jouwdomein.nl`
 
 ## Cloudflare Pages instellen
 
@@ -58,7 +58,7 @@ Vervang:
 6. Vul in:
    - Application name: `Kookboek CMS`
    - Homepage URL: de URL van je site, bijvoorbeeld `https://kookboek.jouwdomein.nl`
-   - Authorization callback URL: de callback van je worker, bijvoorbeeld `https://cms-auth.jouwdomein.nl/callback`
+   - Authorization callback URL: de callback van je worker, bijvoorbeeld `https://cms.jouwdomein.nl/callback`
 7. Sla de app op.
 8. Bewaar:
    - Client ID
@@ -81,12 +81,12 @@ Stappen:
 1. Maak in Cloudflare een nieuwe `Worker` aan.
 2. Kies niet `Static files`, maar een gewone code-worker.
 3. Plak de inhoud van `cloudflare-cms-auth/src/index.js` in de editor.
-4. Geef de worker de naam `cms-auth`.
+4. Geef de worker de naam `cms`.
 5. Voeg secrets toe in de Worker:
    - `GITHUB_OAUTH_ID`
    - `GITHUB_OAUTH_SECRET`
 6. Deploy de worker.
-7. Test de worker-URL, bijvoorbeeld `https://cms-auth.joep-willemsen.workers.dev`.
+7. Test de worker-URL, bijvoorbeeld `https://cms.joep-willemsen.workers.dev`.
 8. Controleer daarna of `/auth` en `/callback` onder dezelfde worker-URL beschikbaar zijn.
 
 ## Wat je daarna nog in deze repo moet invullen
@@ -98,7 +98,7 @@ backend:
   name: github
   repo: yeepas/kookboek
   branch: main
-  base_url: https://cms-auth.joep-willemsen.workers.dev
+  base_url: https://cms.joep-willemsen.workers.dev
   auth_endpoint: /auth
 ```
 

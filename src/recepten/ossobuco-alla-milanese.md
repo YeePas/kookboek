@@ -4,7 +4,7 @@ subtitle: Een klassieker uit Lombardije, langzaam gestoofd tot het vlees van het
   bot valt. Traditioneel geserveerd met risotto alla milanese en een frisse
   gremolata.
 category: vlees
-foto: ""
+foto: /fotos/ossobuco-3.jpg
 pageNumber: 3
 meta:
   - label: Personen

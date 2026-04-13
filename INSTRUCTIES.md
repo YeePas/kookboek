@@ -193,3 +193,14 @@ Vervang de card-placeholder:
 ## Styling aanpassen
 
 Alle styling staat centraal in `style.css`. Wijzigingen daar gelden automatisch voor alle pagina's. De stijl gebruikt Google Fonts (Instrument Serif) die via `@import` wordt geladen.
+
+## Hosting en CMS
+
+De actuele voorkeurssetup voor dit project is:
+
+- hosting via Cloudflare Pages
+- contentbeheer via Decap CMS
+- opslag van content in GitHub
+
+De CMS-config staat in `src/admin/config.yml`.
+De stap-voor-stap migratie naar Cloudflare Pages met GitHub OAuth worker staat in `CLOUDFLARE_CMS_SETUP.md`.

@@ -49,6 +49,11 @@ tips:
 variaties:
   - Vervang witte wijn door rode voor een diepere, rustieker smaak.
   - Voeg een takje rozemarijn en een laurierblad toe tijdens het stoven.
+extrafotos:
+  - foto: /fotos/inzoomen.jpg
+  - foto: /fotos/inzoomen.jpg
+  - foto: /fotos/c9099780a19636c19f703af4949f468b.jpg
+  - foto: /fotos/naamloos.jpg
 tags:
   - italiaans
   - stoofpot

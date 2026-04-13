@@ -101,6 +101,9 @@ module.exports = function(eleventyConfig) {
     return recipes.filter(r => r.data.category === cat);
   });
 
+  // Exclude admin from template processing (passthrough only)
+  eleventyConfig.ignores.add("src/admin/**");
+
   return {
     dir: {
       input: "src",

@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: YeePas/kookboek
+  name: git-gateway
   branch: main
-  auth_type: pkce
-  app_id: Ov23liB89A0aFxnuL2vr
 
 media_folder: "fotos"
 public_folder: "/fotos"

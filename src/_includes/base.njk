@@ -13,16 +13,35 @@
 document.querySelectorAll('.photo-carousel').forEach(c => {
   const items = c.querySelectorAll('.carousel-item');
   if (items.length < 2) return;
+
+  let track = c.querySelector('.carousel-track');
+  if (!track) {
+    track = document.createElement('div');
+    track.className = 'carousel-track';
+    items.forEach(item => track.appendChild(item));
+    c.insertBefore(track, c.firstChild);
+  }
+
   let cur = 0;
   const counter = c.querySelector('.carousel-counter');
+  const nextBtn = c.querySelector('.next');
+  const prevBtn = c.querySelector('.prev');
   const show = i => {
-    items.forEach(el => el.style.display = 'none');
-    items[i].style.display = 'block';
-    if (counter) counter.textContent = (i+1) + ' / ' + items.length;
+    cur = (i + items.length) % items.length;
+    const peekCurrent = parseFloat(getComputedStyle(c).getPropertyValue('--peek-current')) || 80;
+    track.style.transform = 'translateX(-' + (cur * peekCurrent) + '%)';
+    items.forEach((el, index) => el.classList.toggle('is-active', index === cur));
+    if (counter) counter.textContent = (cur + 1) + ' / ' + items.length;
   };
+
   show(0);
-  c.querySelector('.prev').addEventListener('click', () => { cur = (cur - 1 + items.length) % items.length; show(cur); });
-  c.querySelector('.next').addEventListener('click', () => { cur = (cur + 1) % items.length; show(cur); });
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => show(cur - 1));
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => show(cur + 1));
+  }
 });
 </script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

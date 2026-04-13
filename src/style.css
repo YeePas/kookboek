@@ -499,15 +499,21 @@ html, body {
 
 /* ---------- Foto carousel ---------- */
 .photo-carousel {
+  --peek-current: 80%;
   position: relative;
   overflow: hidden;
   background: var(--soft);
 }
-.carousel-item {
-  display: none;
+.carousel-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.35s ease;
 }
-.carousel-item:first-child {
-  display: block;
+.carousel-item {
+  flex: 0 0 var(--peek-current);
+  max-width: var(--peek-current);
+  opacity: 0.55;
+  transition: opacity 0.25s ease;
 }
 .carousel-item img {
   width: 100%;
@@ -515,13 +521,19 @@ html, body {
   object-fit: cover;
   display: block;
 }
+.carousel-item.is-active { opacity: 1; }
 .carousel-caption {
   font-size: 12px;
   color: var(--muted);
   padding: 8px 12px;
   font-style: italic;
 }
-.photo-carousel.single .carousel-item { display: block; }
+.photo-carousel.single .carousel-track { display: block; }
+.photo-carousel.single .carousel-item {
+  max-width: 100%;
+  flex-basis: 100%;
+  opacity: 1;
+}
 .carousel-nav {
   position: absolute;
   bottom: 12px;
@@ -758,4 +770,6 @@ html, body {
 
   .index { padding: 2rem 1.5rem; }
   .index-columns { column-count: 1; }
+
+  .photo-carousel { --peek-current: 86%; }
 }

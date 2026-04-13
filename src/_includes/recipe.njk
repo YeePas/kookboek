@@ -59,6 +59,7 @@ layout: base.njk
       <div class="block">
         <div class="section-label">Foto's</div>
         <div class="photo-carousel{% if extrafotos.length == 1 %} single{% endif %}">
+          <div class="carousel-track">
           {% for img in extrafotos %}
           {% set fotoPad = img.foto or img %}
           {% set bijschrift = img.bijschrift %}
@@ -67,6 +68,7 @@ layout: base.njk
             {% if bijschrift %}<p class="carousel-caption">{{ bijschrift }}</p>{% endif %}
           </div>
           {% endfor %}
+          </div>
           {% if extrafotos.length > 1 %}
           <div class="carousel-nav">
             <button class="carousel-btn prev" aria-label="Vorige">&lsaquo;</button>

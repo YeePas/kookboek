@@ -32,6 +32,12 @@ module.exports = function(eleventyConfig) {
     return text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   });
 
+  // Normalize CMS image paths so both "kimchi.webp" and "/fotos/kimchi.webp" work.
+  eleventyConfig.addFilter("cmsImagePath", (value) => {
+    if (!value) return "";
+    return String(value).replace(/^\/?fotos\//, "");
+  });
+
   // Group recipes by category, sorted by category order
   eleventyConfig.addFilter("groupByCategory", function(recipes) {
     const cats = this.ctx.categories;

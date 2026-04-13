@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cms-auth",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-13",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "GITHUB_SCOPE": "public_repo read:user"
+  }
+}

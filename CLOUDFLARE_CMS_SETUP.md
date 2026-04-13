@@ -68,21 +68,26 @@ Vervang:
 
 Je hebt een kleine OAuth-proxy nodig omdat Netlify Identity/Git Gateway verdwijnt.
 
-Gebruik bij voorkeur een bestaande Decap OAuth worker, bijvoorbeeld:
+Voor deze repo staat al een eigen Worker-versie klaar in:
 
-- `https://github.com/sterlingwes/decap-proxy`
-- `https://github.com/sveltia/sveltia-cms-auth`
+- [cloudflare-cms-auth/src/index.js](cloudflare-cms-auth/src/index.js)
 
-Globale stappen:
+En een voorbeeldconfig in:
 
-1. Maak in Cloudflare een nieuwe Worker aan.
-2. Deploy daar de code van de OAuth proxy.
-3. Koppel een route of subdomein, bijvoorbeeld `cms-auth.jouwdomein.nl`.
-4. Voeg secrets toe in de Worker:
-   - `GITHUB_CLIENT_ID`
-   - `GITHUB_CLIENT_SECRET`
-5. Stel in de Worker ook de toegestane site-URL in als de gekozen proxy dat vraagt.
-6. Test of de callback-URL bereikbaar is.
+- [cloudflare-cms-auth/wrangler.jsonc](cloudflare-cms-auth/wrangler.jsonc)
+
+Stappen:
+
+1. Maak in Cloudflare een nieuwe `Worker` aan.
+2. Kies niet `Static files`, maar een gewone code-worker.
+3. Plak de inhoud van `cloudflare-cms-auth/src/index.js` in de editor.
+4. Geef de worker de naam `cms-auth`.
+5. Voeg secrets toe in de Worker:
+   - `GITHUB_OAUTH_ID`
+   - `GITHUB_OAUTH_SECRET`
+6. Deploy de worker.
+7. Test de worker-URL, bijvoorbeeld `https://cms-auth.joep-willemsen.workers.dev`.
+8. Controleer daarna of `/auth` en `/callback` onder dezelfde worker-URL beschikbaar zijn.
 
 ## Wat je daarna nog in deze repo moet invullen
 
@@ -91,9 +96,10 @@ Open [src/admin/config.yml](src/admin/config.yml) en vervang de placeholders:
 ```yml
 backend:
   name: github
-  repo: joepwillemsen/kookboek
+  repo: yeepas/kookboek
   branch: main
-  base_url: https://cms-auth.jouwdomein.nl
+  base_url: https://cms-auth.joep-willemsen.workers.dev
+  auth_endpoint: /auth
 ```
 
 ## Testen

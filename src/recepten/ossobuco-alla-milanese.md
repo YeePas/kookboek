@@ -6,6 +6,7 @@ subtitle: Een klassieker uit Lombardije, langzaam gestoofd tot het vlees van het
 category: vlees
 foto: /fotos/ossobuco-3.jpg
 pageNumber: 3
+order: 1
 meta:
   - label: Personen
     value: "4"

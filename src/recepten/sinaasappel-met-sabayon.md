@@ -2,8 +2,9 @@
 title: "Sinaasappel met sabayon"
 subtitle: "Warme, luchtige sabayon van eidooier, wijn en Marsala — geserveerd over verse sinaasappelpartjes. Eenvoudig en indrukwekkend."
 category: "desserts"
-foto: ""
+foto: "sinaasappel-met-sabayon.webp"
 pageNumber: 8
+order: 1
 
 meta:
   - label: "Personen"

@@ -2,8 +2,9 @@
 title: "Sauce Hollandaise"
 subtitle: "De klassieke botersaus op basis van eidooier en gastrique. Romig, licht zuur en perfect bij groenten, vis of gepocheerd ei."
 category: "sauzen"
-foto: ""
+foto: "sauce-hollandaise.webp"
 pageNumber: 6
+order: 1
 
 meta:
   - label: "Personen"

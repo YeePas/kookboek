@@ -29,8 +29,12 @@ collections:
           - { label: "Sauzen", value: "sauzen" }
           - { label: "Desserts", value: "desserts" }
           - { label: "Technieken", value: "technieken" }
+          - { label: "Vis", value: "vis" }
+          - { label: "Brood", value: "brood" }
+          - { label: "Overig", value: "overig" }
       - { label: "Foto", name: "foto", widget: "image", required: false, media_folder: "/fotos" }
       - { label: "Pagina nummer", name: "pageNumber", widget: "number", value_type: "int" }
+      - { label: "Volgorde in categorie", name: "order", widget: "number", value_type: "int" }
       - label: "Meta"
         name: "meta"
         widget: "list"

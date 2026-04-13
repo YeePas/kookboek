@@ -40,5 +40,26 @@
     "order": 6,
     "roman": "VI",
     "description": "Fundamentele kooktechnieken die elke kok moet beheersen."
+  },
+  {
+    "slug": "vis",
+    "title": "Vis",
+    "order": 7,
+    "roman": "VII",
+    "description": "Visgerechten — van zeevis tot schaal- en schelpdieren, bereid met subtiliteit en respect voor het product."
+  },
+  {
+    "slug": "brood",
+    "title": "Brood",
+    "order": 8,
+    "roman": "VIII",
+    "description": "Brood, gebak en gefrituurde gerechten — van klassiek brood tot oliebollen."
+  },
+  {
+    "slug": "overig",
+    "title": "Overig",
+    "order": 9,
+    "roman": "IX",
+    "description": "Preparaten, sauzen en specialiteiten die hun eigen weg gaan."
   }
 ]

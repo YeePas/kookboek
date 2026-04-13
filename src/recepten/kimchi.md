@@ -4,6 +4,7 @@ subtitle: "Klassieke Koreaanse gefermenteerde kool met gochugaru, gember en knof
 category: "fermenteren"
 foto: "kimchi.webp"
 pageNumber: 5
+order: 1
 
 meta:
   - label: "Opbrengst"

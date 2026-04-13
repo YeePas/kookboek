@@ -2,8 +2,9 @@
 title: "Vanillesaus"
 subtitle: "Een echte crème anglaise op basis van eidooier, suiker en verse vanille. Zijdezacht en licht gebonden — klassiek bij desserts."
 category: "sauzen"
-foto: ""
+foto: "vanillesaus.webp"
 pageNumber: 7
+order: 2
 
 meta:
   - label: "Opbrengst"

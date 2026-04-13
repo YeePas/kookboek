@@ -22,7 +22,7 @@ layout: base.njk
     {% endif %}
   </div>
   <div class="recipe-content">
-    <div class="recipe-badge">{{ category | categoryTitle }} / {{ pageNumber | pad(3) }}</div>
+    <div class=\"recipe-badge\">{{ category | categoryTitle }} / {{ order | pad(3) }}</div>
     <h1>{{ title }}</h1>
     <p class="subtitle">{{ subtitle }}</p>
     <div class="recipe-meta" {% for cell in meta %}{% if cell.label == 'Personen' %}data-base-servings="{{ cell.value }}"{% endif %}{% endfor %}>
@@ -121,7 +121,7 @@ layout: base.njk
     {% endif %}
     <div class="recipe-footer">
       <div>{% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
-      <div>pagina {{ pageNumber }}</div>
+      <div>{{ category | categoryTitle }} #{{ order }}</div>
     </div>
   </div>
 </div>

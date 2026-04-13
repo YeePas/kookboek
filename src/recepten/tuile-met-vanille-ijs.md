@@ -2,8 +2,9 @@
 title: "Tuile met vanille-ijs"
 subtitle: "Krokante, goudgele tuilekoekjes gevouwen tot een schaaltje — gevuld met vanille-ijs en geserveerd met zelfgemaakte vanillesaus."
 category: "desserts"
-foto: ""
+foto: "tuile-met-vanille-ijs.webp"
 pageNumber: 9
+order: 2
 
 meta:
   - label: "Personen"

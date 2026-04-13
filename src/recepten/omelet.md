@@ -2,8 +2,9 @@
 title: "Omelet"
 subtitle: "De meest fundamentele eierbereiding — en meteen een van de moeilijkste om perfect te maken. Lichtgeel, zacht van binnen, zonder kleur."
 category: "technieken"
-foto: ""
+foto: "omelet.webp"
 pageNumber: 10
+order: 1
 
 meta:
   - label: "Personen"

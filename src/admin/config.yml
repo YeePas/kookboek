@@ -54,6 +54,13 @@ collections:
         widget: "list"
         required: false
         field: { label: "Variatie", name: "variatie", widget: "text" }
+      - label: "Extra foto's"
+        name: "extrafotos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Foto", name: "foto", widget: "image", media_folder: "/fotos" }
+          - { label: "Bijschrift", name: "bijschrift", widget: "string", required: false }
       - { label: "Bron", name: "bron", widget: "string", required: false }
       - label: "Tags"
         name: "tags"

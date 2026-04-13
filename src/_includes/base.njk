@@ -9,6 +9,22 @@
 <body>
 {% include "partials/nav.njk" %}
 {{ content | safe }}
+<script>
+document.querySelectorAll('.photo-carousel').forEach(c => {
+  const items = c.querySelectorAll('.carousel-item');
+  if (items.length < 2) return;
+  let cur = 0;
+  const counter = c.querySelector('.carousel-counter');
+  const show = i => {
+    items.forEach(el => el.style.display = 'none');
+    items[i].style.display = 'block';
+    if (counter) counter.textContent = (i+1) + ' / ' + items.length;
+  };
+  show(0);
+  c.querySelector('.prev').addEventListener('click', () => { cur = (cur - 1 + items.length) % items.length; show(cur); });
+  c.querySelector('.next').addEventListener('click', () => { cur = (cur + 1) % items.length; show(cur); });
+});
+</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {

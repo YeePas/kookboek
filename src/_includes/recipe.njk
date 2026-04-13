@@ -53,8 +53,28 @@ layout: base.njk
         </div>
       </div>
     </div>
-    {% if tips or variaties or bron %}
+    {% if tips or variaties or bron or extrafotos %}
     <div class="extras">
+      {% if extrafotos and extrafotos.length %}
+      <div class="block">
+        <div class="section-label">Foto's</div>
+        <div class="photo-carousel{% if extrafotos.length == 1 %} single{% endif %}">
+          {% for img in extrafotos %}
+          <div class="carousel-item">
+            <img src="{{ ('/fotos/' + img.foto) | url }}" alt="{{ img.bijschrift | default(title) }}">
+            {% if img.bijschrift %}<p class="carousel-caption">{{ img.bijschrift }}</p>{% endif %}
+          </div>
+          {% endfor %}
+          {% if extrafotos.length > 1 %}
+          <div class="carousel-nav">
+            <button class="carousel-btn prev" aria-label="Vorige">&lsaquo;</button>
+            <span class="carousel-counter"></span>
+            <button class="carousel-btn next" aria-label="Volgende">&rsaquo;</button>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
       {% if tips %}
       <div class="block">
         <div class="section-label">Tips</div>

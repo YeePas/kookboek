@@ -22,7 +22,7 @@ layout: base.njk
     {% endif %}
   </div>
   <div class="recipe-content">
-    <div class=\"recipe-badge\">{{ category | categoryTitle }} / {{ order | pad(3) }}</div>
+    <div class="recipe-badge">{{ category | categoryTitle }} / {{ order | pad(3) }}</div>
     <h1>{{ title }}</h1>
     <p class="subtitle">{{ subtitle }}</p>
     <div class="recipe-meta" {% for cell in meta %}{% if cell.label == 'Personen' %}data-base-servings="{{ cell.value }}"{% endif %}{% endfor %}>

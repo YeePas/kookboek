@@ -282,6 +282,7 @@ html, body {
   margin-bottom: 1.5rem;
   background: var(--ink);
   color: #fff;
+  border: 1px solid var(--ink);
 }
 
 /* Title */

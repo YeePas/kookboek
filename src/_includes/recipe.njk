@@ -25,9 +25,21 @@ layout: base.njk
     <div class="recipe-badge">{{ category | categoryTitle }} / {{ pageNumber | pad(3) }}</div>
     <h1>{{ title }}</h1>
     <p class="subtitle">{{ subtitle }}</p>
-    <div class="recipe-meta">
+    <div class="recipe-meta" {% for cell in meta %}{% if cell.label == 'Personen' %}data-base-servings="{{ cell.value }}"{% endif %}{% endfor %}>
       {% for cell in meta %}
-      <div class="cell"><div class="label">{{ cell.label | upper }}</div><div class="value">{{ cell.value }}</div></div>
+      <div class="cell">
+        <div class="label">{{ cell.label | upper }}</div>
+        {% if cell.label == 'Personen' %}
+        <div class="value serving-value">{{ cell.value }}</div>
+        <div class="serving-stepper">
+          <button class="stepper-btn stepper-minus" aria-label="Minder personen">−</button>
+          <span class="stepper-count">{{ cell.value }}</span>
+          <button class="stepper-btn stepper-plus" aria-label="Meer personen">+</button>
+        </div>
+        {% else %}
+        <div class="value">{{ cell.value }}</div>
+        {% endif %}
+      </div>
       {% endfor %}
     </div>
     <div class="recipe-body">
@@ -39,7 +51,7 @@ layout: base.njk
             <li class="ingredient-group">{{ groep.groep }}</li>
             {% endif %}
             {% for item in groep.items %}
-            <li>{{ item }}</li>
+            <li data-ingredient="{{ item }}">{{ item }}</li>
             {% endfor %}
           {% endfor %}
         </ul>

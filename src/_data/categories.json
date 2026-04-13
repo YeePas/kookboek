@@ -19,5 +19,26 @@
     "order": 3,
     "roman": "III",
     "description": "Geduld beloond — gefermenteerde recepten die beter worden naarmate ze langer staan."
+  },
+  {
+    "slug": "sauzen",
+    "title": "Sauzen",
+    "order": 4,
+    "roman": "IV",
+    "description": "Klassieke sauzen als basis van elk goed gerecht — van Hollandaise tot vanillesaus."
+  },
+  {
+    "slug": "desserts",
+    "title": "Desserts",
+    "order": 5,
+    "roman": "V",
+    "description": "Zoete afsluiters — van luchtige sabayon tot krokante tuiles met vanille-ijs."
+  },
+  {
+    "slug": "technieken",
+    "title": "Technieken",
+    "order": 6,
+    "roman": "VI",
+    "description": "Fundamentele kooktechnieken die elke kok moet beheersen."
   }
 ]

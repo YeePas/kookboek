@@ -26,6 +26,9 @@ collections:
           - { label: "Vlees", value: "vlees" }
           - { label: "Groentes", value: "groentes" }
           - { label: "Fermenteren", value: "fermenteren" }
+          - { label: "Sauzen", value: "sauzen" }
+          - { label: "Desserts", value: "desserts" }
+          - { label: "Technieken", value: "technieken" }
       - { label: "Foto", name: "foto", widget: "image", required: false, media_folder: "/fotos" }
       - { label: "Pagina nummer", name: "pageNumber", widget: "number", value_type: "int" }
       - label: "Meta"
@@ -59,14 +62,12 @@ collections:
         field: { label: "Variatie", name: "variatie", widget: "text" }
       - label: "Extra foto's"
         name: "extrafotos"
-        widget: "image"
+        widget: "list"
         required: false
-        allow_multiple: true
-        media_folder: "/fotos"
-        media_library:
-          config:
-            multiple: true
-        hint: "Upload of selecteer meerdere foto's tegelijk; ze verschijnen automatisch in het artikel."
+        hint: "Voeg foto's één voor één toe via de + knop. Decap CMS ondersteunt geen bulk-upload."
+        fields:
+          - { label: "Foto", name: "foto", widget: "image", media_folder: "/fotos" }
+          - { label: "Bijschrift (optioneel)", name: "bijschrift", widget: "string", required: false }
       - { label: "Bron", name: "bron", widget: "string", required: false }
       - label: "Tags"
         name: "tags"

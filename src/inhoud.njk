@@ -10,9 +10,9 @@ permalink: inhoud/index.html
   </div>
   <div class="toc-grid">
     {% for recipe in collections.recepten %}
-    <a class="toc-card" href="{{ recipe.url }}">
+    <a class="toc-card" href="{{ recipe.url | url }}">
       {% if recipe.data.foto %}
-      <img src="/fotos/{{ recipe.data.foto }}" alt="{{ recipe.data.title }}">
+      <img src="{{ ('/fotos/' + recipe.data.foto) | url }}" alt="{{ recipe.data.title }}">
       {% else %}
       <div class="card-placeholder">Foto volgt</div>
       {% endif %}
@@ -28,9 +28,9 @@ permalink: inhoud/index.html
     <h2>Inhoudsopgave</h2>
     {% for group in collections.recepten | groupByCategory %}
     <div class="toc-list-category">
-      <h3><a href="/recepten/{{ group.slug }}/">{{ group.title }}</a></h3>
+      <h3><a href="{{ ('/recepten/' + group.slug + '/') | url }}">{{ group.title }}</a></h3>
       {% for recipe in group.recipes %}
-      <a class="toc-list-entry" href="{{ recipe.url }}"><span>{{ recipe.data.title }}</span><span class="pagenum">{{ recipe.data.pageNumber }}</span></a>
+      <a class="toc-list-entry" href="{{ recipe.url | url }}"><span>{{ recipe.data.title }}</span><span class="pagenum">{{ recipe.data.pageNumber }}</span></a>
       {% endfor %}
     </div>
     {% endfor %}

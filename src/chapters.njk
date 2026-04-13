@@ -14,7 +14,7 @@ eleventyComputed:
   <p class="chapter-desc">{{ cat.description }}</p>
   <ul class="chapter-recipes">
     {% for recipe in collections.recepten | byCategory(cat.slug) %}
-    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+    <li><a href="{{ recipe.url | url }}">{{ recipe.data.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

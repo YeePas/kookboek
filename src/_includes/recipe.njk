@@ -5,18 +5,18 @@ layout: base.njk
 {% set next = page | nextRecipe %}
 <div class="page recipe">
   {% if foto %}
-  <img class="recipe-hero" src="/fotos/{{ foto }}" alt="{{ title }}">
+  <img class="recipe-hero" src="{{ ('/fotos/' + foto) | url }}" alt="{{ title }}">
   {% else %}
   <div class="recipe-hero-placeholder">Foto volgt</div>
   {% endif %}
   <div class="recipe-nav">
     {% if prev %}
-    <a href="{{ prev.url }}"><span class="arrow">&lsaquo;</span><span>Vorig</span></a>
+    <a href="{{ prev.url | url }}"><span class="arrow">&lsaquo;</span><span>Vorig</span></a>
     {% else %}
     <span class="spacer"></span>
     {% endif %}
     {% if next %}
-    <a href="{{ next.url }}"><span>Volgend</span><span class="arrow">&rsaquo;</span></a>
+    <a href="{{ next.url | url }}"><span>Volgend</span><span class="arrow">&rsaquo;</span></a>
     {% else %}
     <span class="spacer"></span>
     {% endif %}

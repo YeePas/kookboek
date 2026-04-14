@@ -1,0 +1,4 @@
+{
+  "layout": "recipe.njk",
+  "permalink": "recepten/{{ category }}/{{ page.fileSlug }}/index.html"
+}

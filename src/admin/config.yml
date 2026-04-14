@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: yeepas/kookboek
   branch: main
+  base_url: https://cms.joep-willemsen.workers.dev
+  auth_endpoint: /auth
 
 media_folder: "fotos"
 public_folder: "/fotos"

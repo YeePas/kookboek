@@ -2,7 +2,7 @@
 title: "Sinaasappel met sabayon"
 subtitle: "Warme, schuimige sabayon van eidooier, witte wijn en Marsala — opgeklopt au bain-marie en direct geserveerd over verse sinaasappel."
 category: "desserts"
-foto: ""
+foto: "sinaasappel-met-sabayon.jpg"
 pageNumber: 17
 order: 5
 

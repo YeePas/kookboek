@@ -2,7 +2,7 @@
 title: "Soezenbeslag"
 subtitle: "Klassiek pâte à choux — luchtig en hol van binnen, perfect voor soezen, éclairs of als verrijking van oliebollenbeslag."
 category: "brood"
-foto: ""
+foto: "soezenbeslag.jpg"
 pageNumber: 11
 order: 1
 

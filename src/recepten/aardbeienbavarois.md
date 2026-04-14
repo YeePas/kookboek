@@ -2,7 +2,7 @@
 title: "Aardbeienbavarois"
 subtitle: "Luchtige bavarois van aardbeienpuree met slagroom en gelatine — een klassiek koud nagerecht uit de koksopleiding."
 category: "desserts"
-foto: ""
+foto: "aardbeienbavarois.jpg"
 pageNumber: 9
 order: 1
 

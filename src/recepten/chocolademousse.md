@@ -2,7 +2,7 @@
 title: "Chocolademousse"
 subtitle: "Rijke chocolademousse van Harry Mercuur — pure couverture met Italiaans schuim en slagroom voor een fluweelzachte textuur."
 category: "desserts"
-foto: ""
+foto: "chocolademousse.jpg"
 pageNumber: 10
 order: 2
 

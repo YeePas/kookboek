@@ -2,7 +2,7 @@
 title: "Chili con Carne"
 subtitle: "Stoere Texas-style chili met zelfgemaakte saus van gedroogde pepers, langzaam gestoofd rundvlees en warme specerijen."
 category: "vlees"
-foto: ""
+foto: "chili-con-carne.jpg"
 pageNumber: 7
 order: 2
 

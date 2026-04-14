@@ -2,7 +2,7 @@
 title: "Flensjestaart"
 subtitle: "Afwisselend gestapelde vanille- en chocoladeflensjes met chocolademousse — een elegant, eenvoudig dessert."
 category: "desserts"
-foto: ""
+foto: "flensjestaart.jpg"
 pageNumber: 12
 order: 3
 

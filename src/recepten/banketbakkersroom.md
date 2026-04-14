@@ -2,7 +2,7 @@
 title: "Banketbakkersroom"
 subtitle: "Klassieke crème pâtissière — romig, vanillezoet en veelzijdig als vulling voor soezen, éclairs en taarten."
 category: "desserts"
-foto: ""
+foto: "banketbakkersroom.jpg"
 pageNumber: 13
 order: 4
 

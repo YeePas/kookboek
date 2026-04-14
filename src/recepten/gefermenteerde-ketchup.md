@@ -2,7 +2,7 @@
 title: "Gefermenteerde Ketchup"
 subtitle: "Huisgemaakte ketchup met tomatenpuree, specerijen en wei — gefermenteerd voor extra diepte en complexiteit."
 category: "fermenteren"
-foto: ""
+foto: "gefermenteerde-ketchup.jpg"
 pageNumber: 6
 order: 1
 

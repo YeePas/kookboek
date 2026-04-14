@@ -2,7 +2,7 @@
 title: "Sauce Hollandaise"
 subtitle: "Warme emulsie van eidooier en geclarificeerde boter op een basis van gastrique — de koningin van de warme sauzen."
 category: "sauzen"
-foto: ""
+foto: "sauce-hollandaise.jpg"
 pageNumber: 15
 order: 1
 

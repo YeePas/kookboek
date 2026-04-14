@@ -2,7 +2,7 @@
 title: "Tuile met vanille-ijs"
 subtitle: "Flinterdunne, krokante koekjes van eiwit en poedersuiker — warm gevormd tot een schaaltje en gevuld met vanille-ijs en echte vanillesaus."
 category: "desserts"
-foto: ""
+foto: "tuile-met-vanille-ijs.jpg"
 pageNumber: 18
 order: 6
 

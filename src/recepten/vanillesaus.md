@@ -2,7 +2,7 @@
 title: "Vanillesaus"
 subtitle: "Crème anglaise — de basis van alle dessertsauzen. Zijdezacht, licht gebonden door eidooier en met echte vanille."
 category: "sauzen"
-foto: ""
+foto: "vanillesaus.jpg"
 pageNumber: 16
 order: 2
 

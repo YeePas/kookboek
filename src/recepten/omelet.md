@@ -2,7 +2,7 @@
 title: "Omelet"
 subtitle: "Lichtgeel, romig van binnen en zonder enige kleur — de Franse omelet is simpel maar onvergevend. Kleur is mislukking."
 category: "technieken"
-foto: ""
+foto: "omelet.jpg"
 pageNumber: 14
 order: 1
 

@@ -86,6 +86,12 @@ collections:
         name: "instellingen"
         file: "src/_data/site.json"
         fields:
+          - { label: "Toon Inhoudsopgave in navigatie", name: "navShowInhoud", widget: "boolean", default: true }
+          - { label: "Label Inhoudsopgave in navigatie", name: "navInhoudLabel", widget: "string", default: "Inhoudsopgave" }
+          - { label: "Toon Ontdek in navigatie", name: "navShowOntdek", widget: "boolean", default: true }
+          - { label: "Label Ontdek in navigatie", name: "navOntdekLabel", widget: "string", default: "Ontdek" }
+          - { label: "Toon Register in navigatie", name: "navShowRegister", widget: "boolean", default: true }
+          - { label: "Label Register in navigatie", name: "navRegisterLabel", widget: "string", default: "Register" }
           - { label: "Toon Ontdek op homepage", name: "showOntdek", widget: "boolean", default: true }
           - { label: "Titel Over mij", name: "overTitle", widget: "string" }
           - label: "Paragrafen Over mij"

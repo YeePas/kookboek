@@ -1,4 +1,10 @@
 {
+  "navShowInhoud": true,
+  "navInhoudLabel": "Inhoudsopgave",
+  "navShowOntdek": true,
+  "navOntdekLabel": "Ontdek",
+  "navShowRegister": true,
+  "navRegisterLabel": "Register",
   "showOntdek": true,
   "overTitle": "Over mij",
   "overParagraphs": [

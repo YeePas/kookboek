@@ -66,11 +66,15 @@ html, body {
 .nav-info {
   font-style: normal;
   font-size: 16px;
-  opacity: 0.5;
+  color: rgba(255,255,255,0.9) !important;
+  opacity: 0.9;
   margin-left: 1.5rem !important;
   letter-spacing: 0 !important;
 }
-.nav-info:hover { opacity: 1; }
+.nav-info:hover {
+  color: #fff !important;
+  opacity: 1;
+}
 
 /* ---------- Over mij ---------- */
 .about p {

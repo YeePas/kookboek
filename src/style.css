@@ -63,6 +63,8 @@ html, body {
   margin-left: 0;
 }
 .site-nav .brand:hover { color: #fff; }
+.brand-short,
+.nav-inhoud-short { display: none; }
 .nav-info {
   font-style: normal;
   font-size: 16px;
@@ -939,6 +941,10 @@ html, body {
   .site-nav { padding: 0 1rem; }
   .site-nav a { margin-left: 1rem; font-size: 10px; }
   .site-nav .brand { font-size: 17px; }
+  .brand-full,
+  .nav-inhoud-full { display: none; }
+  .brand-short,
+  .nav-inhoud-short { display: inline; }
 
   .cover { padding: 3rem 1.5rem; }
 

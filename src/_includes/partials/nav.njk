@@ -1,8 +1,8 @@
 <nav class="site-nav"><div class="site-nav-inner">
-<a class="brand" href="{{ '/' | url }}">Foodnotes</a>
+<a class="brand" href="{{ '/' | url }}"><span class="brand-full">Foodnotes</span><span class="brand-short">FN</span></a>
 <div>
   {% if site.navShowInhoud %}
-  <a href="{{ '/inhoud/' | url }}">{{ site.navInhoudLabel | default('Inhoudsopgave') }}</a>
+  <a href="{{ '/inhoud/' | url }}"><span class="nav-inhoud-full">{{ site.navInhoudLabel | default('Inhoudsopgave') }}</span><span class="nav-inhoud-short">Inhoud</span></a>
   {% endif %}
   {% if site.navShowOntdek and site.showOntdek %}
   <a href="{{ '/' | url }}#ontdek">{{ site.navOntdekLabel | default('Ontdek') }}</a>

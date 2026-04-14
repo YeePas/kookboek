@@ -93,6 +93,7 @@ collections:
           - { label: "Toon Register in navigatie", name: "navShowRegister", widget: "boolean", default: true }
           - { label: "Label Register in navigatie", name: "navRegisterLabel", widget: "string", default: "Register" }
           - { label: "Toon Ontdek op homepage", name: "showOntdek", widget: "boolean", default: true }
+          - { label: "Cloudflare Web Analytics token", name: "cloudflareWebAnalyticsToken", widget: "string", required: false, hint: "Plak hier de token uit Cloudflare Web Analytics (zonder extra quotes)." }
           - { label: "Titel Over mij", name: "overTitle", widget: "string" }
           - label: "Paragrafen Over mij"
             name: "overParagraphs"

@@ -167,5 +167,8 @@ document.querySelectorAll('.photo-carousel').forEach(c => {
     });
   }
 </script>
+{% if site.cloudflareWebAnalyticsToken %}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ site.cloudflareWebAnalyticsToken }}"}'></script>
+{% endif %}
 </body>
 </html>

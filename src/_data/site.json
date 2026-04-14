@@ -3,7 +3,7 @@
   "overTitle": "Over mij",
   "cloudflareWebAnalyticsToken": "",
   "navRegisterLabel": "Register",
-  "showOntdek": true,
+  "showOntdek": false,
   "navShowOntdek": false,
   "navInhoudLabel": "Inhoudsopgave",
   "overParagraphs": [

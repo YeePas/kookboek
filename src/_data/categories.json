@@ -35,31 +35,38 @@
     "description": "Zoete afsluiters — van luchtige sabayon tot krokante tuiles met vanille-ijs."
   },
   {
-    "slug": "technieken",
-    "title": "Technieken",
-    "order": 6,
-    "roman": "VI",
-    "description": "Fundamentele kooktechnieken die elke kok moet beheersen."
-  },
-  {
     "slug": "vis",
     "title": "Vis",
-    "order": 7,
-    "roman": "VII",
+    "order": 6,
+    "roman": "VI",
     "description": "Visgerechten — van zeevis tot schaal- en schelpdieren, bereid met subtiliteit en respect voor het product."
   },
   {
     "slug": "brood",
     "title": "Brood",
-    "order": 8,
-    "roman": "VIII",
+    "order": 7,
+    "roman": "VII",
     "description": "Brood, gebak en gefrituurde gerechten — van klassiek brood tot oliebollen."
   },
   {
     "slug": "overig",
     "title": "Overig",
+    "order": 8,
+    "roman": "VIII",
+    "description": "Preparaten, sauzen en specialiteiten die hun eigen weg gaan."
+  },
+  {
+    "slug": "patisserie",
+    "title": "Patisserie",
     "order": 9,
     "roman": "IX",
-    "description": "Preparaten, sauzen en specialiteiten die hun eigen weg gaan."
+    "description": "Fijn gebak en feestklassiekers — van oliebollen tot verfijnde zoete techniek."
+  },
+  {
+    "slug": "technieken",
+    "title": "Technieken",
+    "order": 10,
+    "roman": "X",
+    "description": "Fundamentele kooktechnieken die elke kok moet beheersen."
   }
 ]

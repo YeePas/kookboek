@@ -130,6 +130,8 @@ tags:
 
 Commit naar main → GitHub Actions bouwt automatisch → site is live.
 
+> **Register:** Het register (trefwoordenindex op ingrediënt) wordt automatisch gegenereerd uit de `ingredienten` van elk recept. Er hoeft niets handmatig bijgewerkt te worden — elk nieuw recept verschijnt automatisch in het register.
+
 ---
 
 ## Veldverklaring
@@ -179,6 +181,7 @@ Huidige categorieën in `src/_data/categories.json`:
 | `vis` | Vis |
 | `brood` | Brood |
 | `overig` | Overig |
+| `patisserie` | Patisserie |
 
 Nieuwe categorie toevoegen: voeg toe aan `categories.json` + `src/admin/config.yml` select widget.
 

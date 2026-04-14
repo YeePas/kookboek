@@ -1,10 +1,10 @@
 ---
 layout: base.njk
-title: Inhoud
+title: Inhoudsopgave
 permalink: inhoud/index.html
 ---
 <div class="page toc-text">
-  <h1>Inhoud</h1>
+  <h1>Inhoudsopgave</h1>
   {% for group in collections.recepten | groupByCategory %}
   <div class="toc-chapter">
     <h2><a href="{{ ('/recepten/' + group.slug + '/') | url }}">{{ group.title }}</a></h2>

@@ -1,0 +1,2 @@
+# Protect critical CMS auth config from accidental changes.
+/src/admin/config.yml @yeepas

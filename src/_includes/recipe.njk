@@ -6,8 +6,6 @@ layout: base.njk
 <div class="page recipe">
   {% if foto %}
   <img class="recipe-hero" src="{{ ('/fotos/' + (foto | cmsImagePath)) | url }}" alt="{{ title }}">
-  {% else %}
-  <div class="recipe-hero-placeholder">Foto volgt</div>
   {% endif %}
   <div class="recipe-nav">
     {% if prev %}

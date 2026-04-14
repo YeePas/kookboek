@@ -1,7 +1,7 @@
 ---
 title: "Oliebollen"
 subtitle: "Verrijkte oliebollen met bier, soezenbeslag en een open, luchtige kruim. Getest en verfijnd over meerdere jaren."
-category: "brood"
+category: "patisserie"
 foto: "oliebollen.jpg"
 pageNumber: 8
 order: 1

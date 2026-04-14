@@ -63,8 +63,10 @@ html, body {
   margin-left: 0;
 }
 .site-nav .brand:hover { color: #fff; }
+.brand-full,
+.nav-inhoud-full { display: inline; }
 .brand-short,
-.nav-inhoud-short { display: none; }
+.nav-inhoud-short { display: none !important; }
 .nav-info {
   font-style: normal;
   font-size: 16px;
@@ -942,9 +944,9 @@ html, body {
   .site-nav a { margin-left: 1rem; font-size: 10px; }
   .site-nav .brand { font-size: 17px; }
   .brand-full,
-  .nav-inhoud-full { display: none; }
+  .nav-inhoud-full { display: none !important; }
   .brand-short,
-  .nav-inhoud-short { display: inline; }
+  .nav-inhoud-short { display: inline !important; }
 
   .cover { padding: 3rem 1.5rem; }
 

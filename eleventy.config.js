@@ -28,6 +28,9 @@ function recipeNumberInBook(recipes, recipe) {
 
 module.exports = function(eleventyConfig) {
 
+  // Build-time asset version for cache busting (same value within one build)
+  eleventyConfig.addGlobalData("assetVersion", Date.now());
+
   // --- Passthrough copy ---
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/admin");

@@ -12,7 +12,7 @@ permalink: inhoud/index.html
     <a class="toc-entry" href="{{ recipe.url | url }}">
       <span class="toc-title">{{ recipe.data.title }}</span>
       <span class="toc-dots"></span>
-      <span class="pagenum">{{ recipe.data.pageNumber }}</span>
+      <span class="pagenum">{{ recipe | recipeNumber }}</span>
     </a>
     {% endfor %}
   </div>

@@ -1,3 +1,31 @@
+const categoriesData = require("./src/_data/categories.json");
+const BOOK_PAGE_OFFSET = 2;
+
+function getCategoryOrder(categories, slug) {
+  const cat = categories.find(c => c.slug === slug);
+  return cat ? Number(cat.order) : 999;
+}
+
+function compareRecipesByBookOrder(a, b, categories) {
+  const categoryDiff = getCategoryOrder(categories, a.data.category) - getCategoryOrder(categories, b.data.category);
+  if (categoryDiff !== 0) return categoryDiff;
+
+  const orderA = Number(a.data.order || 9999);
+  const orderB = Number(b.data.order || 9999);
+  if (orderA !== orderB) return orderA - orderB;
+
+  return String(a.data.title || "").localeCompare(String(b.data.title || ""), "nl");
+}
+
+function sortRecipesForBook(recipes, categories) {
+  return [...recipes].sort((a, b) => compareRecipesByBookOrder(a, b, categories));
+}
+
+function recipeNumberInBook(recipes, recipe) {
+  const idx = recipes.findIndex(r => r.inputPath === recipe.inputPath);
+  return idx >= 0 ? idx + 1 + BOOK_PAGE_OFFSET : null;
+}
+
 module.exports = function(eleventyConfig) {
 
   // --- Passthrough copy ---
@@ -8,8 +36,8 @@ module.exports = function(eleventyConfig) {
 
   // --- Collections ---
   eleventyConfig.addCollection("recepten", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/recepten/*.md")
-      .sort((a, b) => a.data.pageNumber - b.data.pageNumber);
+    const recipes = collectionApi.getFilteredByGlob("src/recepten/*.md");
+    return sortRecipesForBook(recipes, categoriesData);
   });
 
   // --- Filters ---
@@ -49,7 +77,17 @@ module.exports = function(eleventyConfig) {
       if (!groups[catSlug]) groups[catSlug] = { slug: catSlug, title: catData?.title || catSlug, order: catData?.order || 99, recipes: [] };
       groups[catSlug].recipes.push(recipe);
     }
-    return Object.values(groups).sort((a, b) => a.order - b.order);
+    const sortedGroups = Object.values(groups).sort((a, b) => a.order - b.order);
+    return sortedGroups.map(group => ({
+      ...group,
+      recipes: [...group.recipes].sort((a, b) => Number(a.data.order || 9999) - Number(b.data.order || 9999))
+    }));
+  });
+
+  // Global recipe number in book order (1..N)
+  eleventyConfig.addFilter("recipeNumber", function(recipe) {
+    const all = this.ctx.collections.recepten || [];
+    return recipeNumberInBook(all, recipe);
   });
 
   // Build keyword index from recipe collection
@@ -78,7 +116,7 @@ module.exports = function(eleventyConfig) {
       }
       result[result.length - 1].entries.push({
         term,
-        recipes: entries[term].sort((a, b) => a.data.pageNumber - b.data.pageNumber)
+        recipes: sortRecipesForBook(entries[term], this.ctx.categories || categoriesData)
       });
     }
     return result;
@@ -87,15 +125,21 @@ module.exports = function(eleventyConfig) {
   // Get previous recipe in sorted order
   eleventyConfig.addFilter("prevRecipe", function(currentPage) {
     const all = this.ctx.collections.recepten;
-    const idx = all.findIndex(r => r.inputPath === currentPage.inputPath);
-    return idx > 0 ? all[idx - 1] : null;
+    const current = all.find(r => r.inputPath === currentPage.inputPath);
+    if (!current) return null;
+    const inCategory = all.filter(r => r.data.category === current.data.category);
+    const idx = inCategory.findIndex(r => r.inputPath === currentPage.inputPath);
+    return idx > 0 ? inCategory[idx - 1] : null;
   });
 
   // Get next recipe in sorted order
   eleventyConfig.addFilter("nextRecipe", function(currentPage) {
     const all = this.ctx.collections.recepten;
-    const idx = all.findIndex(r => r.inputPath === currentPage.inputPath);
-    return idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
+    const current = all.find(r => r.inputPath === currentPage.inputPath);
+    if (!current) return null;
+    const inCategory = all.filter(r => r.data.category === current.data.category);
+    const idx = inCategory.findIndex(r => r.inputPath === currentPage.inputPath);
+    return idx >= 0 && idx < inCategory.length - 1 ? inCategory[idx + 1] : null;
   });
 
   // Get sorted categories as array (already sorted, just return copy)
@@ -161,7 +205,7 @@ module.exports = function(eleventyConfig) {
       }
       result[result.length - 1].entries.push({
         term: entries[key].term,
-        recipes: entries[key].recipes.sort((a, b) => a.data.pageNumber - b.data.pageNumber)
+        recipes: sortRecipesForBook(entries[key].recipes, this.ctx.categories || categoriesData)
       });
     }
     return result;

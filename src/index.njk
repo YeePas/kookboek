@@ -6,12 +6,17 @@ bodyClass: home
 <div class="cover">
   <h1>Foodnotes</h1>
   <div class="divider"></div>
+  {% if site.showOntdek %}
   <a class="sub" href="#ontdek">{{ collections.recepten | length }} recepten</a>
   <div class="scroll-hint">
     <span>Ontdek</span>
     <span class="scroll-arrow">&darr;</span>
   </div>
+  {% else %}
+  <div class="sub">{{ collections.recepten | length }} recepten</div>
+  {% endif %}
 </div>
+{% if site.showOntdek %}
 <section class="ontdek" id="ontdek">
   <div class="ontdek-header">
     <h2>Ontdek</h2>
@@ -40,3 +45,4 @@ bodyClass: home
     {% endfor %}
   </div>
 </section>
+{% endif %}

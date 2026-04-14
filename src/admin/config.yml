@@ -78,3 +78,17 @@ collections:
         name: "tags"
         widget: "list"
         field: { label: "Tag", name: "tag", widget: "string" }
+
+  - name: "site"
+    label: "Site instellingen"
+    files:
+      - label: "Algemene instellingen"
+        name: "instellingen"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Toon Ontdek op homepage", name: "showOntdek", widget: "boolean", default: true }
+          - { label: "Titel Over mij", name: "overTitle", widget: "string" }
+          - label: "Paragrafen Over mij"
+            name: "overParagraphs"
+            widget: "list"
+            field: { label: "Paragraaf", name: "paragraph", widget: "text" }

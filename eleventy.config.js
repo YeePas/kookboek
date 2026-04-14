@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   // --- Passthrough copy ---
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/admin");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy({ "fotos": "fotos" });
 
   // --- Collections ---

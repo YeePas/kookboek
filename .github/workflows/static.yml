@@ -32,8 +32,6 @@ jobs:
         run: npm ci
       - name: Build with Eleventy
         run: npx @11ty/eleventy
-        env:
-          PATH_PREFIX: /kookboek/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

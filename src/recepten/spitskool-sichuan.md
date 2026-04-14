@@ -2,7 +2,7 @@
 title: "Spitskool Sichuan van Bas"
 subtitle: "Gebraisseerde spitskool met knolselderijpuree, selderijmayonaise, crispy peppers en verkruimelde macadamia. Recept van Bas Visser van Café Klein in Nijmegen."
 category: "groentes"
-foto: "spitskool-sichuan.webp"
+foto: "spitskool-sichuan.jpg"
 pageNumber: 4
 order: 1
 

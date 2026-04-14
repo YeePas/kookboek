@@ -67,6 +67,7 @@ subtitle: "Korte, sfeervolle beschrijving van het gerecht."
 category: "vlees"
 foto: ""
 pageNumber: 7
+order: 1
 
 meta:
   - label: "Personen"
@@ -115,8 +116,15 @@ tags:
 
 ### 4. Foto toevoegen (optioneel)
 
-- **Hero foto:** Kopieer naar `fotos/{slug}.webp` en zet `foto: "{slug}.webp"`
+- **Hero foto:** Kopieer naar `fotos/{slug}.jpg` en zet `foto: "{slug}.jpg"`
 - **Extra foto's:** Kopieer naar `fotos/` en voeg toe aan `extrafotos` array
+- **Pexels API** (gratis foto's): Gebruik de API key `aMq3g2BlsaWaTYEPsK9UKpBaH89dJkAzZE3OQHWATS5QQgWU8QRs6vqF` om foto's te zoeken en downloaden:
+  ```bash
+  # Zoeken
+  curl -s -H "Authorization: API_KEY" "https://api.pexels.com/v1/search?query=ZOEKTERM&per_page=3&orientation=landscape"
+  # Downloaden (gebruik w=800 voor goede kwaliteit)
+  curl -sL "https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=800" -o fotos/slug.jpg
+  ```
 
 ### Klaar!
 
@@ -132,7 +140,8 @@ Commit naar main → GitHub Actions bouwt automatisch → site is live.
 | `subtitle` | ✅ | Korte beschrijving (cursief onder titel) |
 | `category` | ✅ | Slug uit categories.json: `vlees`, `groentes`, `fermenteren` |
 | `foto` | ❌ | Bestandsnaam in `fotos/` voor hero image, `""` voor placeholder |
-| `pageNumber` | ✅ | Uniek volgnummer, bepaalt sortering en prev/next |
+| `pageNumber` | ✅ | Uniek volgnummer, bepaalt globale sortering en prev/next |
+| `order` | ✅ | Volgnummer binnen categorie, getoond in badge (Categorie / 001) |
 | `meta` | ✅ | Array van `{label, value}` paren (meestal 4) |
 | `ingredienten` | ✅ | Array van groepen met `groep` (naam of `""`) en `items` array |
 | `stappen` | ✅ | Array van strings, `**vet**` wordt `<strong>` |
@@ -159,11 +168,17 @@ Gebruik consistente labels. Veelgebruikt:
 
 Huidige categorieën in `src/_data/categories.json`:
 
-| Slug | Titel | Romeins |
-|------|-------|---------|
-| `vlees` | Vlees | I |
-| `groentes` | Groentes | II |
-| `fermenteren` | Fermenteren | III |
+| Slug | Titel |
+|------|-------|
+| `vlees` | Vlees |
+| `groentes` | Groentes |
+| `fermenteren` | Fermenteren |
+| `sauzen` | Sauzen |
+| `desserts` | Desserts |
+| `technieken` | Technieken |
+| `vis` | Vis |
+| `brood` | Brood |
+| `overig` | Overig |
 
 Nieuwe categorie toevoegen: voeg toe aan `categories.json` + `src/admin/config.yml` select widget.
 

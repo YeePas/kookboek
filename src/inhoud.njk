@@ -3,36 +3,18 @@ layout: base.njk
 title: Inhoud
 permalink: inhoud/index.html
 ---
-<div class="page toc">
-  <div class="toc-header">
-    <h1>Inhoud</h1>
-    <p class="toc-subtitle">Alle recepten</p>
-  </div>
-  <div class="toc-grid">
-    {% for recipe in collections.recepten %}
-    <a class="toc-card" href="{{ recipe.url | url }}">
-      {% if recipe.data.foto %}
-      <img src="{{ ('/fotos/' + recipe.data.foto) | url }}" alt="{{ recipe.data.title }}">
-      {% else %}
-      <div class="card-placeholder">Foto volgt</div>
-      {% endif %}
-      <div class="card-body">
-        <div class="card-category">{{ recipe.data.category | categoryTitle }}</div>
-        <div class="card-title">{{ recipe.data.title }}</div>
-        <div class="card-desc">{{ recipe.data.subtitle | truncate(80) }}</div>
-      </div>
+<div class="page toc-text">
+  <h1>Inhoud</h1>
+  {% for group in collections.recepten | groupByCategory %}
+  <div class="toc-chapter">
+    <h2><a href="{{ ('/recepten/' + group.slug + '/') | url }}">{{ group.title }}</a></h2>
+    {% for recipe in group.recipes %}
+    <a class="toc-entry" href="{{ recipe.url | url }}">
+      <span class="toc-title">{{ recipe.data.title }}</span>
+      <span class="toc-dots"></span>
+      <span class="pagenum">{{ recipe.data.pageNumber }}</span>
     </a>
     {% endfor %}
   </div>
-  <div class="toc-list">
-    <h2>Inhoudsopgave</h2>
-    {% for group in collections.recepten | groupByCategory %}
-    <div class="toc-list-category">
-      <h3><a href="{{ ('/recepten/' + group.slug + '/') | url }}">{{ group.title }}</a></h3>
-      {% for recipe in group.recipes %}
-      <a class="toc-list-entry" href="{{ recipe.url | url }}"><span>{{ recipe.data.title }}</span><span class="pagenum">{{ recipe.data.pageNumber }}</span></a>
-      {% endfor %}
-    </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
 </div>

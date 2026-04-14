@@ -107,6 +107,65 @@ module.exports = function(eleventyConfig) {
     return recipes.filter(r => r.data.category === cat);
   });
 
+  // Build ingredient index from recipe collection
+  eleventyConfig.addFilter("buildIngredientIndex", function(recipes) {
+    const UNITS = /^(g|gr|kg|ml|l|dl|cl|el|tl|eetlepels?|theelepels?|stuks?|st|snuf|scheut(?:je)?|bos(?:je)?|takje(?:s)?|plak(?:ken|jes?)?|blad(?:je|eren)?|teen|tenen|cm|mm|druppels?|blik(?:ken|je)?|potje|zakje|pak|klontje|handvol|mespuntje)\.?\s+/i;
+
+    function extractIngredient(raw) {
+      let s = raw.trim();
+      // Remove leading qualifiers
+      s = s.replace(/^(max\.?|ca\.?|evt\.?|circa|ongeveer|eventueel)\s*/i, '');
+      // Remove leading numbers, fractions, ranges
+      s = s.replace(/^[\d.,½⅓⅔¼¾⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞\s/+–-]+/, '');
+      // Remove unit word
+      s = s.replace(UNITS, '');
+      // Clean up leading punctuation
+      s = s.replace(/^[\s,.:]+/, '').trim();
+      // Remove parenthetical notes
+      s = s.replace(/\s*\(.*?\)/g, '').trim();
+      // Remove trailing qualifiers
+      s = s.replace(/\s*(naar smaak|indien nodig|optioneel|naar wens|of meer)$/i, '').trim();
+      // Take first part before comma
+      const ci = s.indexOf(',');
+      if (ci > 0) s = s.substring(0, ci).trim();
+      if (s.length < 2) return null;
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    const entries = {};
+    for (const recipe of recipes) {
+      if (!recipe.data.ingredienten) continue;
+      for (const group of recipe.data.ingredienten) {
+        if (!group.items) continue;
+        for (const item of group.items) {
+          const ingredient = extractIngredient(item);
+          if (!ingredient) continue;
+          const key = ingredient.toLowerCase();
+          if (!entries[key]) entries[key] = { term: ingredient, recipes: [] };
+          if (!entries[key].recipes.find(r => r.inputPath === recipe.inputPath)) {
+            entries[key].recipes.push(recipe);
+          }
+        }
+      }
+    }
+
+    const sorted = Object.keys(entries).sort((a, b) => a.localeCompare(b, 'nl'));
+    const result = [];
+    let currentLetter = null;
+    for (const key of sorted) {
+      const letter = key.charAt(0).toUpperCase();
+      if (letter !== currentLetter) {
+        currentLetter = letter;
+        result.push({ letter, entries: [] });
+      }
+      result[result.length - 1].entries.push({
+        term: entries[key].term,
+        recipes: entries[key].recipes.sort((a, b) => a.data.pageNumber - b.data.pageNumber)
+      });
+    }
+    return result;
+  });
+
   // Exclude admin from template processing (passthrough only)
   eleventyConfig.ignores.add("src/admin/**");
 

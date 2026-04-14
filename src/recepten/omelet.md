@@ -1,9 +1,9 @@
 ---
 title: "Omelet"
-subtitle: "De meest fundamentele eierbereiding — en meteen een van de moeilijkste om perfect te maken. Lichtgeel, zacht van binnen, zonder kleur."
+subtitle: "Lichtgeel, romig van binnen en zonder enige kleur — de Franse omelet is simpel maar onvergevend. Kleur is mislukking."
 category: "technieken"
-foto: "omelet.webp"
-pageNumber: 10
+foto: ""
+pageNumber: 14
 order: 1
 
 meta:
@@ -12,7 +12,7 @@ meta:
   - label: "Voorber."
     value: "2 min"
   - label: "Bereiding"
-    value: "3 min"
+    value: "2 min"
   - label: "Niveau"
     value: "gemiddeld"
 
@@ -25,24 +25,24 @@ ingredienten:
       - "Versgemalen witte peper"
 
 stappen:
-  - "**Eieren kloppen:** Breek de eieren in een kom. Voeg zout en peper toe. Klop los met een vork of garde tot dooier en eiwit volledig gemengd zijn — niet te lang, je hoeft geen lucht in te kloppen."
-  - "**Pan verhitten:** Verhit een omeletpan (Ø 20–22 cm) op hoog vuur. Voeg de boter toe en wacht tot het schuim wegtrekt maar de boter nog niet kleurt."
-  - "**Eimengsel in de pan:** Giet het eimengsel in één keer in de pan. Laat 2–3 seconden staan tot de onderkant begint te stollen."
-  - "**Vouwen:** Trek met de achterkant van een vork of hittevaste spatel de gestolde randen naar het midden terwijl je de pan licht kantelt. Herhaal dit rondom totdat het mengsel nauwelijks nog vloeibaar is, maar de bovenkant nog licht glanzend en vochtig oogt."
-  - "**Serveren:** Tik de pan op het aanrecht zodat de omelet loslaat. Vouw dubbel en laat op een voorverwarmd groot bord glijden. Serveer direct."
+  - "**Eieren kloppen:** Breek de eieren in een kom en voeg zout en peper toe. Klop met een vork tot dooier en eiwit volledig gemengd zijn. Niet opkloppen — je wilt geen lucht erin."
+  - "**Pan verhitten:** Zet een omeletpan (Ø 20–22 cm) op hoog vuur. Voeg de boter toe zodra de pan heet is. Wacht tot het schuim wegtrekt, maar de boter nog niet kleurt."
+  - "**Bakken:** Giet het eimengsel in één keer in de pan. Laat 2–3 seconden stollen op de bodem. Trek met een vork of spatel de gestolde randen naar het midden terwijl je de pan kantelt, zodat het vloeibare ei naar de rand stroomt. Herhaal rondom."
+  - "**Vouwen en serveren:** Stop zodra de bovenkant nog net glanzend en vochtig is — carryover heat maakt hem verder gaar. Tik de pan op het aanrecht om de omelet los te maken, vouw dubbel en laat op een voorverwarmd bord glijden."
 
 tips:
-  - "Kleur = mislukking. Een goede omelet heeft geen bruine korst, alleen een egaal lichtgeel oppervlak."
-  - "Hoog vuur en snelheid zijn essentieel — een omelet is klaar in minder dan 2 minuten."
-  - "De pan moet goed heet zijn vóór de boter erin gaat, maar de boter mag niet bruin worden."
-  - "Wil je een gevulde omelet? Voeg de vulling (kaas, kruiden, champignons) toe vlak voordat je hem dubbel vouwt."
+  - "Een goede omelet heeft geen bruine korst. Lichtgeel en egaal is het doel."
+  - "Hoog vuur en snelheid — een omelet is klaar in minder dan 2 minuten."
+  - "De pan moet heet zijn vóór de boter erin gaat, maar de boter mag absoluut niet bruin worden."
+  - "Vulling (kaas, kruiden, champignons) voeg je toe vlak voor het vouwen."
 
-bron: "Recepten kok lesdag 4"
+bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
 
 tags:
   - "eieren"
   - "techniek"
   - "basis"
-  - "Frans"
+  - "frans"
   - "snel"
+  - "koksopleiding"
 ---

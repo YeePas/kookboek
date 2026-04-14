@@ -1,14 +1,14 @@
 ---
 title: "Vanillesaus"
-subtitle: "Een echte crème anglaise op basis van eidooier, suiker en verse vanille. Zijdezacht en licht gebonden — klassiek bij desserts."
+subtitle: "Crème anglaise — de basis van alle dessertsauzen. Zijdezacht, licht gebonden door eidooier en met echte vanille."
 category: "sauzen"
-foto: "vanillesaus.webp"
-pageNumber: 7
+foto: ""
+pageNumber: 16
 order: 2
 
 meta:
   - label: "Opbrengst"
-    value: "±2 dl"
+    value: "±200 ml"
   - label: "Voorber."
     value: "10 min"
   - label: "Bereiding"
@@ -19,30 +19,30 @@ meta:
 ingredienten:
   - groep: ""
     items:
+      - "200 ml melk"
       - "¼ vanillestokje"
-      - "0,2 l melk"
       - "70 g eidooier (gepasteuriseerd)"
       - "60 g suiker"
 
 stappen:
-  - "**Vanillemelk:** Snijd het vanillestokje in de lengte open en schraap het merg eruit. Doe merg én stokje bij de melk in een klein pannetje. Breng tot aan de kook en laat 10 minuten trekken op laag vuur. Niet verder laten koken."
-  - "**Eidooiermassa:** Meng de eidooier met de suiker in een kom en klop licht op tot het mengsel iets lichter van kleur is."
-  - "**Temperen:** Laat de melk afkoelen tot onder de 60 °C. Verwijder het vanillestokje. Giet de warme melk geleidelijk bij de eidooiermassa terwijl je blijft roeren."
-  - "**Binden:** Giet het mengsel terug in de pan en verwarm op matige warmte, voortdurend roerend met een houten lepel of spatel. Verhit tot de saus begint te binden (max. 72 °C). Boven de 72 °C stollen de eidooiers en schift de saus."
-  - "**Afwerking:** Zeef de saus door een fijne zeef. Laat snel afkoelen door de pan in een kom ijswater te plaatsen. Serveer warm of koud bij desserts."
+  - "**Eidooiermassa:** Meng de eidooier met de suiker en klop licht op."
+  - "**Vanillemelk:** Snijd het vanillestokje open en schraap het merg eruit. Doe merg en stokje bij de melk in een pannetje. Breng tot net aan de kook en laat 10 minuten trekken op laag vuur. Niet verder laten koken — anders kook je te veel vloeistof weg."
+  - "**Tempereren:** Laat de melk afkoelen tot onder 60 °C. Verwijder het vanillestokje. Giet de warme melk bij de eidooiermassa terwijl je blijft roeren."
+  - "**Binden:** Verhit het mengsel op matig vuur en roer continu met een spatel. De saus bindt langzaam. Maximaal 72 °C — daarboven stollen de eidooiers en schift de saus."
+  - "**Afkoelen:** Zeef eventueel door een fijne zeef. Laat de saus snel afkoelen."
 
 tips:
-  - "Controleer de gaarheid met de lepeltest: de saus is goed als je er een streep doorheen kunt trekken die niet terug vloeit."
-  - "Schift de saus toch? Giet hem direct in een koude kom en mix kort met een staafmixer — dat kan soms nog redding brengen."
-  - "Verse vanille maakt het verschil hier; gebruik geen vanille-essence."
+  - "De lepeltest is je controle: trek een streep over de lepelrug — vloeit hij niet terug, dan is de saus gaar."
+  - "72 °C is de harde grens. Gebruik een thermometer als je twijfelt."
+  - "Verse vanille maakt hier het verschil. Vanille-extract is een noodoplossing, essence nooit."
 
-bron: "Recepten kok lesdag 4"
+bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
 
 tags:
   - "saus"
   - "dessert"
   - "vanille"
-  - "eieren"
   - "klassiek"
-  - "crème anglaise"
+  - "eieren"
+  - "koksopleiding"
 ---

@@ -1,16 +1,16 @@
 ---
 title: "Tuile met vanille-ijs"
-subtitle: "Krokante, goudgele tuilekoekjes gevouwen tot een schaaltje — gevuld met vanille-ijs en geserveerd met zelfgemaakte vanillesaus."
+subtitle: "Flinterdunne, krokante koekjes van eiwit en poedersuiker — warm gevormd tot een schaaltje en gevuld met vanille-ijs en echte vanillesaus."
 category: "desserts"
-foto: "tuile-met-vanille-ijs.webp"
-pageNumber: 9
-order: 2
+foto: ""
+pageNumber: 18
+order: 6
 
 meta:
   - label: "Personen"
     value: "2"
   - label: "Voorber."
-    value: "15 min"
+    value: "15 min + 30 min rust"
   - label: "Bereiding"
     value: "20 min"
   - label: "Niveau"
@@ -19,29 +19,28 @@ meta:
 ingredienten:
   - groep: "Tuilebeslag"
     items:
-      - "50 g bloem"
-      - "50 g poedersuiker"
-      - "50 g boter, gesmolten en afgekoeld"
       - "50 g eiwit"
+      - "50 g poedersuiker"
+      - "50 g bloem"
+      - "50 g boter, gesmolten"
   - groep: "Serveren"
     items:
-      - "2 bollen vanille-ijs"
+      - "Vanille-ijs"
       - "Vanillesaus (zie apart recept)"
 
 stappen:
-  - "**Beslag maken:** Klop eiwitten en poedersuiker glad in een kom. Roer de bloem erdoor tot een taaie, egale massa. Giet de gesmolten (afgekoelde) boter erbij en roer tot een soepel beslag. Laat het beslag 15–30 minuten rusten."
-  - "**Vormen:** Verwarm de oven voor op 170 °C. Strijk met een paletmes kleine rondjes beslag (Ø ca. 10 cm) op een bakpapier of siliconenmat. Het beslag moet heel dun zijn — je moet er bijna doorheen kunnen kijken."
-  - "**Bakken:** Bak 6–8 minuten tot de tuiles goudgeel zijn aan de randen en het midden. Houd ze goed in de gaten: ze gaan snel van goed naar verbrand."
-  - "**Vormen:** Haal de tuiles direct van de bakplaat zodra ze uit de oven komen — ze zijn nu pliable. Vouw ze meteen over de bodem van een omgekeerd koffiekopje of bolletje aluminiumfolie. Laat afkoelen en uitharden tot een schaaltje. Wacht je te lang, dan breken ze."
-  - "**Serveren:** Leg een tuile op een dessertbord. Schep er een bol vanille-ijs in. Giet een scheutje vanillesaus ernaast of erover. Serveer direct."
+  - "**Beslag maken:** Roer eiwit en poedersuiker tot een gladde massa. Roer de bloem erdoor tot een taaiachtig mengsel. Giet de gesmolten boter erbij en roer tot een soepel beslag. Laat even rusten."
+  - "**Vormen:** Verwarm de oven voor op 170 °C. Strijk het beslag met een paletmes dun uit tot rondjes op bakpapier of een siliconenmat. Het beslag moet heel dun zijn uitgestreken."
+  - "**Bakken:** Bak tot de tuiles goudgeel zijn. Houd ze goed in de gaten — ze gaan snel van perfect naar verbrand."
+  - "**Direct vormen:** Haal de tuiles meteen van de bakplaat zodra ze uit de oven komen — anders harden ze uit en kun je ze niet meer vormen. Vouw ze over een omgekeerd koffiekopje en laat afkoelen tot een schaaltje."
+  - "**Serveren:** Vul de tuile met een bol vanille-ijs. Serveer op een dessertbord met vanillesaus ernaast."
 
 tips:
-  - "Maak altijd meer tuiles dan je nodig hebt — een paar breken onvermijdelijk."
-  - "Restbeslag bewaar je afgedekt in de koelkast; het blijft 2–3 dagen goed."
-  - "Heb je geen siliconenmat? Bakpapier vetinspuiten werkt ook; tuiles laten makkelijker los."
-  - "Tuiles kunnen een paar uur van tevoren gemaakt worden, maar bewaar ze droog — vocht maakt ze zacht."
+  - "Maak altijd meer tuiles dan nodig — een paar breken onvermijdelijk bij het vormen."
+  - "Timing is alles: te laat van de plaat en ze zijn te hard om te buigen, te vroeg en ze houden geen vorm."
+  - "Bewaar afgekoelde tuiles droog en afgedekt — vocht maakt ze slap."
 
-bron: "Recepten kok lesdag 4"
+bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
 
 tags:
   - "dessert"
@@ -49,5 +48,5 @@ tags:
   - "tuile"
   - "vanille"
   - "klassiek"
-  - "eieren"
+  - "koksopleiding"
 ---

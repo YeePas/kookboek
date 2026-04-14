@@ -3,7 +3,7 @@ const GITHUB_TOKEN_URL = "https://github.com/login/oauth/access_token";
 const STATE_COOKIE = "decap_oauth_state";
 
 function html(status, content) {
-  const payload = JSON.stringify(content);
+  const payload = encodeURIComponent(JSON.stringify(content));
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -15,7 +15,7 @@ function html(status, content) {
       (function() {
         const receiveMessage = (message) => {
           window.opener.postMessage(
-            'authorization:github:${status}:${payload}',
+            'authorization:github:${status}:' + decodeURIComponent('${payload}'),
             message.origin
           );
           window.removeEventListener('message', receiveMessage, false);
@@ -27,6 +27,15 @@ function html(status, content) {
     </script>
   </body>
 </html>`;
+}
+
+function withSecurityHeaders(headers = new Headers(), contentType = "text/plain; charset=UTF-8") {
+  headers.set("content-type", contentType);
+  headers.set("x-content-type-options", "nosniff");
+  headers.set("referrer-policy", "strict-origin-when-cross-origin");
+  headers.set("cache-control", "no-store");
+  headers.set("content-security-policy", "default-src 'none'; script-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; style-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'");
+  return headers;
 }
 
 function getCookie(request, name) {
@@ -78,17 +87,16 @@ async function exchangeCodeForToken(request, env) {
   if (!code) {
     return new Response(html("error", { error: "Missing code" }), {
       status: 400,
-      headers: { "content-type": "text/html; charset=UTF-8" },
+      headers: withSecurityHeaders(new Headers(), "text/html; charset=UTF-8"),
     });
   }
 
   if (!state || !cookieState || state !== cookieState) {
     return new Response(html("error", { error: "Invalid state" }), {
       status: 401,
-      headers: {
-        "content-type": "text/html; charset=UTF-8",
+      headers: withSecurityHeaders(new Headers({
         "Set-Cookie": `${STATE_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
-      },
+      }), "text/html; charset=UTF-8"),
     });
   }
 
@@ -111,21 +119,56 @@ async function exchangeCodeForToken(request, env) {
   if (!response.ok || data.error) {
     return new Response(html("error", data), {
       status: 401,
-      headers: {
-        "content-type": "text/html; charset=UTF-8",
+      headers: withSecurityHeaders(new Headers({
         "Set-Cookie": `${STATE_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
-      },
+      }), "text/html; charset=UTF-8"),
     });
+  }
+
+  if (env.ALLOWED_GITHUB_USERS) {
+    const allowedUsers = String(env.ALLOWED_GITHUB_USERS)
+      .split(",")
+      .map((user) => user.trim().toLowerCase())
+      .filter(Boolean);
+
+    if (allowedUsers.length > 0) {
+      const userResponse = await fetch("https://api.github.com/user", {
+        headers: {
+          authorization: `Bearer ${data.access_token}`,
+          accept: "application/vnd.github+json",
+          "user-agent": "foodnotes-cms-auth",
+        },
+      });
+
+      if (!userResponse.ok) {
+        return new Response(html("error", { error: "Unable to verify GitHub user" }), {
+          status: 401,
+          headers: withSecurityHeaders(new Headers({
+            "Set-Cookie": `${STATE_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
+          }), "text/html; charset=UTF-8"),
+        });
+      }
+
+      const userData = await userResponse.json();
+      const login = String(userData.login || "").toLowerCase();
+      if (!allowedUsers.includes(login)) {
+        return new Response(html("error", { error: "GitHub user is not allowed" }), {
+          status: 403,
+          headers: withSecurityHeaders(new Headers({
+            "Set-Cookie": `${STATE_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
+          }), "text/html; charset=UTF-8"),
+        });
+      }
+    }
   }
 
   return new Response(
     html("success", { token: data.access_token, provider: "github" }),
     {
       status: 200,
-      headers: {
-        "content-type": "text/html; charset=UTF-8",
+      headers: withSecurityHeaders(new Headers({
         "Set-Cookie": `${STATE_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
-      },
+      }), "text/html; charset=UTF-8"),
     }
   );
 }
@@ -143,7 +186,7 @@ export default {
     }
 
     return new Response("Hello from the Foodnotes CMS auth worker.", {
-      headers: { "content-type": "text/plain; charset=UTF-8" },
+      headers: withSecurityHeaders(),
     });
   },
 };

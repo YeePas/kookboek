@@ -1,5 +1,29 @@
 const categoriesData = require("./src/_data/categories.json");
+const Image = require("@11ty/eleventy-img");
 const BOOK_PAGE_OFFSET = 2;
+const byCategoryCache = new WeakMap();
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function normalizeLocalImageSource(src) {
+  if (!src) return "";
+  const input = String(src).trim();
+  if (/^https?:\/\//i.test(input)) return input;
+
+  const withoutLeadingSlash = input.replace(/^\//, "");
+  if (withoutLeadingSlash.startsWith("fotos/")) {
+    return `./${withoutLeadingSlash}`;
+  }
+
+  return input.startsWith("./") ? input : `./${input}`;
+}
 
 function getCategoryOrder(categories, slug) {
   const cat = categories.find(c => c.slug === slug);
@@ -33,6 +57,7 @@ module.exports = function(eleventyConfig) {
 
   // --- Passthrough copy ---
   eleventyConfig.addPassthroughCopy("src/style.css");
+  eleventyConfig.addPassthroughCopy("src/site.js");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy({ "fotos": "fotos" });
@@ -44,6 +69,46 @@ module.exports = function(eleventyConfig) {
   });
 
   // --- Filters ---
+
+  eleventyConfig.addNunjucksAsyncShortcode(
+    "responsiveImage",
+    async function (src, alt = "", sizes = "100vw", className = "", widths = "480,960,1440", loading = "lazy") {
+      if (!src) return "";
+
+      const parsedWidths = String(widths)
+        .split(",")
+        .map((w) => parseInt(w.trim(), 10))
+        .filter((w) => Number.isFinite(w) && w > 0);
+
+      const finalWidths = parsedWidths.length ? parsedWidths : [480, 960, 1440];
+
+      try {
+        const metadata = await Image(normalizeLocalImageSource(src), {
+          widths: finalWidths,
+          formats: ["avif", "webp", "jpeg"],
+          urlPath: "/img/",
+          outputDir: "./_site/img/",
+          filenameFormat: (id, imageSrc, width, format) => {
+            const baseName = imageSrc.split("/").pop().split(".")[0];
+            return `${baseName}-${width}w.${format}`;
+          },
+        });
+
+        const imageAttributes = {
+          alt,
+          sizes,
+          loading,
+          decoding: "async",
+          class: className || undefined,
+        };
+
+        return Image.generateHTML(metadata, imageAttributes, { whitespaceMode: "inline" });
+      } catch (error) {
+        const cls = className ? ` class=\"${escapeHtml(className)}\"` : "";
+        return `<img src=\"${escapeHtml(src)}\" alt=\"${escapeHtml(alt)}\" loading=\"${escapeHtml(loading)}\" decoding=\"async\"${cls}>`;
+      }
+    }
+  );
 
   // Zero-pad numbers: {{ 5 | pad(3) }} → "005"
   eleventyConfig.addFilter("pad", (num, width) => {
@@ -61,7 +126,14 @@ module.exports = function(eleventyConfig) {
   // Inline markdown: convert **bold** to <strong>bold</strong>
   eleventyConfig.addFilter("mdInline", (text) => {
     if (!text) return "";
-    return text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    const escaped = String(text)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+
+    return escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   });
 
   // Normalize CMS image paths so both "kimchi.webp" and "/fotos/kimchi.webp" work.
@@ -89,8 +161,14 @@ module.exports = function(eleventyConfig) {
 
   // Global recipe number in book order (1..N)
   eleventyConfig.addFilter("recipeNumber", function(recipe) {
-    const all = this.ctx.collections.recepten || [];
-    return recipeNumberInBook(all, recipe);
+    if (!this.ctx._recipeNumberMap) {
+      const all = this.ctx.collections.recepten || [];
+      const map = new Map();
+      all.forEach((r, idx) => map.set(r.inputPath, idx + 1 + BOOK_PAGE_OFFSET));
+      this.ctx._recipeNumberMap = map;
+    }
+
+    return this.ctx._recipeNumberMap.get(recipe.inputPath) || null;
   });
 
   // Build keyword index from recipe collection
@@ -152,7 +230,18 @@ module.exports = function(eleventyConfig) {
 
   // Filter recipes by category
   eleventyConfig.addFilter("byCategory", function(recipes, cat) {
-    return recipes.filter(r => r.data.category === cat);
+    let grouped = byCategoryCache.get(recipes);
+    if (!grouped) {
+      grouped = new Map();
+      for (const recipe of recipes) {
+        const key = recipe.data.category;
+        if (!grouped.has(key)) grouped.set(key, []);
+        grouped.get(key).push(recipe);
+      }
+      byCategoryCache.set(recipes, grouped);
+    }
+
+    return grouped.get(cat) || [];
   });
 
   // Build ingredient index from recipe collection

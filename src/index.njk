@@ -34,7 +34,7 @@ bodyClass: home
     {% for recipe in collections.recepten %}
     {% if recipe.data.foto %}
     <a class="toc-card" href="{{ recipe.url | url }}" data-category="{{ recipe.data.category }}">
-      <img src="{{ ('/fotos/' + recipe.data.foto) | url }}" alt="{{ recipe.data.title }}" loading="lazy">
+      {% responsiveImage '/fotos/' + (recipe.data.foto | cmsImagePath), recipe.data.title, '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', '', '360,720,1080', 'lazy' %}
       <div class="card-body">
         <div class="card-category">{{ recipe.data.category | categoryTitle }}</div>
         <div class="card-title">{{ recipe.data.title }}</div>
@@ -43,6 +43,9 @@ bodyClass: home
     </a>
     {% endif %}
     {% endfor %}
+  </div>
+  <div class="ontdek-more-wrap">
+    <button id="ontdek-load-more" class="ontdek-load-more" type="button">Laad meer recepten</button>
   </div>
 </section>
 {% endif %}

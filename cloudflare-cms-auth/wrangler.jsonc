@@ -8,6 +8,7 @@
     "enabled": true
   },
   "vars": {
-    "GITHUB_SCOPE": "public_repo read:user"
+    "GITHUB_SCOPE": "public_repo read:user",
+    "ALLOWED_GITHUB_USERS": ""
   }
 }

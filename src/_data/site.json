@@ -3,8 +3,8 @@
   "overTitle": "Over mij",
   "cloudflareWebAnalyticsToken": "",
   "navRegisterLabel": "Register",
-  "showOntdek": false,
-  "navShowOntdek": false,
+  "showOntdek": true,
+  "navShowOntdek": true,
   "navInhoudLabel": "Inhoudsopgave",
   "overParagraphs": [
     "Mijn naam is Joep Willemsen en ik houd van koken. Hier verzamel ik alles wat ik tegenkom - eigenlijk is dit mijn persoonlijk kookboek en notitieboek.",

@@ -1,6 +1,6 @@
 ---
 title: "Soezenbeslag"
-subtitle: "Klassiek pâte à choux — luchtig en hol van binnen, perfect voor soezen, éclairs of als verrijking van oliebollenbeslag."
+subtitle: "De basis voor soezen, éclairs en profiteroles: een warm beslag dat op het vuur wordt geroerd tot het loslaat. Op de koksopleiding gedemonstreerd als kerntechniek bij nagerechten."
 category: "brood"
 foto: "soezenbeslag.jpg"
 pageNumber: 11
@@ -41,7 +41,7 @@ tips:
   - "Vul de soezen met chocolademousse, banketbakkersroom of slagroom."
   - "Soezen kunnen ook ingevroren worden — ontdooi op kamertemperatuur en crisp kort op in de oven."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bakken"

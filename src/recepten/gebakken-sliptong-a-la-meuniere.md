@@ -1,6 +1,6 @@
 ---
 title: "Gebakken sliptong à la meunière"
-subtitle: "Een smaakvol gerecht met sliptong, bloem, boter, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Sliptong door de bloem gehaald en gebakken in bruisende boter met citroen en peterselie — à la meunière, de klassieke Franse visbereiding. Op de koksopleiding het hoofdgerecht van de visles."
 category: "vis"
 foto: "gebakken-sliptong-a-la-meuniere.jpg"
 pageNumber: 63
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "sliptong"

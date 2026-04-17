@@ -1,6 +1,6 @@
 ---
 title: "Limoencake"
-subtitle: "Een verzorgd dessert met boter, lichtbruine basterdsuiker, eieren, waarin smaak en textuur mooi samenkomen."
+subtitle: "Een sappige citroencake naar recept van Jamie Oliver, op de koksopleiding gebakken als onderdeel van de les over degen en beslagen."
 category: "desserts"
 foto: "limoencake.jpg"
 pageNumber: 47
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "cake"

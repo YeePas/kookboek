@@ -1,6 +1,6 @@
 ---
 title: "Sinaasappel met sabayon"
-subtitle: "Warme, schuimige sabayon van eidooier, witte wijn en Marsala — opgeklopt au bain-marie en direct geserveerd over verse sinaasappel."
+subtitle: "Uitgesneden sinaasappelpartjes met een luchtige, warm opgeklopte sabayon van eidooier, suiker en witte wijn. Op de koksopleiding geleerd als oefening in het werken met eieren."
 category: "desserts"
 foto: "sinaasappel-met-sabayon.jpg"
 pageNumber: 17
@@ -39,7 +39,7 @@ tips:
   - "Zoete wijn of Marsala geeft een rijkere smaak, witte port werkt ook."
   - "Hoe langer je klopt, hoe luchtiger het resultaat. Neem de tijd."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

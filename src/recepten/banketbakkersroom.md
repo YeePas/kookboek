@@ -1,6 +1,6 @@
 ---
 title: "Banketbakkersroom"
-subtitle: "Klassieke crème pâtissière — romig, vanillezoet en veelzijdig als vulling voor soezen, éclairs en taarten."
+subtitle: "Een romige crème pâtissière op basis van melk, eidooier en vanille. Op de koksopleiding de standaardvulling voor soezen en éclairs."
 category: "desserts"
 foto: "banketbakkersroom.jpg"
 pageNumber: 13
@@ -39,7 +39,7 @@ tips:
   - "Folie direct op het oppervlak drukken is essentieel tegen velvorming."
   - "Gebruik als vulling voor soezen, éclairs of als basis voor fruittaarten."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

@@ -1,6 +1,6 @@
 ---
 title: "Tuile met vanille-ijs"
-subtitle: "Flinterdunne, krokante koekjes van eiwit en poedersuiker — warm gevormd tot een schaaltje en gevuld met vanille-ijs en echte vanillesaus."
+subtitle: "Een krokante tuile gevormd over een koffiekopje, gevuld met vanille-ijs en geserveerd met echte vanillesaus. Op de koksopleiding het sluitstuk van de eierenles."
 category: "desserts"
 foto: "tuile-met-vanille-ijs.jpg"
 pageNumber: 18
@@ -40,7 +40,7 @@ tips:
   - "Timing is alles: te laat van de plaat en ze zijn te hard om te buigen, te vroeg en ze houden geen vorm."
   - "Bewaar afgekoelde tuiles droog en afgedekt — vocht maakt ze slap."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

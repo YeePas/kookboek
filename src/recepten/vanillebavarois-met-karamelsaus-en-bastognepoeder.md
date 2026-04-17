@@ -1,6 +1,6 @@
 ---
 title: "Vanillebavarois met karamelsaus en Bastognepoeder"
-subtitle: "Een verzorgd dessert met melk, slagroom, gelatine, waarin smaak en textuur mooi samenkomen."
+subtitle: "Een licht trillende vanillebavarois met blonde karamelsaus en krokant Bastognepoeder. Op de koksopleiding het nagerecht van het driegangenmenu in lesdag 12."
 category: "desserts"
 foto: "vanillebavarois-met-karamelsaus-en-bastognepoeder.jpg"
 pageNumber: 46
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bavarois"

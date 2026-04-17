@@ -1,6 +1,6 @@
 ---
 title: "Aardbeienbavarois"
-subtitle: "Een verzorgd dessert met 250 g aardbeienpuree (convenience), 80 g suiker, 250 ml ongezoete slagroom, waarin smaak en textuur mooi samenkomen."
+subtitle: "Een lichte bavarois van aardbeienpuree, slagroom en gelatine. Op de koksopleiding het eerste nagerecht waarbij je de techniek van hangend verwerken leert."
 category: "desserts"
 foto: "aardbeienbavarois.jpg"
 pageNumber: 9
@@ -40,7 +40,7 @@ tips:
   - "Serveer puur, zonder garnering of slagroom — laat de bavarois spreken."
   - "Kan ook met andere fruitpurees: framboos, mango of passievrucht."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

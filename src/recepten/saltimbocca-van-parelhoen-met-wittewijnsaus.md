@@ -1,6 +1,6 @@
 ---
 title: "Saltimbocca van parelhoen met wittewijnsaus"
-subtitle: "Een klassieke saus met parelhoenfilet, rauwe ham, salie, bedoeld om een gerecht glans, frisheid en diepte te geven."
+subtitle: "Parelhoenfilet gewikkeld in rauwe ham en salie, afgeblust met witte wijn. Deze Italiaanse klassieker staat op de koksopleiding bij de les over het driegangenmenu."
 category: "vlees"
 foto: "saltimbocca-van-parelhoen-met-wittewijnsaus.jpg"
 pageNumber: 45
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "parelhoen"

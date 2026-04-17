@@ -1,6 +1,6 @@
 ---
 title: "Geroosterde bloemkoolsteak met chimichurri"
-subtitle: "Een smaakvol gerecht met bloemkool, olijfolie, knoflook, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Een stevige bloemkoolsteak uit de oven met een pittige, verse chimichurri. Op de koksopleiding onderdeel van een volledig vegetarisch viergangenmenu."
 category: "groentes"
 foto: "geroosterde-bloemkoolsteak-met-chimichurri.jpg"
 pageNumber: 39
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bloemkool"

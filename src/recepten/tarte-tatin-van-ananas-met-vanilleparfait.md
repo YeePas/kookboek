@@ -1,6 +1,6 @@
 ---
 title: "Tarte tatin van ananas met vanilleparfait"
-subtitle: "Een verzorgd dessert met ananas, bladerdeeg, suiker, waarin smaak en textuur mooi samenkomen."
+subtitle: "Gekaramelliseerde ananas op krokant bladerdeeg, geserveerd met vanilleparfait. Op de koksopleiding het nagerecht van het afsluitende viergangenmenu."
 category: "desserts"
 foto: "tarte-tatin-van-ananas-met-vanilleparfait.jpg"
 pageNumber: 70
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "tarte tatin"

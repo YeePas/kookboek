@@ -1,6 +1,6 @@
 ---
 title: "Hollandse appeltaart"
-subtitle: "Een verzorgd dessert met bloem, boter, suiker, waarin smaak en textuur mooi samenkomen."
+subtitle: "De oer-Hollandse appeltaart met kruimelig deeg, kaneel en schijfjes goudrenet. Op de koksopleiding het recept waarmee je leert werken met zanddeeg."
 category: "patisserie"
 foto: "hollandse-appeltaart.jpg"
 pageNumber: 48
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "appeltaart"

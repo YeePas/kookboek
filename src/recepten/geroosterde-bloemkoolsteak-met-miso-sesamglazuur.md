@@ -1,6 +1,6 @@
 ---
 title: "Geroosterde bloemkoolsteak met miso-sesamglazuur"
-subtitle: "Een smaakvol gerecht met bloemkool, witte miso, sojasaus, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Dikke plakken bloemkool met een umami-rijk glazuur van miso en sesam. Op de koksopleiding onderdeel van een viergangenmenu met Aziatische invloeden."
 category: "groentes"
 foto: "geroosterde-bloemkoolsteak-met-miso-sesamglazuur.jpg"
 pageNumber: 53
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bloemkool"

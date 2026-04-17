@@ -1,6 +1,6 @@
 ---
 title: "French dressing"
-subtitle: "Een klassieke basis uit de warme en koude keuken, handig om altijd in de vingers te hebben."
+subtitle: "De allereerste vinaigrette die je op de koksopleiding leert maken — een simpele emulsie van azijn, olie en mosterd die de basis vormt voor vrijwel elke salade."
 category: "sauzen"
 foto: "french-dressing.jpg"
 pageNumber: 20
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dressing"

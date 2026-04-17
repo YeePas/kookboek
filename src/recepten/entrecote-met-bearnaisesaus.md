@@ -1,6 +1,6 @@
 ---
 title: "Entrecôte met bearnaisesaus"
-subtitle: "Een klassieke saus met entrecôte, bearnaisesaus, haricots verts, bedoeld om een gerecht glans, frisheid en diepte te geven."
+subtitle: "Een dubbele entrecôte met klassieke béarnaisesaus, pommes sautées en haricots verts. Op de koksopleiding het hoofdgerecht van het afsluitende menu — de ultieme vleestest."
 category: "vlees"
 foto: "entrecote-met-bearnaisesaus.jpg"
 pageNumber: 69
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "entrecote"

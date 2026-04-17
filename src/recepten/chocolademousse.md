@@ -1,6 +1,6 @@
 ---
 title: "Chocolademousse"
-subtitle: "Rijke chocolademousse van Harry Mercuur — pure couverture met Italiaans schuim en slagroom voor een fluweelzachte textuur."
+subtitle: "Een intense chocolademousse naar recept van patissier Harry Mercuur. Op de koksopleiding het paradepaardje van de les over koude nagerechten."
 category: "desserts"
 foto: "chocolademousse.jpg"
 pageNumber: 10
@@ -41,7 +41,7 @@ tips:
   - "De mousse kan ook gebruikt worden om soezen mee te vullen."
   - "Au bain-marie: zorg dat de kom niet in aanraking komt met het water."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

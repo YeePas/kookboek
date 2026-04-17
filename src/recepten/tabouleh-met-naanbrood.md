@@ -1,6 +1,6 @@
 ---
 title: "Tabouleh met naanbrood"
-subtitle: "Een smaakvol gerecht met bulgur, peterselie, munt, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Een Midden-Oosterse bulgursalade met veel verse kruiden, geserveerd met warm naanbrood. Op de koksopleiding onderdeel van een les over internationale keukens."
 category: "overig"
 foto: "tabouleh-met-naanbrood.jpg"
 pageNumber: 32
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "tabouleh"

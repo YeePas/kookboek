@@ -1,6 +1,6 @@
 ---
 title: "Kaneelparfait met karamelsaus"
-subtitle: "Een verzorgd dessert met slagroom, eidooier, suiker, waarin smaak en textuur mooi samenkomen."
+subtitle: "Een bevroren parfait met kaneel en vanille, geserveerd met warme karamelsaus. Op de koksopleiding het dessert bij de les over het verwerken van gevogelte."
 category: "desserts"
 foto: "kaneelparfait-met-karamelsaus.jpg"
 pageNumber: 60
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "parfait"

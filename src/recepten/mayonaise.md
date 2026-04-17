@@ -1,6 +1,6 @@
 ---
 title: "Mayonaise"
-subtitle: "Een klassieke basis uit de warme en koude keuken, handig om altijd in de vingers te hebben."
+subtitle: "Zelf mayonaise maken is een van de eerste technieken op de koksopleiding: met geduld, een garde en een stabiele hand leer je de koude emulsie beheersen."
 category: "sauzen"
 foto: "mayonaise.jpg"
 pageNumber: 21
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "saus"

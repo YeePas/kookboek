@@ -1,6 +1,6 @@
 ---
 title: "Tomatenbouillon"
-subtitle: "Een heldere en smaakvolle bouillon getrokken van tomaten, ui, selderij, ideaal als basis voor verdere bereidingen."
+subtitle: "Een heldere tomatenbouillon die op de koksopleiding wordt behandeld als variant op de klassieke bouillontechnieken — licht, fris en vol tomatensmaak."
 category: "technieken"
 foto: "tomatenbouillon.jpg"
 pageNumber: 31
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bouillon"

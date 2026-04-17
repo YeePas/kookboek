@@ -1,6 +1,6 @@
 ---
 title: "Pasteitje met gevogelteragout"
-subtitle: "Een smaakvol gerecht met pasteibakjes, gevogelte, room, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Krokante pasteibakjes gevuld met romige gevogelteragout en champignons. Op de koksopleiding het hoofdgerecht bij de kippenles, met zelfgetrokken bouillon als basis."
 category: "vlees"
 foto: "pasteitje-met-gevogelteragout.jpg"
 pageNumber: 59
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "ragout"

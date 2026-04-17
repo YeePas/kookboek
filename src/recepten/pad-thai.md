@@ -1,6 +1,6 @@
 ---
 title: "Pad Thai"
-subtitle: "Een karaktervol gerecht met rijstnoedels, vissaus, sojasaus, waarbij techniek en timing het verschil maken."
+subtitle: "Thaise roergebakken rijstnoedels met ei, taugé en pinda’s. Op de koksopleiding geïntroduceerd als streetfoodgerecht bij de les over internationale keukens."
 category: "overig"
 foto: "pad-thai.jpg"
 pageNumber: 52
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "pad thai"

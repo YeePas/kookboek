@@ -1,6 +1,6 @@
 ---
 title: "Rabarber crumble met yoghurtijs"
-subtitle: "Een verzorgd dessert met rabarber, suiker, bloem, waarin smaak en textuur mooi samenkomen."
+subtitle: "Warme rabarbercrumble met een krokante kruimellaag, geserveerd met fris yoghurtijs. Op de koksopleiding het nagerecht bij de les over vleesbereidingen."
 category: "desserts"
 foto: "rabarber-crumble-met-yoghurtijs.jpg"
 pageNumber: 66
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "rabarber"

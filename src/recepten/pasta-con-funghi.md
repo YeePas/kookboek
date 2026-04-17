@@ -1,6 +1,6 @@
 ---
 title: "Pasta con funghi"
-subtitle: "Een karaktervol gerecht met pasta, gemengde paddenstoelen, knoflook, waarbij techniek en timing het verschil maken."
+subtitle: "Verse pasta met een mengsel van seizoenspaddenstoelen, knoflook en Parmezaan. Op de koksopleiding onderdeel van de Italiaanse les over pasta en risotto."
 category: "overig"
 foto: "pasta-con-funghi.jpg"
 pageNumber: 51
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "pasta"

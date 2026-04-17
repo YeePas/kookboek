@@ -1,6 +1,6 @@
 ---
 title: "Focaccia"
-subtitle: "Een karaktervol gerecht met bloem, gist, water, waarbij techniek en timing het verschil maken."
+subtitle: "Een luchtig Italiaans platbrood met olijfolie en rozemarijn. Op de koksopleiding gebakken als onderdeel van de les over gistdegen en broodbereiding."
 category: "brood"
 foto: "focaccia.jpg"
 pageNumber: 49
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "brood"

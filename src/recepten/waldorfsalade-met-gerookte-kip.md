@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade met gerookte kip"
-subtitle: "Een frisse en smaakvolle salade met knolselderij, appel, walnoten, perfect als lichte lunch of verfijnd voorgerecht."
+subtitle: "De Waldorfsalade opnieuw, nu met gerookte kipfilet, knolselderij en walnoten. Op de koksopleiding het voorgerecht van het afsluitende viergangenmenu."
 category: "vlees"
 foto: "waldorfsalade-met-gerookte-kip.jpg"
 pageNumber: 67
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "waldorf"

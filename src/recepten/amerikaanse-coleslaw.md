@@ -1,6 +1,6 @@
 ---
 title: "Amerikaanse coleslaw"
-subtitle: "Een smaakvol gerecht met witte kool, wortel, mayonaise, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "De Amerikaanse koolsalade die op de koksopleiding wordt gebruikt om snijtechnieken als julienne te oefenen, met een romige dressing van mayonaise en een vleugje zuur."
 category: "groentes"
 foto: "amerikaanse-coleslaw.jpg"
 pageNumber: 24
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "coleslaw"

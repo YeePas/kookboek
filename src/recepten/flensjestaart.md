@@ -1,6 +1,6 @@
 ---
 title: "Flensjestaart"
-subtitle: "Afwisselend gestapelde vanille- en chocoladeflensjes met chocolademousse — een elegant, eenvoudig dessert."
+subtitle: "Laagjes dunne crêpes afgewisseld met banketbakkersroom en fruit — een feestelijk nagerecht dat op de koksopleiding de flensjes- en roomtechniek combineert."
 category: "desserts"
 foto: "flensjestaart.jpg"
 pageNumber: 12
@@ -43,7 +43,7 @@ tips:
   - "Hoe dunner de flensjes, hoe eleganter het resultaat."
   - "Kan een dag van tevoren gemaakt worden — wordt alleen maar beter."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "dessert"

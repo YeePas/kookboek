@@ -1,6 +1,6 @@
 ---
 title: "Risotto al mare"
-subtitle: "Een karaktervol gerecht met risottorijst, vis of schaal- en schelpdieren, witte wijn, waarbij techniek en timing het verschil maken."
+subtitle: "Een romige risotto met vis en zeevruchten in de Italiaanse traditie. Op de koksopleiding het hoofdgerecht bij de les over pasta- en rijstbereidingen."
 category: "vis"
 foto: "risotto-al-mare.jpg"
 pageNumber: 50
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Blijf regelmatig roeren en voeg de bouillon in delen toe voor een romige korrel."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "risotto"

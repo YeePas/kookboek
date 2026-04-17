@@ -1,6 +1,6 @@
 ---
 title: "Ceviche van zeebaars"
-subtitle: "Een smaakvol gerecht met zeebaars, limoen, rode ui, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Rauwe zeebaars gemarineerd in limoen met rode ui, koriander en avocado. Op de koksopleiding onderdeel van een driegangenmenu met vis als rode draad."
 category: "vis"
 foto: "ceviche-van-zeebaars.jpg"
 pageNumber: 44
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "ceviche"

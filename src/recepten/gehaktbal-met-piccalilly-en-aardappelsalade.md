@@ -1,6 +1,6 @@
 ---
 title: "Gehaktbal met piccalilly en aardappelsalade"
-subtitle: "Een frisse en smaakvolle salade met half-om-halfgehakt, ei, paneermeel, perfect als lichte lunch of verfijnd voorgerecht."
+subtitle: "Een stevige Nederlandse gehaktbal met zelfgemaakte piccalilly en frisse aardappelsalade. Op de koksopleiding een oefening in het bereiden en op smaak brengen van gehakt."
 category: "vlees"
 foto: "gehaktbal-met-piccalilly-en-aardappelsalade.jpg"
 pageNumber: 43
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "gehaktbal"

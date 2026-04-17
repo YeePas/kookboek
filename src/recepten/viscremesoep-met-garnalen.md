@@ -1,6 +1,6 @@
 ---
 title: "Viscrèmesoep met garnalen"
-subtitle: "Een volle, verwarmende soep op basis van boter, bloem, visbouillon, mooi in balans en prettig van structuur."
+subtitle: "Een fluwelen gebonden vissoep met Noorse garnalen, room en verse dille. Op de koksopleiding bereid als tweede gang van het eindmenu."
 category: "vis"
 foto: "viscremesoep-met-garnalen.jpg"
 pageNumber: 68
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "vissoep"

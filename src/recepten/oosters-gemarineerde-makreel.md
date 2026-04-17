@@ -1,6 +1,6 @@
 ---
 title: "Oosters gemarineerde makreel"
-subtitle: "Een smaakvol gerecht met makreel, komkommer, radijs, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Verse makreel gemarineerd in sojasaus en sushiazijn, met zoetzure komkommer en wasabimayonaise. Op de koksopleiding het voorgerecht bij de visles."
 category: "vis"
 foto: "oosters-gemarineerde-makreel.jpg"
 pageNumber: 61
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "makreel"

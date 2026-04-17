@@ -1,6 +1,6 @@
 ---
 title: "Slaatje 2.0"
-subtitle: "Een smaakvol gerecht met aardappelbrunoise, courgette, sjalot, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Een eigentijdse salade met aardappelbrunoise, gegrilde courgette en gepocheerd ei. Op de koksopleiding bedoeld om meerdere technieken tegelijk te combineren."
 category: "overig"
 foto: "slaatje-2-0.jpg"
 pageNumber: 28
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "salade"

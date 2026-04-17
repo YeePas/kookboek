@@ -1,6 +1,6 @@
 ---
 title: "Vitello tonnato"
-subtitle: "Een smaakvol gerecht met kalfsvlees, tonijn uit blik, mayonaise, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Dun gesneden kalfsvlees met een romige tonijnsaus, kappertjes en ansjovis. Een Italiaans-Piemontese klassieker, op de koksopleiding bereid als koud voorgerecht."
 category: "vlees"
 foto: "vitello-tonnato.jpg"
 pageNumber: 64
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "vitello tonnato"

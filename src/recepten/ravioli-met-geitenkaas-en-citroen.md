@@ -1,6 +1,6 @@
 ---
 title: "Ravioli met geitenkaas en citroen"
-subtitle: "Een karaktervol gerecht met verse ravioli, geitenkaas, citroen, waarbij techniek en timing het verschil maken."
+subtitle: "Zelfgemaakte ravioli gevuld met geitenkaas en citroen, geserveerd met hazelnootboter en krokante salie. Op de koksopleiding het pastaonderdeel van een viergangenmenu."
 category: "overig"
 foto: "ravioli-met-geitenkaas-en-citroen.jpg"
 pageNumber: 55
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "ravioli"

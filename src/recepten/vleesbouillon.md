@@ -1,6 +1,6 @@
 ---
 title: "Vleesbouillon"
-subtitle: "Een heldere en smaakvolle bouillon getrokken van runderbotten, rundvlees, wortel, ideaal als basis voor verdere bereidingen."
+subtitle: "Een krachtige runderbouillon op basis van gepinceerde botten en mirepoix. Op de koksopleiding leer je hiermee de basis van extractie en smaakopbouw."
 category: "technieken"
 foto: "vleesbouillon.jpg"
 pageNumber: 30
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bouillon"

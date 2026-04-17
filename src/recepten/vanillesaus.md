@@ -1,6 +1,6 @@
 ---
 title: "Vanillesaus"
-subtitle: "Crème anglaise — de basis van alle dessertsauzen. Zijdezacht, licht gebonden door eidooier en met echte vanille."
+subtitle: "Crème anglaise — de moeder aller dessertsauzen, gebonden door eidooier en geparfumeerd met echt vanillemerg. Op de koksopleiding een onmisbare basistechniek."
 category: "sauzen"
 foto: "vanillesaus.jpg"
 pageNumber: 16
@@ -36,7 +36,7 @@ tips:
   - "72 °C is de harde grens. Gebruik een thermometer als je twijfelt."
   - "Verse vanille maakt hier het verschil. Vanille-extract is een noodoplossing, essence nooit."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "saus"

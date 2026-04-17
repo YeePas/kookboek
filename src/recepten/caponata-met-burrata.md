@@ -1,6 +1,6 @@
 ---
 title: "Caponata met burrata"
-subtitle: "Een smaakvol gerecht met aubergine, courgette, bleekselderij, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Een Siciliaans groentegerecht met gefrituurde aubergine, zoetzure smaken en romige burrata. Via gastdocent Aggy Kan op de koksopleiding op het menu gekomen."
 category: "groentes"
 foto: "caponata-met-burrata.jpg"
 pageNumber: 26
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "caponata"

@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade"
-subtitle: "Een frisse en smaakvolle salade met appel, knolselderij, walnoten, perfect als lichte lunch of verfijnd voorgerecht."
+subtitle: "Een klassieke Amerikaanse salade uit 1893, oorspronkelijk bedacht in het Waldorf Hotel in New York. Op de koksopleiding een van de eerste oefeningen in snijtechnieken en salade-opbouw."
 category: "overig"
 foto: "waldorfsalade.jpg"
 pageNumber: 22
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "salade"

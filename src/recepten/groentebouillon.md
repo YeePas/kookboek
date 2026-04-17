@@ -1,6 +1,6 @@
 ---
 title: "Groentebouillon"
-subtitle: "Een heldere en smaakvolle bouillon getrokken van wortel, ui, prei, ideaal als basis voor verdere bereidingen."
+subtitle: "De eerste bouillon die je op de koksopleiding trekt: groenten rustig laten trekken in water, zonder te koken, zodat je een helder en zuiver resultaat krijgt."
 category: "technieken"
 foto: "groentebouillon.jpg"
 pageNumber: 29
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "bouillon"

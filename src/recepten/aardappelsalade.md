@@ -1,6 +1,6 @@
 ---
 title: "Aardappelsalade"
-subtitle: "Een frisse en smaakvolle salade met vastkokende aardappelen, augurk, sjalot, perfect als lichte lunch of verfijnd voorgerecht."
+subtitle: "Een eerlijke, Nederlandse aardappelsalade zoals je die op de koksopleiding leert — met vastkokende aardappelen, augurk en een goed afgesmaakte dressing."
 category: "overig"
 foto: "aardappelsalade.jpg"
 pageNumber: 23
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "salade"

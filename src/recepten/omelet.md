@@ -1,6 +1,6 @@
 ---
 title: "Omelet"
-subtitle: "Lichtgeel, romig van binnen en zonder enige kleur — de Franse omelet is simpel maar onvergevend. Kleur is mislukking."
+subtitle: "De eerste praktijkopdracht op de koksopleiding: een luchtige omelet op basis van drie eieren, waarbij kleur en gaarheid allesbepalend zijn."
 category: "technieken"
 foto: "omelet.jpg"
 pageNumber: 14
@@ -36,7 +36,7 @@ tips:
   - "De pan moet heet zijn vóór de boter erin gaat, maar de boter mag absoluut niet bruin worden."
   - "Vulling (kaas, kruiden, champignons) voeg je toe vlak voor het vouwen."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "eieren"

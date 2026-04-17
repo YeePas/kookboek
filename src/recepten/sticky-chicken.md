@@ -1,6 +1,6 @@
 ---
 title: "Sticky chicken"
-subtitle: "Een smaakvol gerecht met kipdijfilet, honing, sojasaus, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Kipdijfilet in een kleverig glazuur van honing, sojasaus en ketchup. Op de koksopleiding bereid als onderdeel van de les waarin een hele kip op drie manieren wordt verwerkt."
 category: "vlees"
 foto: "sticky-chicken.jpg"
 pageNumber: 57
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "kip"

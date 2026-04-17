@@ -1,6 +1,6 @@
 ---
 title: "Quinoasalade met feta, komkommer en hummus"
-subtitle: "Een frisse en smaakvolle salade met quinoa, feta, komkommer, perfect als lichte lunch of verfijnd voorgerecht."
+subtitle: "Een moderne vegetarische salade met quinoa, feta en zelfgemaakte hummus — op de koksopleiding gebruikt als voorbeeld van een eigentijds groentemenu."
 category: "groentes"
 foto: "quinoasalade-met-feta-komkommer-en-hummus.jpg"
 pageNumber: 34
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "quinoa"

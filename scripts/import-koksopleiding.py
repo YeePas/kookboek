@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RECIPES_DIR = ROOT / "src" / "recepten"
 PHOTOS_DIR = ROOT / "fotos"
 PEXELS_API_KEY = "aMq3g2BlsaWaTYEPsK9UKpBaH89dJkAzZE3OQHWATS5QQgWU8QRs6vqF"
-SOURCE_NAME = "Koksopleiding Midden Nederland"
+SOURCE_NAME = "Koksopleiding ROC Midden Nederland"
 
 RECIPES = [
     {

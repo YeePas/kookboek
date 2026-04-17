@@ -1,6 +1,6 @@
 ---
 title: "Tomatensoep klassiek"
-subtitle: "Een volle, verwarmende soep op basis van boter, bloem, tomatenpuree, mooi in balans en prettig van structuur."
+subtitle: "Een klassieke gebonden tomatensoep met tomatenpuree, roux en verse mirepoix. Op de koksopleiding het standaardrecept bij de les over warme soepen."
 category: "groentes"
 foto: "tomatensoep-klassiek.jpg"
 pageNumber: 38
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "soep"

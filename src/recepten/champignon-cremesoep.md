@@ -1,6 +1,6 @@
 ---
 title: "Champignon-crèmesoep"
-subtitle: "Een volle, verwarmende soep op basis van champignons, boter, bloem, mooi in balans en prettig van structuur."
+subtitle: "Een fluwelen champignonsoep gebonden met een roux en afgewerkt met room. Op de koksopleiding gebruikt om roux-techniek en het puréren van soepen te oefenen."
 category: "groentes"
 foto: "champignon-cremesoep.jpg"
 pageNumber: 37
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "soep"

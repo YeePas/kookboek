@@ -1,6 +1,6 @@
 ---
 title: "Klassieke steak tartaar"
-subtitle: "Een smaakvol gerecht met ossenhaas of biefstuk, kappertjes, cornichons, uitgewerkt tot een helder en goed navolgbaar recept."
+subtitle: "Handgesneden ossenhaas met kappertjes, cornichons en een rauwe eidooier — de klassieker onder de koude vleesbereidingen, op de koksopleiding geleerd als oefening in snijtechniek en balans."
 category: "vlees"
 foto: "klassieke-steak-tartaar.jpg"
 pageNumber: 41
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding Midden Nederland"
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "steak tartaar"

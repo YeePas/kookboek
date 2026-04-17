@@ -1,6 +1,6 @@
 ---
 title: "Limoencake"
-subtitle: "Een verzorgd nagerecht uit de koksopleiding met focus op smaak, textuur en een nette opmaak."
+subtitle: "Een verzorgd dessert met boter, lichtbruine basterdsuiker, eieren, waarin smaak en textuur mooi samenkomen."
 category: "desserts"
 foto: "limoencake.jpg"
 pageNumber: 47
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."
 
-bron: "Koksopleiding — lesdag 13"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "cake"

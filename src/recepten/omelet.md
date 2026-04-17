@@ -36,7 +36,7 @@ tips:
   - "De pan moet heet zijn vóór de boter erin gaat, maar de boter mag absoluut niet bruin worden."
   - "Vulling (kaas, kruiden, champignons) voeg je toe vlak voor het vouwen."
 
-bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "eieren"

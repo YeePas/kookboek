@@ -1,6 +1,6 @@
 ---
 title: "Salade met geitenkaas en frambozendressing"
-subtitle: "Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor salade met geitenkaas en frambozendressing."
+subtitle: "Een frisse en smaakvolle salade met geitenkaas, mesclun, kerstomaten, perfect als lichte lunch of verfijnd voorgerecht."
 category: "overig"
 foto: "salade-met-geitenkaas-en-frambozendressing.jpg"
 pageNumber: 27
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."
 
-bron: "Koksopleiding — lesdag 2"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "salade"

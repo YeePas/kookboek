@@ -1,6 +1,6 @@
 ---
 title: "Kaneelparfait met karamelsaus"
-subtitle: "Een verzorgd nagerecht uit de koksopleiding met focus op smaak, textuur en een nette opmaak."
+subtitle: "Een verzorgd dessert met slagroom, eidooier, suiker, waarin smaak en textuur mooi samenkomen."
 category: "desserts"
 foto: "kaneelparfait-met-karamelsaus.jpg"
 pageNumber: 60
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 17"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "parfait"

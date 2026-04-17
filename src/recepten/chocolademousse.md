@@ -41,7 +41,7 @@ tips:
   - "De mousse kan ook gebruikt worden om soezen mee te vullen."
   - "Au bain-marie: zorg dat de kom niet in aanraking komt met het water."
 
-bron: "Koksopleiding — Lesdag 5: Koude nagerechten (recept Harry Mercuur)"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

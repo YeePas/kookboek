@@ -43,7 +43,7 @@ tips:
   - "Hoe dunner de flensjes, hoe eleganter het resultaat."
   - "Kan een dag van tevoren gemaakt worden — wordt alleen maar beter."
 
-bron: "Koksopleiding — Lesdag 5: Koude nagerechten"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

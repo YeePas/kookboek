@@ -1,6 +1,6 @@
 ---
 title: "Oosters gemarineerde makreel"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met makreel, komkommer, radijs, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vis"
 foto: "oosters-gemarineerde-makreel.jpg"
 pageNumber: 61
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 18"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "makreel"

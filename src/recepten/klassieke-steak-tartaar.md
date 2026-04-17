@@ -1,6 +1,6 @@
 ---
 title: "Klassieke steak tartaar"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met ossenhaas of biefstuk, kappertjes, cornichons, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vlees"
 foto: "klassieke-steak-tartaar.jpg"
 pageNumber: 41
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 11"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "steak tartaar"

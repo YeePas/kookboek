@@ -1,6 +1,6 @@
 ---
 title: "Pasta con funghi"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een karaktervol gerecht met pasta, gemengde paddenstoelen, knoflook, waarbij techniek en timing het verschil maken."
 category: "overig"
 foto: "pasta-con-funghi.jpg"
 pageNumber: 51
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 14"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "pasta"

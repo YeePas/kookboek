@@ -41,7 +41,7 @@ tips:
   - "Vul de soezen met chocolademousse, banketbakkersroom of slagroom."
   - "Soezen kunnen ook ingevroren worden — ontdooi op kamertemperatuur en crisp kort op in de oven."
 
-bron: "Koksopleiding — Lesdag 5: Koude nagerechten"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "bakken"

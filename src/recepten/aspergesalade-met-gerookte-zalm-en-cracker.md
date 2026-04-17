@@ -1,6 +1,6 @@
 ---
 title: "Aspergesalade met gerookte zalm en cracker"
-subtitle: "Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor aspergesalade met gerookte zalm en cracker."
+subtitle: "Een frisse en smaakvolle salade met groene asperges, gerookte zalm, komkommer, perfect als lichte lunch of verfijnd voorgerecht."
 category: "vis"
 foto: "aspergesalade-met-gerookte-zalm-en-cracker.jpg"
 pageNumber: 33
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 3"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "asperge"

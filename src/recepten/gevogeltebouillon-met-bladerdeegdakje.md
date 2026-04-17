@@ -1,6 +1,6 @@
 ---
 title: "Gevogeltebouillon met bladerdeegdakje"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een heldere en smaakvolle bouillon getrokken van gevogeltebouillon, kip of parelhoen, groenten, ideaal als basis voor verdere bereidingen."
 category: "vlees"
 foto: "gevogeltebouillon-met-bladerdeegdakje.jpg"
 pageNumber: 58
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding — lesdag 17"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "bouillon"

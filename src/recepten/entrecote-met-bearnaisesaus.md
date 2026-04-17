@@ -1,6 +1,6 @@
 ---
 title: "Entrecôte met bearnaisesaus"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een klassieke saus met entrecôte, bearnaisesaus, haricots verts, bedoeld om een gerecht glans, frisheid en diepte te geven."
 category: "vlees"
 foto: "entrecote-met-bearnaisesaus.jpg"
 pageNumber: 69
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 20"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "entrecote"

@@ -40,7 +40,7 @@ tips:
   - "Timing is alles: te laat van de plaat en ze zijn te hard om te buigen, te vroeg en ze houden geen vorm."
   - "Bewaar afgekoelde tuiles droog en afgedekt — vocht maakt ze slap."
 
-bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

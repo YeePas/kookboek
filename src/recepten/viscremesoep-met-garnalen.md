@@ -1,6 +1,6 @@
 ---
 title: "Viscrèmesoep met garnalen"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een volle, verwarmende soep op basis van boter, bloem, visbouillon, mooi in balans en prettig van structuur."
 category: "vis"
 foto: "viscremesoep-met-garnalen.jpg"
 pageNumber: 68
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 20"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "vissoep"

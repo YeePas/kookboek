@@ -1,6 +1,6 @@
 ---
 title: "Flensje met sinaasappelsaus en Grand Marnier"
-subtitle: "Een verzorgd nagerecht uit de koksopleiding met focus op smaak, textuur en een nette opmaak."
+subtitle: "Een verzorgd dessert met flensjes, sinaasappelsap, suiker, waarin smaak en textuur mooi samenkomen."
 category: "desserts"
 foto: "flensje-met-sinaasappelsaus-en-grand-marnier.jpg"
 pageNumber: 35
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 3"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

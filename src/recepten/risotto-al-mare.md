@@ -1,6 +1,6 @@
 ---
 title: "Risotto al mare"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een karaktervol gerecht met risottorijst, vis of schaal- en schelpdieren, witte wijn, waarbij techniek en timing het verschil maken."
 category: "vis"
 foto: "risotto-al-mare.jpg"
 pageNumber: 50
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Blijf regelmatig roeren en voeg de bouillon in delen toe voor een romige korrel."
 
-bron: "Koksopleiding — lesdag 14"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "risotto"

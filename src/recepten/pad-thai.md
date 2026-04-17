@@ -1,6 +1,6 @@
 ---
 title: "Pad Thai"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een karaktervol gerecht met rijstnoedels, vissaus, sojasaus, waarbij techniek en timing het verschil maken."
 category: "overig"
 foto: "pad-thai.jpg"
 pageNumber: 52
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 14"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "pad thai"

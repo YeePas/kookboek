@@ -1,6 +1,6 @@
 ---
 title: "Gebakken biefstuk met paddenstoelen en rode-ui-relish"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met biefstuk, paddenstoelen, rode ui, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vlees"
 foto: "gebakken-biefstuk-met-paddenstoelen-en-rode-ui-relish.jpg"
 pageNumber: 42
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 11"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "biefstuk"

@@ -1,6 +1,6 @@
 ---
 title: "Focaccia"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een karaktervol gerecht met bloem, gist, water, waarbij techniek en timing het verschil maken."
 category: "brood"
 foto: "focaccia.jpg"
 pageNumber: 49
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 13"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "brood"

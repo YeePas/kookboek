@@ -39,7 +39,7 @@ tips:
   - "Folie direct op het oppervlak drukken is essentieel tegen velvorming."
   - "Gebruik als vulling voor soezen, éclairs of als basis voor fruittaarten."
 
-bron: "Koksopleiding — Lesdag 5: Koude nagerechten"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

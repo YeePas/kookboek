@@ -1,6 +1,6 @@
 ---
 title: "Romige pompoensoep met kokos en gember"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een volle, verwarmende soep op basis van pompoen, ui, gember, mooi in balans en prettig van structuur."
 category: "groentes"
 foto: "romige-pompoensoep-met-kokos-en-gember.jpg"
 pageNumber: 40
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 10"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "soep"

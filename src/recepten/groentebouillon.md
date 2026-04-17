@@ -1,6 +1,6 @@
 ---
 title: "Groentebouillon"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een heldere en smaakvolle bouillon getrokken van wortel, ui, prei, ideaal als basis voor verdere bereidingen."
 category: "technieken"
 foto: "groentebouillon.jpg"
 pageNumber: 29
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding — lesdag 3"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "bouillon"

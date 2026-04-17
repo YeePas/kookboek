@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade"
-subtitle: "Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor waldorfsalade."
+subtitle: "Een frisse en smaakvolle salade met appel, knolselderij, walnoten, perfect als lichte lunch of verfijnd voorgerecht."
 category: "overig"
 foto: "waldorfsalade.jpg"
 pageNumber: 22
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 1"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "salade"

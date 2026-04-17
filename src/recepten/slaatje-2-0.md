@@ -1,6 +1,6 @@
 ---
 title: "Slaatje 2.0"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met aardappelbrunoise, courgette, sjalot, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "overig"
 foto: "slaatje-2-0.jpg"
 pageNumber: 28
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 2"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "salade"

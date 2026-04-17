@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RECIPES_DIR = ROOT / "src" / "recepten"
 PHOTOS_DIR = ROOT / "fotos"
 PEXELS_API_KEY = "aMq3g2BlsaWaTYEPsK9UKpBaH89dJkAzZE3OQHWATS5QQgWU8QRs6vqF"
+SOURCE_NAME = "Koksopleiding Midden Nederland"
 
 RECIPES = [
     {
@@ -483,17 +484,28 @@ def meta_for(category: str, title: str):
     ]
 
 
-def subtitle_for(title: str, category: str):
+def subtitle_for(title: str, category: str, ingredients: list[str] | None = None):
     low = title.lower()
+    items = ingredients or []
+    top = ", ".join(items[:3]) if items else "mooie smaakmakers"
+
     if "salade" in low:
-        return f"Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor {title.lower()}."
-    if "soep" in low or "bouillon" in low:
-        return f"Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
-    if category == "desserts":
-        return f"Een verzorgd nagerecht uit de koksopleiding met focus op smaak, textuur en een nette opmaak."
-    if category == "sauzen":
-        return f"Een klassieke basis uit de warme en koude keuken, handig om altijd in de vingers te hebben."
-    return f"Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+        return f"Een frisse en smaakvolle salade met {top}, perfect als lichte lunch of verfijnd voorgerecht."
+    if "dressing" in low:
+        return f"Een klassieke vinaigrette met {top} die bijna elke salade direct meer diepte geeft."
+    if "mayonaise" in low:
+        return f"Een romige basissaus met {top}, onmisbaar in de koude keuken."
+    if "soep" in low:
+        return f"Een volle, verwarmende soep op basis van {top}, mooi in balans en prettig van structuur."
+    if "bouillon" in low:
+        return f"Een heldere en smaakvolle bouillon getrokken van {top}, ideaal als basis voor verdere bereidingen."
+    if any(k in low for k in ["bavarois", "parfait", "crumble", "cake", "taart", "tatin", "moelleux", "sabayon", "flensje"]):
+        return f"Een verzorgd dessert met {top}, waarin smaak en textuur mooi samenkomen."
+    if any(k in low for k in ["saus", "hollandaise", "bearnaise"]):
+        return f"Een klassieke saus met {top}, bedoeld om een gerecht glans, frisheid en diepte te geven."
+    if any(k in low for k in ["risotto", "pasta", "ravioli", "pad thai", "focaccia"]):
+        return f"Een karaktervol gerecht met {top}, waarbij techniek en timing het verschil maken."
+    return f"Een smaakvol gerecht met {top}, uitgewerkt tot een helder en goed navolgbaar recept."
 
 
 def steps_for(title: str, category: str):
@@ -579,11 +591,11 @@ def download_photo(query: str, slug: str) -> str:
 
 
 def render_recipe(recipe: dict, page_number: int, order: int, photo: str) -> str:
-    subtitle = recipe.get("subtitle") or subtitle_for(recipe["title"], recipe["category"])
+    ingredients = recipe["ingredients"]
+    subtitle = recipe.get("subtitle") or subtitle_for(recipe["title"], recipe["category"], ingredients)
     meta = recipe.get("meta") or meta_for(recipe["category"], recipe["title"])
     steps = recipe.get("steps") or steps_for(recipe["title"], recipe["category"])
     tips = recipe.get("tips") or tips_for(recipe["title"])
-    ingredients = recipe["ingredients"]
     tags = recipe["tags"]
 
     lines = [
@@ -613,7 +625,7 @@ def render_recipe(recipe: dict, page_number: int, order: int, photo: str) -> str
     for tip in tips:
         lines.append(f'  - "{tip}"')
 
-    lines.extend(["", f'bron: "{recipe["source"]}"', "", "tags:"])
+    lines.extend(["", f'bron: "{SOURCE_NAME}"', "", "tags:"])
     for tag in tags:
         lines.append(f'  - "{tag}"')
     lines.extend(["---", ""])

@@ -1,6 +1,6 @@
 ---
 title: "Ravioli met geitenkaas en citroen"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een karaktervol gerecht met verse ravioli, geitenkaas, citroen, waarbij techniek en timing het verschil maken."
 category: "overig"
 foto: "ravioli-met-geitenkaas-en-citroen.jpg"
 pageNumber: 55
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 16"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "ravioli"

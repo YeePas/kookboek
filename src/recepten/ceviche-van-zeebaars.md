@@ -1,6 +1,6 @@
 ---
 title: "Ceviche van zeebaars"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met zeebaars, limoen, rode ui, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vis"
 foto: "ceviche-van-zeebaars.jpg"
 pageNumber: 44
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 12"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "ceviche"

@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."
 
-bron: "Koksopleiding — lesdag 1"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "saus"

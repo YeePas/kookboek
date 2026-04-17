@@ -1,6 +1,6 @@
 ---
 title: "Kippenbouillon"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een heldere en smaakvolle bouillon getrokken van kippenpoten, mirepoix, foelie, ideaal als basis voor verdere bereidingen."
 category: "technieken"
 foto: "kippenbouillon.jpg"
 pageNumber: 36
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
 
-bron: "Koksopleiding — lesdag 6"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "bouillon"

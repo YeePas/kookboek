@@ -1,6 +1,6 @@
 ---
 title: "Salade Niçoise"
-subtitle: "Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor salade niçoise."
+subtitle: "Een frisse en smaakvolle salade met tonijnfilet, tomaat, haricots verts, perfect als lichte lunch of verfijnd voorgerecht."
 category: "vis"
 foto: "salade-nicoise.jpg"
 pageNumber: 25
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 2"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "salade"

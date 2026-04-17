@@ -1,6 +1,6 @@
 ---
 title: "Pasteitje met gevogelteragout"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met pasteibakjes, gevogelte, room, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vlees"
 foto: "pasteitje-met-gevogelteragout.jpg"
 pageNumber: 59
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 17"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "ragout"

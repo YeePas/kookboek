@@ -1,6 +1,6 @@
 ---
 title: "Rilette van gepocheerde zalm met crostini en bieslookcrème"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met verse zalm, gerookte zalm, crème fraîche, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vis"
 foto: "rilette-van-gepocheerde-zalm-met-crostini-en-bieslookcreme.jpg"
 pageNumber: 62
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 18"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "rilette"

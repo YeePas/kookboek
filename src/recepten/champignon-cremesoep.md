@@ -1,6 +1,6 @@
 ---
 title: "Champignon-crèmesoep"
-subtitle: "Een smaakvolle basisbereiding uit de koksopleiding — ideaal om techniek, extractie en balans te oefenen."
+subtitle: "Een volle, verwarmende soep op basis van champignons, boter, bloem, mooi in balans en prettig van structuur."
 category: "groentes"
 foto: "champignon-cremesoep.jpg"
 pageNumber: 37
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 6"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "soep"

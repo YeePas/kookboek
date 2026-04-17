@@ -1,6 +1,6 @@
 ---
 title: "Caponata met burrata"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met aubergine, courgette, bleekselderij, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "groentes"
 foto: "caponata-met-burrata.jpg"
 pageNumber: 26
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 2"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "caponata"

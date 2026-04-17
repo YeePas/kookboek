@@ -1,6 +1,6 @@
 ---
 title: "Moelleux au chocolat"
-subtitle: "Een verzorgd nagerecht uit de koksopleiding met focus op smaak, textuur en een nette opmaak."
+subtitle: "Een verzorgd dessert met pure chocolade, boter, suiker, waarin smaak en textuur mooi samenkomen."
 category: "desserts"
 foto: "moelleux-au-chocolat.jpg"
 pageNumber: 56
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."
 
-bron: "Koksopleiding — lesdag 16"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "chocolade"

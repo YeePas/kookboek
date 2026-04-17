@@ -1,6 +1,6 @@
 ---
 title: "Sticky chicken"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met kipdijfilet, honing, sojasaus, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vlees"
 foto: "sticky-chicken.jpg"
 pageNumber: 57
@@ -36,7 +36,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 17"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "kip"

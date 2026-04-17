@@ -1,6 +1,6 @@
 ---
 title: "Krokante polenta met paddenstoelen, truffelcrème en cavolo nero"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met polenta, paddenstoelen, truffelcrème, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "groentes"
 foto: "krokante-polenta-met-paddenstoelen-truffelcreme-en-cavolo-nero.jpg"
 pageNumber: 54
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 16"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "polenta"

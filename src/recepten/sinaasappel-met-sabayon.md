@@ -39,7 +39,7 @@ tips:
   - "Zoete wijn of Marsala geeft een rijkere smaak, witte port werkt ook."
   - "Hoe langer je klopt, hoe luchtiger het resultaat. Neem de tijd."
 
-bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "dessert"

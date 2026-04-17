@@ -1,6 +1,6 @@
 ---
 title: "Hollandse appeltaart"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een verzorgd dessert met bloem, boter, suiker, waarin smaak en textuur mooi samenkomen."
 category: "patisserie"
 foto: "hollandse-appeltaart.jpg"
 pageNumber: 48
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."
 
-bron: "Koksopleiding — lesdag 13"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "appeltaart"

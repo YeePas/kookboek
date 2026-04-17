@@ -36,7 +36,7 @@ tips:
   - "72 °C is de harde grens. Gebruik een thermometer als je twijfelt."
   - "Verse vanille maakt hier het verschil. Vanille-extract is een noodoplossing, essence nooit."
 
-bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "saus"

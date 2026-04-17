@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade met gerookte kip"
-subtitle: "Een frisse klassieker uit de koksopleiding, herschreven tot een helder en goed navolgbaar recept voor waldorfsalade met gerookte kip."
+subtitle: "Een frisse en smaakvolle salade met knolselderij, appel, walnoten, perfect als lichte lunch of verfijnd voorgerecht."
 category: "vlees"
 foto: "waldorfsalade-met-gerookte-kip.jpg"
 pageNumber: 67
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 20"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "waldorf"

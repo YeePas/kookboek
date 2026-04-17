@@ -1,6 +1,6 @@
 ---
 title: "Lamskoteletjes met rode biet, pastinaak en wortel"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met lamsrack, rode biet, pastinaak, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "vlees"
 foto: "lamskoteletjes-met-rode-biet-pastinaak-en-wortel.jpg"
 pageNumber: 65
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 19"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "lam"

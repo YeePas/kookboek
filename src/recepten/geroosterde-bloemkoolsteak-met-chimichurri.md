@@ -1,6 +1,6 @@
 ---
 title: "Geroosterde bloemkoolsteak met chimichurri"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met bloemkool, olijfolie, knoflook, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "groentes"
 foto: "geroosterde-bloemkoolsteak-met-chimichurri.jpg"
 pageNumber: 39
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 10"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "bloemkool"

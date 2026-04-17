@@ -1,6 +1,6 @@
 ---
 title: "Amerikaanse coleslaw"
-subtitle: "Een gerecht uit de koksopleiding dat netjes is omgezet naar het vaste Foodnotes-formaat."
+subtitle: "Een smaakvol gerecht met witte kool, wortel, mayonaise, uitgewerkt tot een helder en goed navolgbaar recept."
 category: "groentes"
 foto: "amerikaanse-coleslaw.jpg"
 pageNumber: 24
@@ -35,7 +35,7 @@ stappen:
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
 
-bron: "Koksopleiding — lesdag 1"
+bron: "Koksopleiding Midden Nederland"
 
 tags:
   - "coleslaw"

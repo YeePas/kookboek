@@ -1,6 +1,6 @@
 ---
-title: "Sauce Hollandaise"
-subtitle: "Warme emulsie van eidooier en geclarificeerde boter op een basis van gastrique — de koningin van de warme sauzen."
+title: "Hollandaisesaus"
+subtitle: "Een klassieke warme botersaus op basis van gastric, geklaarde boter en eidooier. Onmisbaar in de Franse keuken bij vis en asperges — een warme variant van mayonaise, maar dan met boter in plaats van olie."
 category: "sauzen"
 foto: "sauce-hollandaise.jpg"
 pageNumber: 15
@@ -12,45 +12,37 @@ meta:
   - label: "Voorber."
     value: "10 min"
   - label: "Bereiding"
-    value: "20 min"
+    value: "10 min"
   - label: "Niveau"
-    value: "gevorderd"
+    value: "gemiddeld"
 
 ingredienten:
-  - groep: "Gastrique"
+  - groep: ""
     items:
-      - "25 g sjalot, fijngesneden"
-      - "½ laurierblad"
-      - "5 witte peperkorrels, gekneusd"
-      - "50 ml blanke azijn"
-      - "50 ml water"
-  - groep: "Hollandaise"
-    items:
-      - "75 g eidooier (gepasteuriseerd)"
-      - "Max. 200 g boter, geclarificeerd"
-      - "Zout en witte peper"
-      - "Citroensap naar smaak"
+      - "5 eidooiers"
+      - "50 ml gastric op basis van witte wijn"
+      - "200 ml geklaarde boter"
+      - "1 scheutje wittewijnazijn of citroensap, naar smaak"
+      - "1 snuf zout"
+      - "versgemalen peper"
 
 stappen:
-  - "**Gastrique maken:** Breng sjalot, laurier, peperkorrels, azijn en water aan de kook. Laat inkoken tot de helft van de vloeistof over is. Zeef en laat volledig afkoelen."
-  - "**Boter clarificeren:** Smelt de boter op laag vuur. Schep het witte schuim eraf. Giet de heldere gele boter af en laat het melkige bezinksel achter. Houd warm, niet heet."
-  - "**Au bain-marie opkloppen:** Doe de eidooier met de afgekoelde gastrique in een kom boven een pan met zachtjes kokend water. Klop krachtig met een garde tot het mengsel dik, luchtig en lichtgeel is. Houd onder 75 °C — daarboven stolt de dooier."
-  - "**Boter emulgeren:** Haal de kom van het vuur. Voeg de geclarificeerde boter eerst druppelsgewijs toe terwijl je blijft kloppen. Zodra de emulsie stabiel is, mag je in een dun straaltje gieten."
-  - "**Afmaken:** Breng op smaak met zout, witte peper en eventueel een paar druppels citroensap. Serveer direct in een verwarmde saucière."
+  - "**Basis voorbereiden:** Klop de eidooiers met een garde los in een hittebestendige kom en voeg de gastric toe. Hang de kom in een pan met zachtjes kokend water au bain-marie."
+  - "**Kloppen tot sliert:** Klop de massa met een garde tot de juiste dikte en gaarheid — dat is wanneer de saus in een sliert aan de garde blijft hangen."
+  - "**Boter erdoor roeren:** Neem de kom van de pan af en roer, nu niet meer kloppen, de geklaarde boter er druppelsgewijs doorheen zodat een romige saus ontstaat."
+  - "**Op smaak brengen:** Breng de saus op smaak met zout, peper en een scheutje wittewijnazijn of citroensap. Serveer direct."
 
 tips:
-  - "Temperatuur is alles: boven 75 °C stolt de eidooier en schift de saus."
-  - "Schift het toch? Begin opnieuw met een verse dooier au bain-marie en voeg de geschiftte saus druppelsgewijs toe als vervanging voor de boter."
-  - "De gastrique geeft het kenmerkende lichte zuur — sla deze stap niet over."
-  - "Direct serveren. Warmhouden kan kort op ~50 °C, maar niet langer dan een uur."
-
-bron: "Koksopleiding — Lesdag 4: Gerechten met eieren"
+  - "Zorg dat de kom het water niet raakt tijdens het kloppen; te veel hitte laat de dooiers schiften."
+  - "Als de saus toch schift, klop dan een extra eidooier los in een schone kom en voeg de geschifte saus er druppelsgewijs weer aan toe."
+  - "Houd de saus lauwwarm tot serveren; opnieuw sterk verwarmen is niet mogelijk."
+  - "Heerlijk bij gepocheerde vis, asperges of eggs benedict."
 
 tags:
+  - "hollandaise"
   - "saus"
   - "klassiek"
+  - "asperges"
+  - "vis"
   - "frans"
-  - "botersaus"
-  - "eieren"
-  - "koksopleiding"
 ---

@@ -247,6 +247,7 @@ module.exports = function(eleventyConfig) {
   // Build ingredient index from recipe collection
   eleventyConfig.addFilter("buildIngredientIndex", function(recipes) {
     const UNITS = /^(g|gr|kg|ml|l|dl|cl|el|tl|eetlepels?|theelepels?|stuks?|st|snuf|scheut(?:je)?|bos(?:je)?|takje(?:s)?|plak(?:ken|jes?)?|blad(?:je|eren)?|teen|tenen|cm|mm|druppels?|blik(?:ken|je)?|potje|zakje|pak|klontje|handvol|mespuntje)\.?\s+/i;
+    const EXCLUDED_INGREDIENTS = new Set(["peper en zout", "zout en peper"]);
 
     function extractIngredient(raw) {
       let s = raw.trim();
@@ -278,6 +279,7 @@ module.exports = function(eleventyConfig) {
           const ingredient = extractIngredient(item);
           if (!ingredient) continue;
           const key = ingredient.toLowerCase();
+          if (EXCLUDED_INGREDIENTS.has(key)) continue;
           if (!entries[key]) entries[key] = { term: ingredient, recipes: [] };
           if (!entries[key].recipes.find(r => r.inputPath === recipe.inputPath)) {
             entries[key].recipes.push(recipe);

@@ -4,6 +4,7 @@
   "cloudflareWebAnalyticsToken": "",
   "navRegisterLabel": "Register",
   "showOntdek": true,
+  "showOntdekFotos": true,
   "navShowOntdek": true,
   "navInhoudLabel": "Inhoudsopgave",
   "overParagraphs": [

@@ -1,6 +1,6 @@
 ---
 title: "Aspergesalade met gerookte zalm en cracker"
-subtitle: "Een voorjaarsalade met gegrilde asperges, gerookte zalm en een zelfgemaakte lijnzaadcracker. Op de koksopleiding gecombineerd met een les over garnituren."
+subtitle: "Een voorjaarsalade met gegrilde asperges, gerookte zalm en een zelfgemaakte lijnzaadcracker."
 category: "vis"
 foto: "aspergesalade-met-gerookte-zalm-en-cracker.jpg"
 pageNumber: 33

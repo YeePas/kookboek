@@ -1,6 +1,6 @@
 ---
 title: "Viscrèmesoep met garnalen"
-subtitle: "Een fluwelen gebonden vissoep met Noorse garnalen, room en verse dille. Op de koksopleiding bereid als tweede gang van het eindmenu."
+subtitle: "Een fluwelen gebonden vissoep met Noorse garnalen, room en verse dille."
 category: "vis"
 foto: "viscremesoep-met-garnalen.jpg"
 pageNumber: 68

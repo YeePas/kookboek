@@ -1,6 +1,6 @@
 ---
 title: "Gebakken biefstuk met paddenstoelen en rode-ui-relish"
-subtitle: "Een sappige biefstuk met gebakken paddenstoelen en zoetzure rode-ui-relish. Op de koksopleiding het standaardgerecht om vlees bakken en bijpassende sauzen te oefenen."
+subtitle: "Een sappige biefstuk met gebakken paddenstoelen en zoetzure rode-ui-relish."
 category: "vlees"
 foto: "gebakken-biefstuk-met-paddenstoelen-en-rode-ui-relish.jpg"
 pageNumber: 42

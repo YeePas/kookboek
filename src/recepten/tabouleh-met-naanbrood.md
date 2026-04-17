@@ -1,6 +1,6 @@
 ---
 title: "Tabouleh met naanbrood"
-subtitle: "Een Midden-Oosterse bulgursalade met veel verse kruiden, geserveerd met warm naanbrood. Op de koksopleiding onderdeel van een les over internationale keukens."
+subtitle: "Een Midden-Oosterse bulgursalade met veel verse kruiden, geserveerd met warm naanbrood."
 category: "overig"
 foto: "tabouleh-met-naanbrood.jpg"
 pageNumber: 32

@@ -1,6 +1,6 @@
 ---
 title: "Rabarber crumble met yoghurtijs"
-subtitle: "Warme rabarbercrumble met een krokante kruimellaag, geserveerd met fris yoghurtijs. Op de koksopleiding het nagerecht bij de les over vleesbereidingen."
+subtitle: "Warme rabarbercrumble met een krokante kruimellaag, geserveerd met fris yoghurtijs."
 category: "desserts"
 foto: "rabarber-crumble-met-yoghurtijs.jpg"
 pageNumber: 66

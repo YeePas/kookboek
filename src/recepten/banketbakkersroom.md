@@ -1,6 +1,6 @@
 ---
 title: "Banketbakkersroom"
-subtitle: "Een romige crème pâtissière op basis van melk, eidooier en vanille. Op de koksopleiding de standaardvulling voor soezen en éclairs."
+subtitle: "Een romige crème pâtissière op basis van melk, eidooier en vanille."
 category: "desserts"
 foto: "banketbakkersroom.jpg"
 pageNumber: 13
@@ -46,5 +46,4 @@ tags:
   - "basis"
   - "room"
   - "vulling"
-  - "koksopleiding"
 ---

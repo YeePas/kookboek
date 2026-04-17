@@ -1,6 +1,6 @@
 ---
 title: "Kippenbouillon"
-subtitle: "Een heldere kippenbouillon op basis van kippenpoten en mirepoix. Op de koksopleiding een van de fundamentele bouillons die je van begin tot eind zelf trekt."
+subtitle: "Een heldere kippenbouillon op basis van kippenpoten en mirepoix."
 category: "technieken"
 foto: "kippenbouillon.jpg"
 pageNumber: 36

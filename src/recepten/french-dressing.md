@@ -1,6 +1,6 @@
 ---
 title: "French dressing"
-subtitle: "De allereerste vinaigrette die je op de koksopleiding leert maken — een simpele emulsie van azijn, olie en mosterd die de basis vormt voor vrijwel elke salade."
+subtitle: "Een klassieke vinaigrette van azijn, olie en mosterd die als frisse basis past bij vrijwel elke salade."
 category: "sauzen"
 foto: "french-dressing.jpg"
 pageNumber: 20

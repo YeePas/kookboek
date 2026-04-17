@@ -1,6 +1,6 @@
 ---
 title: "Aardbeienbavarois"
-subtitle: "Een lichte bavarois van aardbeienpuree, slagroom en gelatine. Op de koksopleiding het eerste nagerecht waarbij je de techniek van hangend verwerken leert."
+subtitle: "Een lichte bavarois van aardbeienpuree, slagroom en gelatine."
 category: "desserts"
 foto: "aardbeienbavarois.jpg"
 pageNumber: 9
@@ -47,5 +47,4 @@ tags:
   - "aardbei"
   - "koud"
   - "feestelijk"
-  - "koksopleiding"
 ---

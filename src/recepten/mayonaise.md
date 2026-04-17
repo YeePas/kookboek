@@ -1,6 +1,6 @@
 ---
 title: "Mayonaise"
-subtitle: "Zelf mayonaise maken is een van de eerste technieken op de koksopleiding: met geduld, een garde en een stabiele hand leer je de koude emulsie beheersen."
+subtitle: "Een klassieke koude emulsie van eidooier, olie en zuur, romig van structuur en breed inzetbaar in de keuken."
 category: "sauzen"
 foto: "mayonaise.jpg"
 pageNumber: 21

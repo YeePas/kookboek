@@ -1,6 +1,6 @@
 ---
 title: "Vitello tonnato"
-subtitle: "Dun gesneden kalfsvlees met een romige tonijnsaus, kappertjes en ansjovis. Een Italiaans-Piemontese klassieker, op de koksopleiding bereid als koud voorgerecht."
+subtitle: "Dun gesneden kalfsvlees met een romige tonijnsaus, kappertjes en ansjovis. Een Italiaans-Piemontese klassieker."
 category: "vlees"
 foto: "vitello-tonnato.jpg"
 pageNumber: 64

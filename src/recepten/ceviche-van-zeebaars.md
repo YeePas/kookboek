@@ -1,6 +1,6 @@
 ---
 title: "Ceviche van zeebaars"
-subtitle: "Rauwe zeebaars gemarineerd in limoen met rode ui, koriander en avocado. Op de koksopleiding onderdeel van een driegangenmenu met vis als rode draad."
+subtitle: "Rauwe zeebaars gemarineerd in limoen met rode ui, koriander en avocado."
 category: "vis"
 foto: "ceviche-van-zeebaars.jpg"
 pageNumber: 44

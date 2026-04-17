@@ -1,6 +1,6 @@
 ---
 title: "Chocolademousse"
-subtitle: "Een intense chocolademousse naar recept van patissier Harry Mercuur. Op de koksopleiding het paradepaardje van de les over koude nagerechten."
+subtitle: "Een intense chocolademousse naar recept van patissier Harry Mercuur."
 category: "desserts"
 foto: "chocolademousse.jpg"
 pageNumber: 10
@@ -48,5 +48,4 @@ tags:
   - "chocolade"
   - "koud"
   - "feestelijk"
-  - "koksopleiding"
 ---

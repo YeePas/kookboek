@@ -1,6 +1,6 @@
 ---
 title: "Romige pompoensoep met kokos en gember"
-subtitle: "Een fluweelzachte pompoensoep met kokosmelk en verse gember. Op de koksopleiding behandeld als voorbeeld van een moderne, plantaardige soep."
+subtitle: "Een fluweelzachte pompoensoep met kokosmelk en verse gember."
 category: "groentes"
 foto: "romige-pompoensoep-met-kokos-en-gember.jpg"
 pageNumber: 40

@@ -1,6 +1,6 @@
 ---
 title: "Amerikaanse coleslaw"
-subtitle: "De Amerikaanse koolsalade die op de koksopleiding wordt gebruikt om snijtechnieken als julienne te oefenen, met een romige dressing van mayonaise en een vleugje zuur."
+subtitle: "Een romige Amerikaanse koolsalade met fijngesneden kool, wortel en een frisse dressing met een vleugje zuur."
 category: "groentes"
 foto: "amerikaanse-coleslaw.jpg"
 pageNumber: 24

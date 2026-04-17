@@ -1,6 +1,6 @@
 ---
 title: "Caponata met burrata"
-subtitle: "Een Siciliaans groentegerecht met gefrituurde aubergine, zoetzure smaken en romige burrata. Via gastdocent Aggy Kan op de koksopleiding op het menu gekomen."
+subtitle: "Een Siciliaans groentegerecht met gefrituurde aubergine, zoetzure smaken en romige burrata."
 category: "groentes"
 foto: "caponata-met-burrata.jpg"
 pageNumber: 26

@@ -1,6 +1,6 @@
 ---
 title: "Pad Thai"
-subtitle: "Thaise roergebakken rijstnoedels met ei, taugé en pinda’s. Op de koksopleiding geïntroduceerd als streetfoodgerecht bij de les over internationale keukens."
+subtitle: "Thaise roergebakken rijstnoedels met ei, taugé en pinda’s."
 category: "overig"
 foto: "pad-thai.jpg"
 pageNumber: 52

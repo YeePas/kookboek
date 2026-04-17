@@ -1,6 +1,6 @@
 ---
 title: "Kaneelparfait met karamelsaus"
-subtitle: "Een bevroren parfait met kaneel en vanille, geserveerd met warme karamelsaus. Op de koksopleiding het dessert bij de les over het verwerken van gevogelte."
+subtitle: "Een bevroren parfait met kaneel en vanille, geserveerd met warme karamelsaus."
 category: "desserts"
 foto: "kaneelparfait-met-karamelsaus.jpg"
 pageNumber: 60

@@ -1,6 +1,6 @@
 ---
 title: "Lamskoteletjes met rode biet, pastinaak en wortel"
-subtitle: "Roze gebakken lamskoteletjes met geroosterde wortelgroenten en een fondsaus. Op de koksopleiding het hoofdgerecht bij de les over lam en sauzen op basis van fond."
+subtitle: "Roze gebakken lamskoteletjes met geroosterde wortelgroenten en een fondsaus."
 category: "vlees"
 foto: "lamskoteletjes-met-rode-biet-pastinaak-en-wortel.jpg"
 pageNumber: 65

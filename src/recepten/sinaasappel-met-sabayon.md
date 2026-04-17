@@ -1,6 +1,6 @@
 ---
 title: "Sinaasappel met sabayon"
-subtitle: "Uitgesneden sinaasappelpartjes met een luchtige, warm opgeklopte sabayon van eidooier, suiker en witte wijn. Op de koksopleiding geleerd als oefening in het werken met eieren."
+subtitle: "Uitgesneden sinaasappelpartjes met een luchtige, warm opgeklopte sabayon van eidooier, suiker en witte wijn."
 category: "desserts"
 foto: "sinaasappel-met-sabayon.jpg"
 pageNumber: 17
@@ -47,5 +47,4 @@ tags:
   - "sinaasappel"
   - "sabayon"
   - "klassiek"
-  - "koksopleiding"
 ---

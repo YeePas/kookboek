@@ -1,6 +1,6 @@
 ---
 title: "Gevogeltebouillon met bladerdeegdakje"
-subtitle: "Een dampende gevogeltebouillon afgedekt met een goudbruin bladerdeegdakje. Op de koksopleiding het voorgerecht bij de les over het verwerken van een hele kip."
+subtitle: "Een dampende gevogeltebouillon afgedekt met een goudbruin bladerdeegdakje."
 category: "vlees"
 foto: "gevogeltebouillon-met-bladerdeegdakje.jpg"
 pageNumber: 58

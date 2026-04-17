@@ -1,6 +1,6 @@
 ---
 title: "Krokante polenta met paddenstoelen, truffelcrème en cavolo nero"
-subtitle: "Krokant gebakken polenta met truffelcrème, seizoenspaddenstoelen en cavolo nero. Op de koksopleiding een tussengerecht uit het viergangenmenu."
+subtitle: "Krokant gebakken polenta met truffelcrème, seizoenspaddenstoelen en cavolo nero."
 category: "groentes"
 foto: "krokante-polenta-met-paddenstoelen-truffelcreme-en-cavolo-nero.jpg"
 pageNumber: 54

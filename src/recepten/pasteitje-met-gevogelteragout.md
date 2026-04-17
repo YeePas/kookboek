@@ -1,6 +1,6 @@
 ---
 title: "Pasteitje met gevogelteragout"
-subtitle: "Krokante pasteibakjes gevuld met romige gevogelteragout en champignons. Op de koksopleiding het hoofdgerecht bij de kippenles, met zelfgetrokken bouillon als basis."
+subtitle: "Krokante pasteibakjes gevuld met romige gevogelteragout en champignons."
 category: "vlees"
 foto: "pasteitje-met-gevogelteragout.jpg"
 pageNumber: 59

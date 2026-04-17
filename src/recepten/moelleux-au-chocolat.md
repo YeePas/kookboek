@@ -1,6 +1,6 @@
 ---
 title: "Moelleux au chocolat"
-subtitle: "Een Frans chocoladecakeje met een vloeibare kern van pure chocolade. Op de koksopleiding het nagerecht van het viergangenmenu — timing is hier alles."
+subtitle: "Een Frans chocoladecakeje met een vloeibare kern van pure chocolade."
 category: "desserts"
 foto: "moelleux-au-chocolat.jpg"
 pageNumber: 56
@@ -19,18 +19,19 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "pure chocolade"
-      - "boter"
-      - "suiker"
-      - "eieren"
-      - "bloem"
+      - "100 g boter"
+      - "100 g pure chocolade"
+      - "2 eieren"
+      - "50 g eidooier"
+      - "37 g suiker"
       - "snuf zout"
+      - "30 g bloem, gezeefd"
 
 stappen:
-  - "**Mise en place:** Weeg alle ingrediënten nauwkeurig af en bereid vormen, bakpapier of serveerglazen voor."
-  - "**Basis maken:** Klop, meng of kook de hoofdcomponent tot een gladde en luchtige basis volgens de techniek van het gerecht."
-  - "**Garen of opstijven:** Bak het dessert goudbruin of laat het voldoende koelen en opstijven voor de juiste textuur."
-  - "**Afwerking:** Serveer netjes opgemaakt met saus, krokant element of vers fruit voor contrast."
+  - "**Smelten:** Smelt de boter op laag vuur. Hak de chocolade grof en roer die van het vuur af door de boter tot alles volledig gesmolten is."
+  - "**Beslag maken:** Klop eieren, eidooiers, suiker en zout door elkaar. Spatel de gezeefde bloem erdoor en meng daarna het boter-chocolademengsel erdoorheen."
+  - "**Vormen vullen:** Vet de vormpjes in met pancoating en vul ze voor twee derde met het beslag. Laat het beslag koud worden in de koelkast."
+  - "**Bakken en serveren:** Verwarm de oven voor op 180 C en bak de moelleux 6-8 minuten, tot de bovenkant net gestold is. Stort direct op een bord en serveer meteen."
 
 tips:
   - "Open de oven niet te vroeg zodat structuur en volume mooi behouden blijven."

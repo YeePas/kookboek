@@ -1,6 +1,6 @@
 ---
 title: "Risotto al mare"
-subtitle: "Een romige risotto met vis en zeevruchten in de Italiaanse traditie. Op de koksopleiding het hoofdgerecht bij de les over pasta- en rijstbereidingen."
+subtitle: "Een romige risotto met vis en zeevruchten in de Italiaanse traditie."
 category: "vis"
 foto: "risotto-al-mare.jpg"
 pageNumber: 50

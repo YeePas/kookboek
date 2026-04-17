@@ -1,6 +1,6 @@
 ---
 title: "Flensjestaart"
-subtitle: "Laagjes dunne crêpes afgewisseld met banketbakkersroom en fruit — een feestelijk nagerecht dat op de koksopleiding de flensjes- en roomtechniek combineert."
+subtitle: "Laagjes dunne crepes met banketbakkersroom en fruit maken dit tot een feestelijk nagerecht om van tevoren op te bouwen."
 category: "desserts"
 foto: "flensjestaart.jpg"
 pageNumber: 12
@@ -50,5 +50,4 @@ tags:
   - "chocolade"
   - "taart"
   - "koud"
-  - "koksopleiding"
 ---

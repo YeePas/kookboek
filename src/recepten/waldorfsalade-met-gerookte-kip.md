@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade met gerookte kip"
-subtitle: "De Waldorfsalade opnieuw, nu met gerookte kipfilet, knolselderij en walnoten. Op de koksopleiding het voorgerecht van het afsluitende viergangenmenu."
+subtitle: "De Waldorfsalade opnieuw, nu met gerookte kipfilet, knolselderij en walnoten."
 category: "vlees"
 foto: "waldorfsalade-met-gerookte-kip.jpg"
 pageNumber: 67

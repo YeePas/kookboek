@@ -1,6 +1,6 @@
 ---
 title: "Gehaktbal met piccalilly en aardappelsalade"
-subtitle: "Een stevige Nederlandse gehaktbal met zelfgemaakte piccalilly en frisse aardappelsalade. Op de koksopleiding een oefening in het bereiden en op smaak brengen van gehakt."
+subtitle: "Een stevige Nederlandse gehaktbal met zelfgemaakte piccalilly en frisse aardappelsalade."
 category: "vlees"
 foto: "gehaktbal-met-piccalilly-en-aardappelsalade.jpg"
 pageNumber: 43

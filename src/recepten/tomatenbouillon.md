@@ -1,6 +1,6 @@
 ---
 title: "Tomatenbouillon"
-subtitle: "Een heldere tomatenbouillon die op de koksopleiding wordt behandeld als variant op de klassieke bouillontechnieken — licht, fris en vol tomatensmaak."
+subtitle: "Een heldere tomatenbouillon met een frisse, zuivere tomatensmaak en een verrassend lichte afdronk."
 category: "technieken"
 foto: "tomatenbouillon.jpg"
 pageNumber: 31

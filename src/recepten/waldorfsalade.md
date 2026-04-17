@@ -1,6 +1,6 @@
 ---
 title: "Waldorfsalade"
-subtitle: "Een klassieke Amerikaanse salade uit 1893, oorspronkelijk bedacht in het Waldorf Hotel in New York. Op de koksopleiding een van de eerste oefeningen in snijtechnieken en salade-opbouw."
+subtitle: "Een klassieke Amerikaanse salade uit 1893, oorspronkelijk bedacht in het Waldorf Hotel in New York."
 category: "overig"
 foto: "waldorfsalade.jpg"
 pageNumber: 22

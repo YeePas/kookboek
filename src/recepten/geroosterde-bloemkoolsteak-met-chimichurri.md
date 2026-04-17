@@ -1,6 +1,6 @@
 ---
 title: "Geroosterde bloemkoolsteak met chimichurri"
-subtitle: "Een stevige bloemkoolsteak uit de oven met een pittige, verse chimichurri. Op de koksopleiding onderdeel van een volledig vegetarisch viergangenmenu."
+subtitle: "Een stevige bloemkoolsteak uit de oven met een pittige, verse chimichurri."
 category: "groentes"
 foto: "geroosterde-bloemkoolsteak-met-chimichurri.jpg"
 pageNumber: 39

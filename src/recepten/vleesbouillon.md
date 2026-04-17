@@ -1,6 +1,6 @@
 ---
 title: "Vleesbouillon"
-subtitle: "Een krachtige runderbouillon op basis van gepinceerde botten en mirepoix. Op de koksopleiding leer je hiermee de basis van extractie en smaakopbouw."
+subtitle: "Een krachtige runderbouillon op basis van gepinceerde botten en mirepoix."
 category: "technieken"
 foto: "vleesbouillon.jpg"
 pageNumber: 30

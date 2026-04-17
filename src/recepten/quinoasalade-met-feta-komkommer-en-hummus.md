@@ -1,6 +1,6 @@
 ---
 title: "Quinoasalade met feta, komkommer en hummus"
-subtitle: "Een moderne vegetarische salade met quinoa, feta en zelfgemaakte hummus — op de koksopleiding gebruikt als voorbeeld van een eigentijds groentemenu."
+subtitle: "Een moderne vegetarische salade met quinoa, feta en zelfgemaakte hummus."
 category: "groentes"
 foto: "quinoasalade-met-feta-komkommer-en-hummus.jpg"
 pageNumber: 34

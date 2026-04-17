@@ -10,7 +10,12 @@ permalink: register/index.html
     {% for group in collections.recepten | buildIngredientIndex %}
     <div class="index-letter">{{ group.letter }}</div>
     {% for entry in group.entries %}
-    <div class="index-entry">{{ entry.term }}{% for recipe in entry.recipes %}<a href="{{ recipe.url | url }}">{{ recipe | recipeNumber }}</a>{% endfor %}</div>
+    <div class="index-entry">
+      <div class="index-term">{{ entry.term }}</div>
+      <div class="index-pages">
+        {% for recipe in entry.recipes %}<a href="{{ recipe.url | url }}">{{ recipe | recipeNumber }}</a>{% endfor %}
+      </div>
+    </div>
     {% endfor %}
     {% endfor %}
   </div>

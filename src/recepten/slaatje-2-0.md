@@ -1,6 +1,6 @@
 ---
 title: "Slaatje 2.0"
-subtitle: "Een eigentijdse salade met aardappelbrunoise, gegrilde courgette en gepocheerd ei. Op de koksopleiding bedoeld om meerdere technieken tegelijk te combineren."
+subtitle: "Een eigentijdse salade met aardappelbrunoise, gegrilde courgette en gepocheerd ei."
 category: "overig"
 foto: "slaatje-2-0.jpg"
 pageNumber: 28

@@ -1,6 +1,6 @@
 ---
 title: "Tuile met vanille-ijs"
-subtitle: "Een krokante tuile gevormd over een koffiekopje, gevuld met vanille-ijs en geserveerd met echte vanillesaus. Op de koksopleiding het sluitstuk van de eierenles."
+subtitle: "Een krokante tuile gevormd over een koffiekopje, gevuld met vanille-ijs en geserveerd met echte vanillesaus."
 category: "desserts"
 foto: "tuile-met-vanille-ijs.jpg"
 pageNumber: 18
@@ -48,5 +48,4 @@ tags:
   - "tuile"
   - "vanille"
   - "klassiek"
-  - "koksopleiding"
 ---

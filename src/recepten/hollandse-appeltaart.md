@@ -1,6 +1,6 @@
 ---
 title: "Hollandse appeltaart"
-subtitle: "De oer-Hollandse appeltaart met kruimelig deeg, kaneel en schijfjes goudrenet. Op de koksopleiding het recept waarmee je leert werken met zanddeeg."
+subtitle: "De oer-Hollandse appeltaart met kruimelig deeg, kaneel en schijfjes goudrenet."
 category: "patisserie"
 foto: "hollandse-appeltaart.jpg"
 pageNumber: 48

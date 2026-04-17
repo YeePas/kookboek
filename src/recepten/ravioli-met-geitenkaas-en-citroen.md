@@ -1,6 +1,6 @@
 ---
 title: "Ravioli met geitenkaas en citroen"
-subtitle: "Zelfgemaakte ravioli gevuld met geitenkaas en citroen, geserveerd met hazelnootboter en krokante salie. Op de koksopleiding het pastaonderdeel van een viergangenmenu."
+subtitle: "Zelfgemaakte ravioli gevuld met geitenkaas en citroen, geserveerd met hazelnootboter en krokante salie."
 category: "overig"
 foto: "ravioli-met-geitenkaas-en-citroen.jpg"
 pageNumber: 55

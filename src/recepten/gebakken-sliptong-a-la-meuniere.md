@@ -1,6 +1,6 @@
 ---
 title: "Gebakken sliptong à la meunière"
-subtitle: "Sliptong door de bloem gehaald en gebakken in bruisende boter met citroen en peterselie — à la meunière, de klassieke Franse visbereiding. Op de koksopleiding het hoofdgerecht van de visles."
+subtitle: "Sliptong door de bloem gehaald en gebakken in bruisende boter met citroen en peterselie — à la meunière, de klassieke Franse visbereiding."
 category: "vis"
 foto: "gebakken-sliptong-a-la-meuniere.jpg"
 pageNumber: 63

@@ -1,6 +1,6 @@
 ---
 title: "Salade Niçoise"
-subtitle: "Een Provençaalse klassieker met gegrilde tonijn, haricots verts en olijven. Op de koksopleiding oefen je hiermee het grillen van vis en het opbouwen van een samengestelde salade."
+subtitle: "Een Provençaalse klassieker met gegrilde tonijn, haricots verts en olijven."
 category: "vis"
 foto: "salade-nicoise.jpg"
 pageNumber: 25

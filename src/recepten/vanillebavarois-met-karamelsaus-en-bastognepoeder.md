@@ -1,6 +1,6 @@
 ---
 title: "Vanillebavarois met karamelsaus en Bastognepoeder"
-subtitle: "Een licht trillende vanillebavarois met blonde karamelsaus en krokant Bastognepoeder. Op de koksopleiding het nagerecht van het driegangenmenu in lesdag 12."
+subtitle: "Een licht trillende vanillebavarois met blonde karamelsaus en krokant Bastognepoeder."
 category: "desserts"
 foto: "vanillebavarois-met-karamelsaus-en-bastognepoeder.jpg"
 pageNumber: 46

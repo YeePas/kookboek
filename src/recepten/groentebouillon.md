@@ -1,6 +1,6 @@
 ---
 title: "Groentebouillon"
-subtitle: "De eerste bouillon die je op de koksopleiding trekt: groenten rustig laten trekken in water, zonder te koken, zodat je een helder en zuiver resultaat krijgt."
+subtitle: "Een heldere groentebouillon die je rustig laat trekken voor een zuivere smaak en een lichte basis in de keuken."
 category: "technieken"
 foto: "groentebouillon.jpg"
 pageNumber: 29

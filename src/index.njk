@@ -32,16 +32,16 @@ bodyClass: home
   </div>
   <div class="ontdek-grid" id="ontdek-grid">
     {% for recipe in collections.recepten %}
-    {% if recipe.data.foto %}
     <a class="toc-card" href="{{ recipe.url | url }}" data-category="{{ recipe.data.category }}">
+      {% if site.showOntdekFotos and recipe.data.foto %}
       {% responsiveImage '/fotos/' + (recipe.data.foto | cmsImagePath), recipe.data.title, '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', '', '360,720,1080', 'lazy' %}
+      {% endif %}
       <div class="card-body">
         <div class="card-category">{{ recipe.data.category | categoryTitle }}</div>
         <div class="card-title">{{ recipe.data.title }}</div>
         <div class="card-desc">{{ recipe.data.subtitle | truncate(80) }}</div>
       </div>
     </a>
-    {% endif %}
     {% endfor %}
   </div>
   <div class="ontdek-more-wrap">

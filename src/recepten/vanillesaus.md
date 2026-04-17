@@ -1,6 +1,6 @@
 ---
 title: "Vanillesaus"
-subtitle: "Crème anglaise — de moeder aller dessertsauzen, gebonden door eidooier en geparfumeerd met echt vanillemerg. Op de koksopleiding een onmisbare basistechniek."
+subtitle: "Crème anglaise — de moeder aller dessertsauzen, gebonden door eidooier en geparfumeerd met echt vanillemerg."
 category: "sauzen"
 foto: "vanillesaus.jpg"
 pageNumber: 16
@@ -44,5 +44,4 @@ tags:
   - "vanille"
   - "klassiek"
   - "eieren"
-  - "koksopleiding"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Rilette van gepocheerde zalm met crostini en bieslookcrème"
-subtitle: "Een rilette van verse en gerookte zalm met crème fraîche en dille, geserveerd op krokante crostini. Op de koksopleiding het tussengerecht bij de les over vis."
+subtitle: "Een rilette van verse en gerookte zalm met crème fraîche en dille, geserveerd op krokante crostini."
 category: "vis"
 foto: "rilette-van-gepocheerde-zalm-met-crostini-en-bieslookcreme.jpg"
 pageNumber: 62

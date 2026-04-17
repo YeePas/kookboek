@@ -1,6 +1,6 @@
 ---
 title: "Klassieke steak tartaar"
-subtitle: "Handgesneden ossenhaas met kappertjes, cornichons en een rauwe eidooier — de klassieker onder de koude vleesbereidingen, op de koksopleiding geleerd als oefening in snijtechniek en balans."
+subtitle: "Handgesneden ossenhaas met kappertjes, cornichons en een rauwe eidooier — de klassieker onder de koude vleesbereidingen."
 category: "vlees"
 foto: "klassieke-steak-tartaar.jpg"
 pageNumber: 41

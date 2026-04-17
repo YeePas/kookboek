@@ -1,6 +1,6 @@
 ---
 title: "Geroosterde bloemkoolsteak met miso-sesamglazuur"
-subtitle: "Dikke plakken bloemkool met een umami-rijk glazuur van miso en sesam. Op de koksopleiding onderdeel van een viergangenmenu met Aziatische invloeden."
+subtitle: "Dikke plakken bloemkool met een umami-rijk glazuur van miso en sesam."
 category: "groentes"
 foto: "geroosterde-bloemkoolsteak-met-miso-sesamglazuur.jpg"
 pageNumber: 53

@@ -1,6 +1,6 @@
 ---
 title: "Champignon-crèmesoep"
-subtitle: "Een fluwelen champignonsoep gebonden met een roux en afgewerkt met room. Op de koksopleiding gebruikt om roux-techniek en het puréren van soepen te oefenen."
+subtitle: "Een fluwelen champignonsoep gebonden met een roux en afgewerkt met room."
 category: "groentes"
 foto: "champignon-cremesoep.jpg"
 pageNumber: 37

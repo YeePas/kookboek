@@ -1,6 +1,6 @@
 ---
 title: "Pasta con funghi"
-subtitle: "Verse pasta met een mengsel van seizoenspaddenstoelen, knoflook en Parmezaan. Op de koksopleiding onderdeel van de Italiaanse les over pasta en risotto."
+subtitle: "Verse pasta met een mengsel van seizoenspaddenstoelen, knoflook en Parmezaan."
 category: "overig"
 foto: "pasta-con-funghi.jpg"
 pageNumber: 51

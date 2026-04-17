@@ -1,6 +1,6 @@
 ---
 title: "Entrecôte met bearnaisesaus"
-subtitle: "Een dubbele entrecôte met klassieke béarnaisesaus, pommes sautées en haricots verts. Op de koksopleiding het hoofdgerecht van het afsluitende menu — de ultieme vleestest."
+subtitle: "Een dubbele entrecôte met klassieke béarnaisesaus, pommes sautées en haricots verts."
 category: "vlees"
 foto: "entrecote-met-bearnaisesaus.jpg"
 pageNumber: 69

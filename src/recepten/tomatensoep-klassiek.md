@@ -1,6 +1,6 @@
 ---
 title: "Tomatensoep klassiek"
-subtitle: "Een klassieke gebonden tomatensoep met tomatenpuree, roux en verse mirepoix. Op de koksopleiding het standaardrecept bij de les over warme soepen."
+subtitle: "Een klassieke gebonden tomatensoep met tomatenpuree, roux en verse mirepoix."
 category: "groentes"
 foto: "tomatensoep-klassiek.jpg"
 pageNumber: 38

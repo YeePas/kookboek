@@ -1,6 +1,6 @@
 ---
 title: "Focaccia"
-subtitle: "Een luchtig Italiaans platbrood met olijfolie en rozemarijn. Op de koksopleiding gebakken als onderdeel van de les over gistdegen en broodbereiding."
+subtitle: "Een luchtig Italiaans platbrood met olijfolie en rozemarijn."
 category: "brood"
 foto: "focaccia.jpg"
 pageNumber: 49

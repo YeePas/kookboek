@@ -1,6 +1,6 @@
 ---
 title: "Soezenbeslag"
-subtitle: "De basis voor soezen, éclairs en profiteroles: een warm beslag dat op het vuur wordt geroerd tot het loslaat. Op de koksopleiding gedemonstreerd als kerntechniek bij nagerechten."
+subtitle: "De basis voor soezen, éclairs en profiteroles: een warm beslag dat op het vuur wordt geroerd tot het loslaat."
 category: "brood"
 foto: "soezenbeslag.jpg"
 pageNumber: 11
@@ -47,5 +47,4 @@ tags:
   - "bakken"
   - "basis"
   - "techniek"
-  - "koksopleiding"
 ---

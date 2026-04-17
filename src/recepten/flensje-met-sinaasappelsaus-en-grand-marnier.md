@@ -1,6 +1,6 @@
 ---
 title: "Flensje met sinaasappelsaus en Grand Marnier"
-subtitle: "Crêpes Suzette in de dop: dunne flensjes met een sinaasappelbotersaus en een vleugje Grand Marnier. Op de koksopleiding geleerd als onderdeel van de basistechnieken voor desserts."
+subtitle: "Crêpes Suzette in de dop: dunne flensjes met een sinaasappelbotersaus en een vleugje Grand Marnier."
 category: "desserts"
 foto: "flensje-met-sinaasappelsaus-en-grand-marnier.jpg"
 pageNumber: 35

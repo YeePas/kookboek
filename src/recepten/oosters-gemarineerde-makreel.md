@@ -1,6 +1,6 @@
 ---
 title: "Oosters gemarineerde makreel"
-subtitle: "Verse makreel gemarineerd in sojasaus en sushiazijn, met zoetzure komkommer en wasabimayonaise. Op de koksopleiding het voorgerecht bij de visles."
+subtitle: "Verse makreel gemarineerd in sojasaus en sushiazijn, met zoetzure komkommer en wasabimayonaise."
 category: "vis"
 foto: "oosters-gemarineerde-makreel.jpg"
 pageNumber: 61

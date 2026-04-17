@@ -1,6 +1,6 @@
 ---
 title: "Aardappelsalade"
-subtitle: "Een eerlijke, Nederlandse aardappelsalade zoals je die op de koksopleiding leert — met vastkokende aardappelen, augurk en een goed afgesmaakte dressing."
+subtitle: "Een klassieke aardappelsalade met vastkokende aardappelen, augurk en een frisse, romige dressing."
 category: "overig"
 foto: "aardappelsalade.jpg"
 pageNumber: 23

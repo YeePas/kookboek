@@ -1,6 +1,6 @@
 ---
 title: "Salade met geitenkaas en frambozendressing"
-subtitle: "Een elegante lunchsalade met warme geitenkaas uit de oven en een frisse frambozendressing — geleerd als onderdeel van de saladetechnieken op de koksopleiding."
+subtitle: "Een elegante lunchsalade met warme geitenkaas uit de oven en een frisse frambozendressing."
 category: "overig"
 foto: "salade-met-geitenkaas-en-frambozendressing.jpg"
 pageNumber: 27

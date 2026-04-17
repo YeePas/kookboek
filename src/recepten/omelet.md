@@ -1,6 +1,6 @@
 ---
 title: "Omelet"
-subtitle: "De eerste praktijkopdracht op de koksopleiding: een luchtige omelet op basis van drie eieren, waarbij kleur en gaarheid allesbepalend zijn."
+subtitle: "Een zachte omelet van drie eieren waarbij kleur, souplesse en een smeuige kern het verschil maken."
 category: "technieken"
 foto: "omelet.jpg"
 pageNumber: 14
@@ -44,5 +44,4 @@ tags:
   - "basis"
   - "frans"
   - "snel"
-  - "koksopleiding"
 ---

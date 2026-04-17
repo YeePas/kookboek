@@ -1,6 +1,6 @@
 ---
 title: "Sticky chicken"
-subtitle: "Kipdijfilet in een kleverig glazuur van honing, sojasaus en ketchup. Op de koksopleiding bereid als onderdeel van de les waarin een hele kip op drie manieren wordt verwerkt."
+subtitle: "Kipdijfilet in een kleverig glazuur van honing, sojasaus en ketchup."
 category: "vlees"
 foto: "sticky-chicken.jpg"
 pageNumber: 57

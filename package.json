@@ -6,7 +6,9 @@
     "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "check:content": "node scripts/validate-content.js",
-    "check": "npm run check:content && npm run build"
+    "check": "npm run check:content && npm run build",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.5",
-    "@11ty/eleventy-img": "^6.0.4"
+    "@11ty/eleventy-img": "^6.0.4",
+    "wrangler": "^4.83.0"
   }
 }

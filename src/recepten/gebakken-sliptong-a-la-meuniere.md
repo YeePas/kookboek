@@ -17,21 +17,28 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Sliptong"
     items:
-      - "sliptong"
+      - "1 sliptong"
       - "bloem"
-      - "boter"
-      - "citroen"
+      - "150 g boter"
       - "peterselie"
-      - "krieltjes"
-      - "zeekraal"
+      - "1 citroen"
+  - groep: "Kriel"
+    items:
+      - "100 g kriel in de schil"
+      - "1 liter water"
+      - "11 g zout"
+  - groep: "Zeekraal"
+    items:
+      - "100 g zeekraal"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Beurre noisette maken:** Laat de boter kleuren tot beurre noisette."
+  - "**Vis bakken:** Dep de sliptong goed droog, haal door de bloem en bak goudbruin en gaar in een deel van de beurre noisette."
+  - "**Saus afmaken:** Hak de peterselie en voeg samen met het sap van een halve citroen toe aan de rest van de beurre noisette. Bak de andere helft van de citroen mooi in een droge pan."
+  - "**Garnituur bereiden:** Kook de krieltjes gaar in gezouten water en blancheer de zeekraal heel kort tot beetgaar."
+  - "**Serveren:** Serveer de sliptong direct met de citroen-botersaus, krieltjes en zeekraal."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

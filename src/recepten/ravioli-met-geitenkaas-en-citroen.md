@@ -17,20 +17,32 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Pasta"
     items:
-      - "verse ravioli"
-      - "geitenkaas"
-      - "citroen"
-      - "hazelnootboter"
-      - "salie"
-      - "spinazie"
+      - "200 g bloem tipo 00"
+      - "2 eieren"
+      - "snuf zout"
+  - groep: "Vulling"
+    items:
+      - "125 g zachte geitenkaas"
+      - "rasp van 1/2 citroen"
+      - "1 tl honing"
+      - "peper"
+  - groep: "Saus en afwerking"
+    items:
+      - "40 g roomboter"
+      - "6-8 salieblaadjes"
+      - "25 g geroosterde hazelnoten, grof gehakt"
+      - "100 g verse spinazie"
+      - "zout"
+      - "peper"
 
 stappen:
-  - "**Voorbereiden:** Zorg dat alle componenten klaarstaan, want deze gerechten vragen om een vlotte afwerking."
-  - "**Hoofdbereiding:** Kook, bak of rooster de basiscomponent tot deze precies gaar is en voeg daarna de smaakmakers toe."
-  - "**Binden en afmaken:** Voeg op het einde boter, kaas, saus of verse kruiden toe voor glans en samenhang."
-  - "**Serveren:** Presenteer direct zodat textuur en temperatuur optimaal blijven."
+  - "**Pasta maken:** Kneed van bloem, eieren en zout een soepel deeg en laat het 30 minuten rusten."
+  - "**Vulling mengen:** Meng geitenkaas met citroenrasp, honing en peper."
+  - "**Ravioli vormen:** Rol het deeg dun uit, steek cirkels of vierkanten uit, vul en druk alle lucht eruit voor je de ravioli goed sluit."
+  - "**Boter en spinazie:** Smelt de boter tot lichtbruin, voeg de salie toe en laat krokant worden. Sauteer de spinazie kort in een beetje olie en breng op smaak."
+  - "**Koken en serveren:** Kook de ravioli 3 tot 4 minuten. Lepel de hazelnootboter erover en werk af met hazelnoten en spinazie."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

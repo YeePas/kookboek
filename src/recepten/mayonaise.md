@@ -20,17 +20,19 @@ ingredienten:
   - groep: ""
     items:
       - "1 eidooier"
-      - "mosterd"
-      - "azijn"
-      - "zonnebloemolie"
-      - "zout"
+      - "1 tl fijne mosterd"
+      - "1/2 el azijn"
+      - "1,5-2 dl olie"
       - "peper"
+      - "zout"
+      - "5 druppels citroensap"
+      - "5 druppels worchestershiresaus"
 
 stappen:
-  - "**Basis mengen:** Doe de smaakmakers in een kom en roer of klop los tot alles goed is opgenomen."
-  - "**Emulgeren of reduceren:** Voeg vet of vloeistof gecontroleerd toe en werk tot de juiste binding of concentratie."
-  - "**Op smaak brengen:** Corrigeer met zuur, zout en peper tot de saus mooi in balans is."
-  - "**Gebruiken:** Serveer direct of bewaar gekoeld in een schone afgesloten pot of fles."
+  - "**Basis losroeren:** Roer de eidooier, mosterd, azijn, peper, zout, citroensap en worchestershiresaus in een kom goed door elkaar."
+  - "**Emulgeren:** Voeg de olie eerst druppelsgewijs toe terwijl je blijft roeren. Zodra de emulsie pakt, kun je in een dun straaltje verdergaan."
+  - "**Afmaken:** Breng de mayonaise verder op smaak met citroensap, mosterd en worchestershiresaus. Geef zout indien nodig nog even tijd om op te lossen."
+  - "**Bewaren:** Dek af en zet koel weg. Roer kort door voor gebruik."
 
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."

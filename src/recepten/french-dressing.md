@@ -21,16 +21,17 @@ ingredienten:
     items:
       - "2 el wittewijnazijn"
       - "6 el zonnebloemolie"
-      - "1 tl fijne mosterd"
-      - "bladpeterselie"
-      - "sjalot"
-      - "zout en peper"
+      - "1 mespunt fijne mosterd"
+      - "1/2 sjalot, gesnipperd"
+      - "bladpeterselie, fijngehakt"
+      - "zout"
+      - "peper"
 
 stappen:
-  - "**Basis mengen:** Doe de smaakmakers in een kom en roer of klop los tot alles goed is opgenomen."
-  - "**Emulgeren of reduceren:** Voeg vet of vloeistof gecontroleerd toe en werk tot de juiste binding of concentratie."
-  - "**Op smaak brengen:** Corrigeer met zuur, zout en peper tot de saus mooi in balans is."
-  - "**Gebruiken:** Serveer direct of bewaar gekoeld in een schone afgesloten pot of fles."
+  - "**Basis losroeren:** Roer de wittewijnazijn, mosterd, peper en zout in een kom goed los."
+  - "**Emulsie maken:** Roer de zonnebloemolie er in een dun straaltje doorheen tot de dressing mooi bindt."
+  - "**Afwerken:** Roer de peterselie en sjalot erdoor en proef of de dressing extra zout, peper of zuur nodig heeft."
+  - "**Serveren:** Gebruik direct, of bewaar kort gekoeld en roer voor gebruik nog even door."
 
 tips:
   - "Zorg dat alle ingrediënten op ongeveer dezelfde temperatuur zijn voor een stabiele emulsie."

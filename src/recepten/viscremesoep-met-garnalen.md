@@ -8,7 +8,7 @@ order: 8
 
 meta:
   - label: "Personen"
-    value: "4"
+    value: "2"
   - label: "Voorber."
     value: "15 min"
   - label: "Bereiding"
@@ -19,18 +19,18 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "boter"
-      - "bloem"
-      - "visbouillon"
-      - "room"
-      - "garnalen"
-      - "dille"
+      - "40 g boter"
+      - "50 g bloem"
+      - "1-1,2 liter visbouillon"
+      - "50 ml room"
+      - "80 g kleine Noorse garnalen"
+      - "2 takjes dille, fijngesneden"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Roux maken:** Smelt de boter en roer de bloem erdoor tot een gladde roux."
+  - "**Soep opbouwen:** Voeg al roerend de visbouillon toe tot een gladde gebonden soep ontstaat."
+  - "**Afwerken:** Roer de room erdoor en breng opnieuw aan de kook."
+  - "**Serveren:** Verdeel de Noorse garnalen over de soep, werk af met fijngesneden dille en serveer direct."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

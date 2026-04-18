@@ -12,28 +12,31 @@ meta:
   - label: "Voorber."
     value: "15 min"
   - label: "Bereiding"
-    value: "45 min"
+    value: "90 min"
   - label: "Niveau"
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Bouillon"
     items:
-      - "gevogeltebouillon"
-      - "kip of parelhoen"
-      - "groenten"
-      - "bladerdeeg"
-      - "ei"
-      - "kruiden"
+      - "karkas en afsnijdsels van gevogelte"
+      - "1500 ml water"
+      - "bouquet garni"
+      - "foelie"
+  - groep: "Dakje"
+    items:
+      - "4 plakjes bladerdeeg"
+      - "30 g eierstruif"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Bouillon trekken:** Zet karkas en afsnijdsels op in koud water en breng aan de kook. Schuim af, voeg bouquet garni en foelie toe en laat 60 tot 90 minuten trekken."
+  - "**Passeren:** Verwijder het bouquet en zeef de bouillon."
+  - "**Bladerdeegdakjes maken:** Laat het bladerdeeg ontdooien. Steek uit twee plakken rondjes van 10 cm en steek uit twee daarvan een midden van 8 cm zodat ringen ontstaan."
+  - "**Samenstellen:** Plak de ringen met wat water op hele rondjes. Bestrijk alleen de bovenste ring en losse deksels met eierstruif."
+  - "**Bakken en serveren:** Bak 15 minuten op 200 tot 210 graden en serveer de warme bouillon met het goudbruine dakje."
 
 tips:
-  - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
+  - "Laat de bouillon nooit hard koken; dan blijft hij veel helderder."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

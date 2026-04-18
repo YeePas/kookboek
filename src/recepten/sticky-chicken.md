@@ -17,21 +17,37 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Kip"
     items:
-      - "kipdijfilet"
-      - "honing"
-      - "sojasaus"
-      - "bruine suiker"
-      - "rijstazijn"
-      - "ketchup"
-      - "knoflook"
+      - "2 kipdijfilets in stukken"
+      - "1 tl zonnebloemolie"
+      - "zout"
+      - "zwarte peper"
+  - groep: "Sticky saus"
+    items:
+      - "1 el honing"
+      - "1 el sojasaus"
+      - "2 tl bruine basterdsuiker"
+      - "2 tl rijstazijn of natuurazijn"
+      - "2 tl ketchup"
+      - "1 kleine teen knoflook"
+      - "1/4 tl geraspte gember"
+      - "1/4 tl maizena gemengd met 1 tl water"
+      - "optioneel: chiliflakes"
+  - groep: "Garnering"
+    items:
+      - "1 tl sesamzaad"
+      - "1/2 bosui in ringetjes"
+      - "limoenpartje"
+      - "little gem voor salade"
+      - "geroosterd brood"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Kip bakken:** Verhit de olie in een koekenpan op middelhoog vuur. Kruid de kip met zout en peper en bak rondom goudbruin in 6 tot 7 minuten."
+  - "**Saus opbouwen:** Voeg knoflook en gember toe en bak kort mee. Meng honing, sojasaus, suiker, azijn en ketchup en giet dit bij de kip."
+  - "**Glaceren:** Laat 2 tot 3 minuten inkoken en voeg dan het maizenapapje toe. Roer tot de saus dik en glanzend is."
+  - "**Afmaken:** Maak een salade van little gem en vermeng met de kip."
+  - "**Serveren:** Garneer met sesam en bosui en serveer met geroosterd brood en limoen."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

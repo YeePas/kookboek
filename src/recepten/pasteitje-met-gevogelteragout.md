@@ -17,21 +17,28 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Ragout"
     items:
-      - "pasteibakjes"
-      - "gevogelte"
-      - "room"
-      - "bouillon"
-      - "champignons"
-      - "boter"
-      - "bloem"
+      - "400 ml bouillon"
+      - "250 g gaar, klein gesneden kippenvlees"
+      - "50 ml room"
+  - groep: "Roux"
+    items:
+      - "50 g boter"
+      - "60 g bloem"
+      - "1/4 uitje, gesnipperd"
+  - groep: "Pasteitjes"
+    items:
+      - "4 plakjes bladerdeeg"
+      - "30 g eierstruif"
+      - "peterselie"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Roux maken:** Gaar het gesnipperde uitje in de boter en roer de bloem erdoor tot een roux."
+  - "**Ragout opbouwen:** Voeg al roerend de bouillon toe en kook tot een gladde ragout. Meng het kippenvlees erdoor en breng op smaak."
+  - "**Afwerken:** Voeg als laatste de room toe voor extra ronding."
+  - "**Pasteibakjes bakken:** Maak van het bladerdeeg bakjes zoals beschreven bij het bladerdeegdakje en bak goudbruin op 200 tot 210 graden."
+  - "**Serveren:** Vul de warme pasteitjes met warme ragout, bestrooi met peterselie en serveer direct."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

@@ -19,22 +19,25 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "champignons"
-      - "boter"
-      - "bloem"
-      - "bouillon"
-      - "room"
-      - "ui"
-      - "peper en zout"
+      - "25 g boter"
+      - "30 g bloem"
+      - "1 sjalot"
+      - "200 g champignons"
+      - "500 ml bouillon"
+      - "50 ml room"
+      - "gehakte peterselie"
+      - "peper"
+      - "zout"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Roux maken:** Smelt de boter, roer de bloem erdoor en gaar kort tot een blanke roux."
+  - "**Soep binden:** Voeg de helft van de koude bouillon toe en klop glad met een garde. Giet daarna de rest erbij en breng opnieuw aan de kook."
+  - "**Garnituur bereiden:** Snipper de sjalot, snijd de champignons in plakjes en bak ze kort in wat boter."
+  - "**Laten trekken:** Voeg de gebakken champignons en sjalot toe aan de gebonden soep en laat 15 tot 20 minuten zacht trekken."
+  - "**Afmaken:** Roer de room erdoor, breng weer aan de kook en proef af met peper en zout. Werk af met gehakte peterselie."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Gebruik koude bouillon bij de roux; dan bindt de soep gladder en voorkom je klonten."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

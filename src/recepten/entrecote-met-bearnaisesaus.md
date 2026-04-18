@@ -7,33 +7,48 @@ pageNumber: 69
 order: 13
 
 meta:
-  - label: "Opbrengst"
-    value: "±250 ml"
+  - label: "Personen"
+    value: "2"
   - label: "Voorber."
-    value: "10 min"
+    value: "20 min"
   - label: "Bereiding"
-    value: "10 min"
+    value: "30 min"
   - label: "Niveau"
-    value: "makkelijk"
+    value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Entrecote en bearnaisesaus"
     items:
-      - "entrecôte"
-      - "bearnaisesaus"
-      - "haricots verts"
-      - "pommes sautées"
-      - "tomaat"
-      - "boter"
+      - "1 dubbele entrecote van 250 g"
+      - "1/2 sjalot"
+      - "50 ml dragonazijn"
+      - "50 ml witte wijn"
+      - "50 ml water"
+      - "5 peperkorrels, gekneusd"
+      - "1 tak dragon"
+      - "40 g eidooier"
+      - "150 g geklaarde boter"
+      - "gehakte dragonblaadjes"
+      - "gehakte kervelblaadjes"
+      - "cayennepeper"
+  - groep: "Garnituren"
+    items:
+      - "300 g vastkokende aardappelen"
+      - "vloeibare bakboter"
+      - "200 g haricots verts"
+      - "gezouten roomboter"
+      - "3 pomodori tomaten"
+      - "4 el Franse dressing"
 
 stappen:
-  - "**Basis mengen:** Doe de smaakmakers in een kom en roer of klop los tot alles goed is opgenomen."
-  - "**Emulgeren of reduceren:** Voeg vet of vloeistof gecontroleerd toe en werk tot de juiste binding of concentratie."
-  - "**Op smaak brengen:** Corrigeer met zuur, zout en peper tot de saus mooi in balans is."
-  - "**Gebruiken:** Serveer direct of bewaar gekoeld in een schone afgesloten pot of fles."
+  - "**Bearnaisebasis maken:** Kook sjalot, dragonazijn, witte wijn, water, peperkorrels en dragon in tot een krachtige reductie en zeef."
+  - "**Saus monteren:** Klop de eidooier au bain-marie op met wat reductie en voeg de geklaarde boter geleidelijk toe tot een gladde bearnaisesaus. Werk af met dragon, kervel en cayenne."
+  - "**Entrecote bereiden:** Rissoleer of gril de entrecote tijdens de mise en place. Regenereer tijdens doorgifte in een oven van 140 graden met 40 procent stoom, laat rusten en trancheer."
+  - "**Garnituren maken:** Kook de aardappelen voor pommes sautees gaar en laat goed afkoelen voor je ze sauteert. Blancheer de haricots verts en werk af in gezouten roomboter. Snijd de tomaten en meng met Franse dressing."
+  - "**Serveren:** Presenteer de entrecote met bearnaisesaus en de drie garnituren."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Laat de aardappelen echt goed afkoelen voor het sauteren; dan bakken ze mooier goudbruin."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

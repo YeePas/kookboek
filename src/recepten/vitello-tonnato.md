@@ -17,20 +17,29 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Vlees"
     items:
-      - "kalfsvlees"
-      - "tonijn uit blik"
-      - "mayonaise"
-      - "kappertjes"
-      - "ansjovis"
-      - "citroen"
+      - "100 g kalfsvlees in dunne plakken"
+  - groep: "Tonnato-saus"
+    items:
+      - "100 g tonijn uit blik"
+      - "2 el mayonaise"
+      - "2 el kappertjes"
+      - "3 ansjovisfilets"
+      - "2 el olijfolie"
+      - "1 el citroensap"
+      - "zout"
+      - "versgemalen peper"
+  - groep: "Afwerking"
+    items:
+      - "peterselie"
+      - "gefrituurde kappertjes"
 
 stappen:
-  - "**Voorbereiden:** Snijd en weeg alle ingrediënten af. Zorg dat koude componenten goed gekoeld zijn en breng alvast een basisdressing of marinade op smaak."
-  - "**Hoofdcomponent maken:** Bereid het belangrijkste element volgens de techniek van het gerecht, zoals pocheren, marineren, grillen of mengen."
-  - "**Afwerken:** Meng de garnituren voorzichtig door of leg ze los op het bord zodat kleur en structuur behouden blijven."
-  - "**Serveren:** Proef nogmaals op zuur, zout en frisheid en serveer direct op gekoelde of passende borden."
+  - "**Saus maken:** Laat de tonijn uitlekken en pureer met mayonaise, 1 eetlepel kappertjes, ansjovis, citroensap en olijfolie tot een gladde saus."
+  - "**Op smaak brengen:** Breng voorzichtig op smaak met zout en peper."
+  - "**Opmaken:** Verdeel de plakjes kalfsvlees over de borden en smeer er een laag tonnato-saus op."
+  - "**Afwerken:** Snijd de peterselie fijn en garneer met peterselie, de overgebleven kappertjes en versgemalen peper."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

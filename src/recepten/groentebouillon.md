@@ -19,22 +19,31 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "wortel"
       - "ui"
-      - "prei"
-      - "bleekselderij"
-      - "knoflook"
-      - "kruiden"
-      - "piment"
+      - "preiwit"
+      - "knolselderij"
+      - "witte kool"
+      - "tomaat"
+      - "venkel"
+      - "zonnebloemolie"
+      - "peterseliestelen"
+      - "water"
+      - "tijm"
+      - "gekneusde peperkorrels"
+      - "laurierblad"
+      - "blaadje lavas"
+      - "rozemarijn"
+      - "knoflookteentje"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Voorbereiden:** Was de groenten, maak ze schoon en snijd alles in kleinere stukken."
+  - "**Aanzetten:** Verhit zonnebloemolie in een ruime pan en bak de gesneden groenten ongeveer 4 minuten op hoog vuur aan."
+  - "**Bouillon opbouwen:** Voeg koud water toe, verhit tot ongeveer 95 graden en schep onzuiverheden enkele keren af."
+  - "**Laten trekken:** Voeg peterseliestelen, tijm, peperkorrels, laurier, lavas, rozemarijn en knoflook toe en laat minimaal 30 minuten zacht trekken."
+  - "**Passeren:** Zeef de bouillon door een passeerdoek en ontvet indien mogelijk."
 
 tips:
-  - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."
+  - "Houd de bouillon net onder de kook; dan blijft hij helderder en frisser van smaak."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

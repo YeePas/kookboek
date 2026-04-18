@@ -19,22 +19,30 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "ossenhaas of biefstuk"
-      - "kappertjes"
-      - "cornichons"
-      - "rode ui"
-      - "mosterd"
-      - "Worcestershiresaus"
-      - "eidooier"
+      - "100 g ossenhaas of biefstuk"
+      - "5 g ketchup"
+      - "3 g Franse mosterd"
+      - "8 druppels Worcestershiresaus"
+      - "5 g rode ui, fijngesnipperd"
+      - "5 g kappertjes"
+      - "10 g cornichons, in fijne brunoise"
+      - "5 g bieslook, fijngesneden"
+      - "2 ansjovisfilets, fijn gesneden"
+      - "5 g olijfolie"
+      - "2 druppels tabasco"
+      - "1 eidooier"
+      - "zout"
+      - "peper"
+      - "fleur de sel naar smaak"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Vlees snijden:** Snijd de ossenhaas of biefstuk met een scherp mes in fijne blokjes."
+  - "**Mengen:** Meng het vlees met ketchup, mosterd, Worcestershiresaus, rode ui, kappertjes, cornichons, bieslook, ansjovis, olijfolie en tabasco."
+  - "**Op smaak brengen:** Breng de tartaar hoog op smaak met zout en peper. Pas de verhoudingen aan als dat beter past bij jouw smaak."
+  - "**Opmaken:** Portioneer met een stekerring, maak in het midden een kuiltje en leg daar voorzichtig de eidooier in. Werk af met fleur de sel."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Snijd het vlees met de hand; zo blijft de structuur mooier dan bij malen."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

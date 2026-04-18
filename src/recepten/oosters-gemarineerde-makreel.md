@@ -17,21 +17,37 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Makreel"
     items:
-      - "makreel"
-      - "komkommer"
-      - "radijs"
-      - "sjalot"
-      - "sushiazijn"
-      - "bier"
+      - "1 makreel"
+      - "sap van 1/2 limoen"
+      - "1 el rijstazijn"
+      - "3 el sojasaus"
+      - "1 tl geraspte verse gember"
+      - "1 el ponzu"
+  - groep: "Zoetzure komkommer"
+    items:
+      - "1 komkommer"
+      - "100 ml azijn"
+      - "100 ml water"
+      - "100 g suiker"
+      - "3 g zout"
+  - groep: "Sjalot"
+    items:
+      - "50 ml bier"
+      - "50 g sushi-azijn"
+      - "1/2 sjalot in dunne ringen"
+  - groep: "Radijs en garnering"
+    items:
+      - "3 witpuntradijzen"
       - "wasabimayonaise"
+      - "garnering naar eigen inzicht"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Makreel marineren:** Fileer de makreel, snijd in gewenste porties en leg in een marinade van limoen, rijstazijn, sojasaus, gember en ponzu."
+  - "**Komkommer zoetzuur maken:** Breng water, suiker en zout aan de kook. Haal van het vuur, voeg azijn toe en leg de in linten gesneden komkommer erin."
+  - "**Sjalot en radijs voorbereiden:** Snijd de sjalot in dunne ringen en leg op bier met sushi-azijn. Snijd de radijs naar eigen inzicht en pekel eventueel in 1 procent zout."
+  - "**Serveren:** Dresseer de makreel met komkommer, sjalot, radijs en wasabimayonaise en werk af naar eigen inzicht."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

@@ -17,23 +17,31 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Salade"
     items:
-      - "knolselderij"
-      - "appel"
-      - "walnoten"
-      - "gerookte kip"
-      - "mayonaise"
+      - "150 g knolselderij"
+      - "150 g appel"
       - "citroensap"
+      - "2 el walnoten"
+      - "100 g gerookte kipfilet"
+      - "garnering naar keuze"
+  - groep: "Mayonaise"
+    items:
+      - "1 eidooier"
+      - "5 druppels Worcestershiresaus"
+      - "1 el azijn"
+      - "1 snuf zout"
+      - "1 tl fijne mosterd"
+      - "2 dl olie"
 
 stappen:
-  - "**Voorbereiden:** Snijd en weeg alle ingrediënten af. Zorg dat koude componenten goed gekoeld zijn en breng alvast een basisdressing of marinade op smaak."
-  - "**Hoofdcomponent maken:** Bereid het belangrijkste element volgens de techniek van het gerecht, zoals pocheren, marineren, grillen of mengen."
-  - "**Afwerken:** Meng de garnituren voorzichtig door of leg ze los op het bord zodat kleur en structuur behouden blijven."
-  - "**Serveren:** Proef nogmaals op zuur, zout en frisheid en serveer direct op gekoelde of passende borden."
+  - "**Mayonaise maken:** Roer eidooier, Worcestershiresaus, azijn, zout en mosterd los en klop de olie er geleidelijk door tot een gladde mayonaise."
+  - "**Groenten voorbereiden:** Snijd de knolselderij en appel fijn en bescherm de appel met een beetje citroensap tegen verkleuren."
+  - "**Samenstellen:** Meng knolselderij, appel en walnoten met de mayonaise."
+  - "**Afwerken:** Verdeel de gerookte kip erdoor of erover en werk af met garnering naar keuze."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Meng de appel pas laat met de salade; dan blijft hij frisser en knapperiger."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

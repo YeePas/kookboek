@@ -12,25 +12,26 @@ meta:
   - label: "Voorber."
     value: "15 min"
   - label: "Bereiding"
-    value: "45 min"
+    value: "2 uur"
   - label: "Niveau"
     value: "gemiddeld"
 
 ingredienten:
   - groep: ""
     items:
-      - "kippenpoten"
-      - "mirepoix"
-      - "foelie"
-      - "lavas"
-      - "water"
-      - "peper en zout"
+      - "500 g kippenpoten"
+      - "150 g mirepoix van wortel, ui, prei en knolselderij"
+      - "1 takje tijm"
+      - "foelie naar smaak"
+      - "1 laurierblad"
+      - "1 blaadje lavas"
+      - "3 liter water"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Bouillon opzetten:** Doe de kippenpoten met de mirepoix, tijm, foelie, laurier en lavas in een pan en schenk het water erbij."
+  - "**Laten trekken:** Breng rustig tegen de kook aan en laat de bouillon minimaal 2 uur zacht trekken. Schep tussendoor schuim en vet af voor een heldere smaak."
+  - "**Passeren:** Zeef de bouillon en ontvet zo nodig nogmaals."
+  - "**Reducereren:** Kook de gezeefde kippenbouillon in tot circa 500 ml zodat je een krachtige basis overhoudt voor verdere bereidingen."
 
 tips:
   - "Laat bouillon trekken en niet hard koken; zo blijft de smaak helder en zuiver."

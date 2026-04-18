@@ -19,21 +19,23 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "pompoen"
-      - "ui"
-      - "gember"
-      - "kokosmelk"
-      - "bouillon"
-      - "limoen"
+      - "600 g pompoen in blokjes van 3 cm"
+      - "1 ui, grof gesnipperd"
+      - "2 tenen knoflook, gehakt"
+      - "2 cm gember, gehakt"
+      - "1 liter groentebouillon"
+      - "150 ml kokosmelk"
+      - "pompoenpitten of kruidenolie voor afwerking"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Basis fruiten:** Fruit de ui in een beetje olie. Voeg knoflook en gember toe en bak kort mee."
+  - "**Pompoen meebakken:** Voeg de pompoen toe en bak 3 tot 4 minuten mee zodat de smaak zich verdiept."
+  - "**Koken:** Schenk de groentebouillon erbij en laat de soep ongeveer 20 minuten zacht koken tot de pompoen gaar is."
+  - "**Pureren en afmaken:** Pureer de soep glad en roer de kokosmelk erdoor. Breng op smaak."
+  - "**Serveren:** Geef de soep door op juiste temperatuur en werk af met crispy toppings zoals pompoenpitten of kruidenolie."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Snijd harde pompoen eerst in stabiele parten; dat werkt veiliger en geeft gelijkmatige garing."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

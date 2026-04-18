@@ -1,6 +1,6 @@
 ---
-title: "Tomatensoep klassiek"
-subtitle: "Een klassieke gebonden tomatensoep met tomatenpuree, roux en verse mirepoix."
+title: "Verse tomatensoep"
+subtitle: "Een volle tomatensoep van verse tomaten, afgewerkt met room en basilicum."
 category: "groentes"
 foto: "tomatensoep-klassiek.jpg"
 pageNumber: 38
@@ -19,19 +19,27 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "boter"
-      - "bloem"
-      - "tomatenpuree"
-      - "mirepoix"
-      - "groentebouillon"
-      - "tomatensap"
-      - "room"
+      - "500 g tomaten"
+      - "300 ml bouillon"
+      - "1/2 kleine ui"
+      - "2 wortels"
+      - "2 stengels bleekselderij"
+      - "1 teentje knoflook"
+      - "1/2 takje tijm"
+      - "1 blaadje lavas"
+      - "1 laurierblad"
+      - "olijfolie"
+      - "60 ml room"
+      - "basilicum in chiffonade"
+      - "peper"
+      - "zout"
 
 stappen:
-  - "**Basis opzetten:** Snijd de groenten of andere basisproducten klein en zet ze rustig aan in boter of olie zonder te donker te kleuren."
-  - "**Trekkracht opbouwen:** Voeg vloeistof en kruiden toe, breng aan de kook en laat daarna zacht trekken zodat de smaken helder blijven."
-  - "**Afwerken:** Zeef of pureer indien nodig en breng zorgvuldig op smaak met zout, peper en eventueel een klein beetje zuur of room."
-  - "**Serveren:** Verwarm voor doorgifte goed door en werk af met een passende garnering."
+  - "**Basis maken:** Snijd de tomaten en groenten klein. Fruit ui, wortel, bleekselderij en knoflook rustig aan in een scheut olijfolie."
+  - "**Opbouwen:** Voeg de tomaten, tijm, lavas en laurier toe, schenk de bouillon erbij en breng aan de kook."
+  - "**Laten garen:** Laat de soep ongeveer 45 minuten zacht koken zodat de groenten helemaal zacht worden."
+  - "**Fijnmaken:** Werk de soep door een passe-vite of bolzeef tot een glad resultaat."
+  - "**Afmaken:** Roer de room erdoor, breng op smaak met peper en zout en serveer met basilicum in chiffonade."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
@@ -41,6 +49,6 @@ bron: "Koksopleiding ROC Midden Nederland"
 tags:
   - "soep"
   - "tomaat"
-  - "klassiek"
-  - "basis"
+  - "vers"
+  - "basilicum"
 ---

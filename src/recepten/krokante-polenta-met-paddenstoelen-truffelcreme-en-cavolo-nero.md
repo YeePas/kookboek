@@ -17,23 +17,42 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Krokante polenta"
     items:
-      - "polenta"
-      - "paddenstoelen"
-      - "truffelcrème"
-      - "cavolo nero"
-      - "Parmezaan"
-      - "boter"
+      - "100 g polenta"
+      - "400 ml groentebouillon"
+      - "20 g Parmezaanse kaas"
+      - "1 el boter"
+      - "peper"
+      - "zout"
+      - "olie om te bakken"
+  - groep: "Paddenstoelen"
+    items:
+      - "200 g gemengde paddenstoelen"
+      - "olijfolie"
+      - "tijm"
+      - "zout"
+  - groep: "Truffelcreme"
+    items:
+      - "100 g creme fraiche"
+      - "1 tl truffelpasta of goede truffelolie"
+      - "citroensap"
+      - "zout"
+  - groep: "Cavolo nero"
+    items:
+      - "80 g cavolo nero zonder middennerf"
+      - "olijfolie"
+      - "zeezout"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Polenta koken:** Kook de polenta in de bouillon tot dik. Roer boter en Parmezaanse kaas erdoor en stort uit op een plaat om op te stijven."
+  - "**Polenta krokant bakken:** Snijd de opgesteven polenta in rechthoeken en bak ze krokant in een hete pan of oven."
+  - "**Paddenstoelen bakken:** Meng de paddenstoelen met olie en tijm en bak op hoog vuur tot ze mooi kleuren."
+  - "**Truffelcreme maken:** Meng creme fraiche met truffelpasta of truffelolie, een beetje citroensap en zout."
+  - "**Cavolo nero krokant maken:** Meng cavolo nero met een beetje olie en bak 6 tot 8 minuten op 170 graden tot krokant. Werk af met zeezout."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Cavolo nero bevat veel vocht; houd afstand als je hem bakt of frituurt."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

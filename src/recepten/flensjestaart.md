@@ -1,6 +1,6 @@
 ---
 title: "Flensjestaart"
-subtitle: "Laagjes dunne crepes met banketbakkersroom en fruit maken dit tot een feestelijk nagerecht om van tevoren op te bouwen."
+subtitle: "Laagjes dunne crepes met chocolademousse maken dit tot een feestelijk nagerecht om van tevoren op te bouwen."
 category: "desserts"
 foto: "flensjestaart.jpg"
 pageNumber: 12

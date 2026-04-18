@@ -19,18 +19,22 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "witte kool"
-      - "wortel"
-      - "mayonaise"
-      - "azijn"
-      - "suiker"
-      - "peper en zout"
+      - "200 g witte kool"
+      - "1 groene appel"
+      - "40 g mayonaise"
+      - "2 el zure room"
+      - "scheutje wittewijnazijn"
+      - "honing, naar smaak"
+      - "1 mespunt kummel"
+      - "75 g druiven zonder pit"
+      - "peper"
+      - "zout"
 
 stappen:
-  - "**Voorbereiden:** Maak alle ingrediënten schoon, snijd ze op maat en kruid het hoofdbestanddeel alvast licht."
-  - "**Bakken of garen:** Bereid het hoofdproduct met aandacht voor kleur, garing en sappigheid."
-  - "**Saus en garnituur:** Werk ondertussen de saus of bijgerechten af en proef alles goed door."
-  - "**Serveren:** Laat indien nodig kort rusten, snijd aan en maak het bord verzorgd op."
+  - "**Dressing maken:** Roer mayonaise, zure room, honing, kummel, peper en zout in een kom door elkaar."
+  - "**Appel toevoegen:** Schil de appel, snijd julienne en roer direct door de saus zodat hij niet verkleurt."
+  - "**Kool en druiven verwerken:** Snijd de witte kool in ragfijne julienne. Halveer de druiven en voeg beide toe aan de appel en saus."
+  - "**Afmaken:** Meng alles luchtig door elkaar en proef of extra zuur, zoet of kruiding nodig is."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

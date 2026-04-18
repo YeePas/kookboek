@@ -7,33 +7,40 @@ pageNumber: 45
 order: 6
 
 meta:
-  - label: "Opbrengst"
-    value: "±250 ml"
+  - label: "Personen"
+    value: "1"
   - label: "Voorber."
     value: "10 min"
   - label: "Bereiding"
-    value: "10 min"
+    value: "20 min"
   - label: "Niveau"
-    value: "makkelijk"
+    value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Parelhoen"
     items:
-      - "parelhoenfilet"
-      - "rauwe ham"
-      - "salie"
-      - "boter"
-      - "gevogeltefond"
-      - "witte wijn"
+      - "1 parelhoenfilet"
+      - "1 plak rauwe ham"
+      - "2-3 salieblaadjes"
+      - "peper"
+      - "zout"
+  - groep: "Wittewijnsaus"
+    items:
+      - "25 g boter"
+      - "100 ml gevogeltefond"
+      - "100 ml witte wijn"
+      - "koude klontjes boter"
+      - "eventueel aardappelzetmeel"
 
 stappen:
-  - "**Basis mengen:** Doe de smaakmakers in een kom en roer of klop los tot alles goed is opgenomen."
-  - "**Emulgeren of reduceren:** Voeg vet of vloeistof gecontroleerd toe en werk tot de juiste binding of concentratie."
-  - "**Op smaak brengen:** Corrigeer met zuur, zout en peper tot de saus mooi in balans is."
-  - "**Gebruiken:** Serveer direct of bewaar gekoeld in een schone afgesloten pot of fles."
+  - "**Filet voorbereiden:** Plet de parelhoenfilet zodat hij overal even dik is. Kruid licht, leg de salieblaadjes erop en bedek met de rauwe ham."
+  - "**Oprollen:** Rol de filet gelijkmatig op zodat binnenin een spiraal ontstaat. Zet eventueel vast met cocktailprikkers."
+  - "**Bakken en rusten:** Kleur de rouleau rondom op matig hoog vuur. Zet het vuur lager en gaar in 8 tot 12 minuten, afhankelijk van de dikte. Laat daarna minimaal 5 minuten rusten onder aluminiumfolie."
+  - "**Saus maken:** Ontvet de pan, maak de aanbaksels los en blus af met witte wijn. Voeg gevogeltefond toe en kook in tot de gewenste sterkte."
+  - "**Afwerken:** Breng op smaak met peper en zout en bind eventueel licht met aardappelzetmeel. Monteer indien gewenst met koude boter."
 
 tips:
-  - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."
+  - "Laat de rouleau rusten voor je hem aansnijdt; zo blijft het vlees sappiger en netter van vorm."
 
 bron: "Koksopleiding ROC Midden Nederland"
 

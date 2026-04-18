@@ -17,26 +17,33 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Gastric"
     items:
-      - "5 eidooiers"
-      - "50 ml gastric op basis van witte wijn"
-      - "200 ml geklaarde boter"
-      - "1 scheutje wittewijnazijn of citroensap, naar smaak"
-      - "1 snuf zout"
-      - "versgemalen peper"
+      - "25 g sjalot"
+      - "1/2 laurierblaadje"
+      - "5 witte peperkorrels, gekneusd"
+      - "0,5 dl blanke azijn"
+      - "0,5 dl water"
+  - groep: "Saus"
+    items:
+      - "75 g gepasteuriseerde eidooier"
+      - "maximaal 200 g geklaarde boter"
+      - "zout"
+      - "peper"
 
 stappen:
-  - "**Basis voorbereiden:** Klop de eidooiers met een garde los in een hittebestendige kom en voeg de gastric toe. Hang de kom in een pan met zachtjes kokend water au bain-marie."
-  - "**Kloppen tot sliert:** Klop de massa met een garde tot de juiste dikte en gaarheid — dat is wanneer de saus in een sliert aan de garde blijft hangen."
-  - "**Boter erdoor roeren:** Neem de kom van de pan af en roer, nu niet meer kloppen, de geklaarde boter er druppelsgewijs doorheen zodat een romige saus ontstaat."
-  - "**Op smaak brengen:** Breng de saus op smaak met zout, peper en een scheutje wittewijnazijn of citroensap. Serveer direct."
+  - "**Gastric maken:** Kook sjalot, laurier, peperkorrels, azijn en water in tot ongeveer de helft. Laat de reductie afkoelen en zeef indien gewenst."
+  - "**Basis opkloppen:** Klop de eidooier met de afgekoelde gastric au bain-marie luchtig op. Houd de temperatuur onder 75 C."
+  - "**Boter toevoegen:** Neem de kom van de warmtebron en voeg de geklaarde boter geleidelijk toe terwijl je blijft kloppen tot de saus glanst en bindt."
+  - "**Afmaken:** Breng op smaak met zout en peper en serveer direct in een warme sauciere."
 
 tips:
   - "Zorg dat de kom het water niet raakt tijdens het kloppen; te veel hitte laat de dooiers schiften."
   - "Als de saus toch schift, klop dan een extra eidooier los in een schone kom en voeg de geschifte saus er druppelsgewijs weer aan toe."
   - "Houd de saus lauwwarm tot serveren; opnieuw sterk verwarmen is niet mogelijk."
   - "Heerlijk bij gepocheerde vis, asperges of eggs benedict."
+
+bron: "Koksopleiding ROC Midden Nederland"
 
 tags:
   - "hollandaise"

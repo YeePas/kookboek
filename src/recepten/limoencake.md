@@ -1,6 +1,6 @@
 ---
 title: "Limoencake"
-subtitle: "Een sappige citroencake naar recept van Jamie Oliver."
+subtitle: "Een kruidige cake met wortel, walnoot en een fris limoen-mascarponeglazuur."
 category: "desserts"
 foto: "limoencake.jpg"
 pageNumber: 47

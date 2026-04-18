@@ -1,0 +1,176 @@
+media:
+  input: fotos
+  output: /fotos
+
+content:
+  - name: inhoud
+    label: Inhoud
+    type: group
+    items:
+      - name: recepten
+        label: Recepten
+        type: collection
+        path: src/recepten
+        format: yaml-frontmatter
+        subfolders: false
+        filename:
+          template: "{primary}.md"
+          field: create
+        view:
+          primary: title
+          sort: pageNumber
+          order: asc
+        fields:
+          - name: title
+            label: Titel
+            type: string
+          - name: subtitle
+            label: Ondertitel
+            type: text
+          - name: category
+            label: Categorie
+            type: select
+            options:
+              values:
+                - value: vlees
+                  label: Vlees
+                - value: groentes
+                  label: Groentes
+                - value: fermenteren
+                  label: Fermenteren
+                - value: sauzen
+                  label: Sauzen
+                - value: desserts
+                  label: Desserts
+                - value: vis
+                  label: Vis
+                - value: brood
+                  label: Brood
+                - value: overig
+                  label: Overig
+                - value: patisserie
+                  label: Patisserie
+                - value: technieken
+                  label: Technieken
+          - name: foto
+            label: Foto
+            type: image
+            required: false
+          - name: pageNumber
+            label: Pagina nummer
+            type: number
+            options:
+              step: 1
+          - name: order
+            label: Volgorde in categorie
+            type: number
+            options:
+              step: 1
+          - name: meta
+            label: Meta
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: value
+                label: Waarde
+                type: string
+          - name: ingredienten
+            label: Ingrediënten
+            type: object
+            list: true
+            fields:
+              - name: groep
+                label: Groep
+                type: string
+                required: false
+              - name: items
+                label: Items
+                type: string
+                list: true
+          - name: stappen
+            label: Stappen
+            type: text
+            list: true
+          - name: tips
+            label: Tips
+            type: text
+            list: true
+            required: false
+          - name: variaties
+            label: Variaties
+            type: text
+            list: true
+            required: false
+          - name: extrafotos
+            label: Extra foto's
+            type: object
+            list: true
+            required: false
+            fields:
+              - name: foto
+                label: Foto
+                type: image
+              - name: bijschrift
+                label: Bijschrift
+                type: string
+                required: false
+          - name: bron
+            label: Bron
+            type: string
+            required: false
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+
+      - name: site
+        label: Site instellingen
+        type: file
+        path: src/_data/site.json
+        format: json
+        fields:
+          - name: navShowInhoud
+            label: Toon inhoudsopgave in navigatie
+            type: boolean
+          - name: navInhoudLabel
+            label: Label inhoudsopgave in navigatie
+            type: string
+          - name: navShowOntdek
+            label: Toon ontdek in navigatie
+            type: boolean
+          - name: navOntdekLabel
+            label: Label ontdek in navigatie
+            type: string
+          - name: navShowRegister
+            label: Toon register in navigatie
+            type: boolean
+          - name: navRegisterLabel
+            label: Label register in navigatie
+            type: string
+          - name: showOntdek
+            label: Toon ontdek op homepage
+            type: boolean
+          - name: showOntdekFotos
+            label: Toon foto's in ontdek
+            type: boolean
+          - name: cloudflareWebAnalyticsToken
+            label: Cloudflare Web Analytics token
+            type: string
+            required: false
+          - name: overTitle
+            label: Titel over mij
+            type: string
+          - name: overParagraphs
+            label: Paragrafen over mij
+            type: text
+            list: true
+
+settings:
+  commit:
+    messages:
+      create: "chore(cms): create {path}"
+      update: "chore(cms): update {path}"
+      delete: "chore(cms): delete {path}"

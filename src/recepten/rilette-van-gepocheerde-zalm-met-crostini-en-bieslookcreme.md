@@ -17,21 +17,36 @@ meta:
     value: "gemiddeld"
 
 ingredienten:
-  - groep: ""
+  - groep: "Rilette"
     items:
-      - "verse zalm"
-      - "gerookte zalm"
-      - "crème fraîche"
+      - "100 g verse zalm"
+      - "50 g gerookte zalm"
+      - "50 g creme fraiche"
+      - "kappertjes naar smaak"
       - "dille"
-      - "citroen"
-      - "crostini"
+      - "citroenrasp en sap"
+      - "zout"
+      - "peper"
+  - groep: "Crostini"
+    items:
+      - "4 dunne plakken brood"
+      - "olijfolie"
+      - "fleur de sel"
+      - "smaakstoffen naar keuze"
+  - groep: "Bieslookcreme"
+    items:
+      - "Griekse yoghurt"
+      - "mosterd"
       - "bieslook"
+      - "zout"
+      - "peper"
 
 stappen:
-  - "**Voorbereiden:** Snijd en weeg alle ingrediënten af. Zorg dat koude componenten goed gekoeld zijn en breng alvast een basisdressing of marinade op smaak."
-  - "**Hoofdcomponent maken:** Bereid het belangrijkste element volgens de techniek van het gerecht, zoals pocheren, marineren, grillen of mengen."
-  - "**Afwerken:** Meng de garnituren voorzichtig door of leg ze los op het bord zodat kleur en structuur behouden blijven."
-  - "**Serveren:** Proef nogmaals op zuur, zout en frisheid en serveer direct op gekoelde of passende borden."
+  - "**Zalm pocheren:** Breng pocheervocht tot ongeveer 90 graden en houd net onder kookpunt. Pocheer de zalm in enkele minuten gaar en laat iets afkoelen."
+  - "**Rilette maken:** Snijd de gerookte zalm, kappertjes en dille fijn. Pluk de verse zalm en meng met citroenrasp, citroensap en creme fraiche. Breng op smaak met zout en peper."
+  - "**Crostini bakken:** Bestrijk het brood met olie, kruid naar wens en bak 10 tot 20 minuten op 160 graden krokant."
+  - "**Bieslookcreme mengen:** Meng Griekse yoghurt met mosterd, bieslook, zout en peper."
+  - "**Serveren:** Presenteer de rilette met crostini en bieslookcreme."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

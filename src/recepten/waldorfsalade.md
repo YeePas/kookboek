@@ -19,18 +19,19 @@ meta:
 ingredienten:
   - groep: ""
     items:
-      - "appel"
-      - "knolselderij"
-      - "walnoten"
-      - "mayonaise"
-      - "citroensap"
-      - "peper en zout"
+      - "200 g knolselderij"
+      - "1 appel"
+      - "40 g gepelde walnoten"
+      - "80 g mayonaise"
+      - "75 g mandarijn uit blik"
+      - "peper"
+      - "zout"
 
 stappen:
-  - "**Voorbereiden:** Snijd en weeg alle ingrediënten af. Zorg dat koude componenten goed gekoeld zijn en breng alvast een basisdressing of marinade op smaak."
-  - "**Hoofdcomponent maken:** Bereid het belangrijkste element volgens de techniek van het gerecht, zoals pocheren, marineren, grillen of mengen."
-  - "**Afwerken:** Meng de garnituren voorzichtig door of leg ze los op het bord zodat kleur en structuur behouden blijven."
-  - "**Serveren:** Proef nogmaals op zuur, zout en frisheid en serveer direct op gekoelde of passende borden."
+  - "**Appel voorbereiden:** Schil de appel, snijd hem julienne en meng direct door de mayonaise."
+  - "**Knolselderij blancheren:** Schil de knolselderij, snijd julienne, blancheer kort en laat uitlekken in een vergiet. Spoel niet koud."
+  - "**Mengen:** Meng de uitgelekte knolselderij met appel en mayonaise en breng op smaak met peper en zout. Voeg vlak voor het serveren de helft van de walnoten toe."
+  - "**Serveren:** Dresseer op bord of in een kom en garneer met mandarijnpartjes en de rest van de walnoten."
 
 tips:
   - "Proef aan het einde altijd nogmaals op zout, zuur, textuur en temperatuur."

@@ -2,7 +2,7 @@
 title: "Huisgemaakte focaccia"
 subtitle: "Luchtige focaccia op basis van biga, lange fermentatie en veel olijfolie."
 category: "brood"
-foto: "house-focaccia-manteca.jpg"
+foto: "focaccia.jpg"
 pageNumber: 90
 order: 5
 

@@ -1,3 +1,133 @@
+// Navigation search
+(function () {
+  const navSearches = document.querySelectorAll('.nav-search');
+  if (!navSearches.length) return;
+
+  const queryFromUrl = new URLSearchParams(window.location.search).get('q') || '';
+
+  navSearches.forEach((form) => {
+    const toggle = form.querySelector('.nav-search-toggle');
+    const input = form.querySelector('.nav-search-input');
+
+    if (!toggle || !input) return;
+
+    if (queryFromUrl.trim()) input.value = queryFromUrl;
+
+    const open = () => {
+      form.classList.add('is-open');
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    const close = () => {
+      if (input.value.trim()) return;
+      form.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = form.classList.contains('is-open');
+      if (!isOpen) open();
+      input.focus();
+    });
+
+    form.addEventListener('submit', (event) => {
+      if (input.value.trim()) return;
+      event.preventDefault();
+      open();
+      input.focus();
+    });
+
+    input.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      input.value = '';
+      close();
+      toggle.focus();
+    });
+
+    input.addEventListener('blur', () => {
+      window.requestAnimationFrame(close);
+    });
+
+    document.addEventListener('click', (event) => {
+      if (form.contains(event.target)) return;
+      close();
+    });
+  });
+})();
+
+// Search page filtering
+(function () {
+  const searchPageForm = document.querySelector('.search-page-form');
+  if (!searchPageForm) return;
+
+  const input = searchPageForm.querySelector('.search-page-input');
+  const summary = document.getElementById('search-summary');
+  const empty = document.getElementById('search-empty');
+  const allItems = Array.from(document.querySelectorAll('.search-result-item'));
+
+  if (!input || !summary || !empty || !allItems.length) return;
+
+  const normalize = (value) => value
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
+
+  const updateUrl = (query) => {
+    const path = window.location.pathname;
+    if (!query) {
+      window.history.replaceState({}, '', path);
+      return;
+    }
+    window.history.replaceState({}, '', path + '?q=' + encodeURIComponent(query));
+  };
+
+  const render = (rawQuery) => {
+    const query = normalize(rawQuery);
+    const terms = query.split(/\s+/).filter(Boolean);
+
+    let visibleCount = 0;
+
+    allItems.forEach((item) => {
+      if (!terms.length) {
+        item.hidden = true;
+        return;
+      }
+
+      const haystack = normalize(item.dataset.search || '');
+      const matches = terms.every((term) => haystack.includes(term));
+      item.hidden = !matches;
+      if (matches) visibleCount++;
+    });
+
+    if (!terms.length) {
+      summary.textContent = 'Typ een zoekterm om te starten.';
+      empty.hidden = true;
+      return;
+    }
+
+    summary.textContent = visibleCount + ' resultaat' + (visibleCount === 1 ? '' : 'en') + ' voor "' + rawQuery.trim() + '".';
+    empty.hidden = visibleCount !== 0;
+  };
+
+  const initialQuery = (new URLSearchParams(window.location.search).get('q') || '').trim();
+  if (initialQuery) input.value = initialQuery;
+  render(initialQuery);
+
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
+    render(query);
+    updateUrl(query);
+  });
+
+  searchPageForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const query = input.value.trim();
+    render(query);
+    updateUrl(query);
+  });
+})();
+
 // Recipe scaling
 (function () {
   const meta = document.querySelector('.recipe-meta[data-base-servings]');

@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: Zoeken
+permalink: zoeken/index.html
+---
+<div class="page search-page">
+  <h1>Zoeken</h1>
+  <p class="search-subtitle">Door alle recepten</p>
+
+  <form class="search-page-form" action="{{ '/zoeken/' | url }}" method="get" role="search" aria-label="Zoek door recepten">
+    <label class="sr-only" for="page-search-input">Zoekterm</label>
+    <input id="page-search-input" class="search-page-input" name="q" type="search" placeholder="Bijv. kimchi, citroen, risotto" autocomplete="off">
+    <button class="search-page-submit" type="submit">Zoek</button>
+  </form>
+
+  <p class="search-summary" id="search-summary">Typ een zoekterm om te starten.</p>
+
+  <ul class="search-results" id="search-results">
+    {% for recipe in collections.recepten %}
+    {% set haystack = (recipe.data.title or '') + ' ' + (recipe.data.subtitle or '') + ' ' + (recipe.data.category | categoryTitle) + ' ' + ((recipe.data.tags or []) | join(' ')) %}
+    <li class="search-result-item" data-search="{{ haystack | lower }}">
+      <a class="search-result-link" href="{{ recipe.url | url }}">
+        <span class="search-result-title">{{ recipe.data.title }}</span>
+        <span class="search-result-meta">{{ recipe.data.category | categoryTitle }} - pagina {{ recipe | recipeNumber }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="search-empty" id="search-empty" hidden>Geen resultaten gevonden. Probeer een andere zoekterm.</p>
+</div>

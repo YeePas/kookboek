@@ -58,6 +58,9 @@ module.exports = function(eleventyConfig) {
   // --- Passthrough copy ---
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/site.js");
+  eleventyConfig.addPassthroughCopy("src/sw.js");
+  eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
+  eleventyConfig.addPassthroughCopy("src/icons");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy({ "fotos": "fotos" });

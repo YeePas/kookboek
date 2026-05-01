@@ -5,13 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://identity.netlify.com https://static.cloudflareinsights.com; connect-src 'self' https://identity.netlify.com https://api.github.com https://cms.joep-willemsen.workers.dev; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#f4f1ea">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>{% if title %}{{ title }} — {% endif %}Foodnotes</title>
 <link rel="stylesheet" href="{{ '/style.css' | url }}?v={{ assetVersion }}">
+<link rel="manifest" href="{{ '/manifest.webmanifest' | url }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/icons/icon.svg' | url }}">
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 {% include "partials/nav.njk" %}
 {{ content | safe }}
-<script defer src="{{ '/site.js' | url }}?v={{ assetVersion }}"></script>
+<script defer src="{{ '/site.js' | url }}?v={{ assetVersion }}" data-sw-url="{{ '/sw.js' | url }}"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {% if site.cloudflareWebAnalyticsToken %}
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ site.cloudflareWebAnalyticsToken }}"}'></script>

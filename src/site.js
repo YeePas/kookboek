@@ -341,3 +341,18 @@
     }
   });
 })();
+
+// PWA: register service worker for offline support and faster repeat visits
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+
+  const script = document.querySelector('script[data-sw-url]');
+  const swUrl = script ? script.getAttribute('data-sw-url') : '/sw.js';
+  if (!swUrl) return;
+
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(swUrl).catch(() => {
+      // Keep the site fully functional when service worker registration fails.
+    });
+  });
+})();

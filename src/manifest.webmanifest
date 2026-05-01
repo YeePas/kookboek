@@ -1,0 +1,25 @@
+{
+  "name": "Foodnotes",
+  "short_name": "Foodnotes",
+  "description": "Persoonlijk kookboek met recepten, technieken en inspiratie.",
+  "lang": "nl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#f4f1ea",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

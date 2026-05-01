@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Foodnotes app icoon</title>
+  <desc id="desc">Gestileerd notitieboek met bestek voor Foodnotes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f1ea" />
+      <stop offset="100%" stop-color="#e8dfd1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="116" y="104" width="280" height="304" rx="24" fill="#fdfaf4" stroke="#1f1a17" stroke-width="18" />
+  <line x1="168" y1="154" x2="168" y2="360" stroke="#1f1a17" stroke-width="12" opacity="0.25" />
+  <path d="M214 196h132" stroke="#1f1a17" stroke-width="14" stroke-linecap="round" />
+  <path d="M214 246h132" stroke="#1f1a17" stroke-width="14" stroke-linecap="round" />
+  <path d="M214 296h92" stroke="#1f1a17" stroke-width="14" stroke-linecap="round" />
+  <path d="M304 330c0 22-18 40-40 40s-40-18-40-40c0-22 18-40 40-40s40 18 40 40z" fill="none" stroke="#b04a2b" stroke-width="12" />
+  <path d="M338 168v120" stroke="#b04a2b" stroke-width="18" stroke-linecap="round" />
+  <path d="M364 168v120" stroke="#b04a2b" stroke-width="18" stroke-linecap="round" />
+</svg>
